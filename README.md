@@ -62,11 +62,17 @@ All output is placed in the \docs directory.
 Finally, the `deploy ...` steps in the workflow defined by .github/workflows/process_vocab.yml copy the output from the docs directory to the docs directory in the host github, and the cache directory with updated vocabularies.db into the cache directory on the host.
  
 ## Python code
+- vocab.py: loads vocabs into the SQLAlchemy database vocabularies.db
+- vocab2mdCacheV2.py: reads a vocab specified by a root (skos:ConceptScheme) URI from the vocabularies.db database and generates Markdown and HTML or JSON depending on the 'command' input parameter
+- runVocabtools.py: a version of github_action_main.py set up to run offline in an IDE environment for testing
 
 ## Github configuration
-- fork this repository
+- Options: fork this repository, or create a new repository using the template. If you fork the repository it might be easier to sync with updates to the code made in the template repository.
 - enable github actions
 - enable github pages, based on the docs directory and main branch.  HTML pages can be viewed in a browser at https://{yourOrgName}.github.io/{theNAMEyouGiveTheForkedRepo}/{vocabFileName}.html
+
+### SKOS vocabulary conventions 
+The code assumes the root of the repository is a skos:ConceptScheme, and that there is a skos:prefLabel for the ConceptScheme.  The terms in teh vocabualary must all be skos:Concept, with a skos:prefLabel. The top concepts in the vocabulary must be identified with a skos:topConceptOf assertion. Hierarchy must be represented with skos:broader predicates link a term with its parent term (or terms).rdfs:comment or skos:definition will be used as term definitions. Other predicates that are recognized: skos:altLabel, rdfs:seeAlso, dublin core terms (dct:) source, dct:modified, skos:historyNote. Other predicates with the vocabulary as subject will not be shown in the output.
 
 ### Testing
 There is a test file at `.github/workflows/integration.yml`, which can be run manually using the workflow dispatch option.  It contains the necessary instruction to check out the repository and run it as a GitHub action.
