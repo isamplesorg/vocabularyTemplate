@@ -1,4 +1,0 @@
-click
-rdflib
-rdflib-sqlalchemy
-requests
