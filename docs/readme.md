@@ -1,3 +1,1 @@
-# docs folder
-
-contains output files for vocabularies for display and other processing. 
+# folder for output documents to deploy
