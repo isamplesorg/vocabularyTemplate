@@ -23,7 +23,7 @@
 #       the order of the file names. It will be assumed that each file contains only one 
 #       ConceptScheme.Do not enclose the string in quotes, and have no spaces in the string.
 
-name: Process vocabularies to html
+name: Test vocabularies to html
 on: [workflow_dispatch]
 jobs:
   build:

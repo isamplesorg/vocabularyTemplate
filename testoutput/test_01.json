@@ -1,0 +1,50 @@
+{
+  "https://w3id.org/isample/vocabulary/test/1/rootterm": {
+    "label": {
+      "en": "root"
+    },
+    "children": [
+      {
+        "https://w3id.org/isample/vocabulary/test/1/level1a": {
+          "label": {
+            "en": "level1a"
+          },
+          "children": [
+            {
+              "https://w3id.org/isample/vocabulary/test/1/level2aa": {
+                "label": {
+                  "en": "level2aa"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/vocabulary/test/1/level2ab": {
+                "label": {
+                  "en": "level2ab"
+                },
+                "children": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "https://w3id.org/isample/vocabulary/test/1/level1b": {
+          "label": {
+            "en": "level1b"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/vocabulary/test/2/level11": {
+          "label": {
+            "en": "level11"
+          },
+          "children": []
+        }
+      }
+    ]
+  }
+}

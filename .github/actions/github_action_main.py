@@ -71,6 +71,7 @@ def main():
 
     if command == "uijson":
         print("Generating uijson for inclusion in webUI build")
+        index = 0
         while index < len(inputttl):
             _run_uijson_in_container(os.path.join(path, inputttl[index]+".json"), inputvocaburi[index])
             index += 1
