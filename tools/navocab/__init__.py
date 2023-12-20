@@ -69,7 +69,8 @@ PREFIX rdfs: <{NS['rdfs']}>
         self,
         storage_uri=DEFAULT_STORE,
         store_identifier=STORE_IDENTIFIER,
-        purge_existing=False,
+#        purge_existing=False,
+        purge_existing=True  # change to true to get rid of previous loads
     ):
         self.origin = None
         self.storage_uri = storage_uri
