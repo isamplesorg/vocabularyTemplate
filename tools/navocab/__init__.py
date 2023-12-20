@@ -147,7 +147,7 @@ PREFIX rdfs: <{NS['rdfs']}>
         }"""
         )
         qres = g_loaded.query(q)
-        L.info("Navocab.load.query result: %s", gres)
+        L.info("Navocab.load.query result: %s", qres)
         loaded_vocabulary = self._result_single_value(qres, abbreviate=False)
         if loaded_vocabulary is not None:
             L.info("Loaded vocabulary %s", loaded_vocabulary)
