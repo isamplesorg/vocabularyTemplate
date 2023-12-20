@@ -11,7 +11,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120f7ba70>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7c0507a0>
 
 object: Sampled Feature Type vocabulary
 
@@ -28,7 +28,7 @@ getObject predicate: http://purl.org/dc/terms/modified
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2121c7c410>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7c1c81d0>
 
 object: 2022-12-09
 
@@ -45,7 +45,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba5400>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b1012b0>
 
 object: Categories to specify the broad context that a sample is intended to represent.
 
@@ -62,7 +62,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba68a0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b102570>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -77,7 +77,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#historyNote
 
 length of qres: 7
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba6540>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b1008f0>
 
 object: 2021-12-10 SMR add missing skos:inScheme statements
 
@@ -106,7 +106,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba75c0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103260>
 
 object: Any sampled feature
 
@@ -123,7 +123,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba6f60>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103a10>
 
 object: Anthropogenic environment
 
@@ -140,7 +140,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0a180>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15d340>
 
 object: Active human occupation site
 
@@ -157,7 +157,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09ee0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15cce0>
 
 object: Experiment setting
 
@@ -174,7 +174,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba7b60>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b1008f0>
 
 object: Laboratory or curatorial environment
 
@@ -191,7 +191,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba4ef0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b102e40>
 
 object: Site of past human activities
 
@@ -208,7 +208,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba4da0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b102d50>
 
 object: Biological entity
 
@@ -225,7 +225,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0a510>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15f170>
 
 object: Earth environment
 
@@ -242,7 +242,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0b6e0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15fb60>
 
 object: Atmosphere
 
@@ -259,7 +259,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09910>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15e630>
 
 object: Earth interior
 
@@ -276,7 +276,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0a480>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15dd90>
 
 object: Earth surface
 
@@ -293,7 +293,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba7a40>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b102b10>
 
 object: Lake river or stream bottom
 
@@ -310,7 +310,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba7290>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103680>
 
 object: Marine water body bottom
 
@@ -327,7 +327,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba65d0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103590>
 
 object: Subaerial surface environment
 
@@ -344,7 +344,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0b950>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15f5c0>
 
 object: Glacier environment
 
@@ -361,7 +361,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09730>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15e300>
 
 object: Subsurface fluid reservoir
 
@@ -378,7 +378,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0aab0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15fe90>
 
 object: Water body
 
@@ -395,7 +395,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0ba10>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15f1d0>
 
 object: Marine environment
 
@@ -412,7 +412,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0be30>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15e7b0>
 
 object: Terrestrial water body
 
@@ -429,7 +429,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba78c0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b102c90>
 
 object: Extraterrestrial environment
 
@@ -446,7 +446,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba6180>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b101340>
 
 object: Any sampled feature
 
@@ -463,7 +463,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba6e70>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b1037a0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -478,7 +478,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba4cb0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b1038f0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -493,7 +493,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba79b0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b1031d0>
 
 object: Any thing that can be sampled. Top concept in sampled feature type vocabulary.
 
@@ -510,7 +510,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba71d0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103260>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -525,7 +525,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba67b0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b1017c0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -540,7 +540,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba6e70>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b101220>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -555,7 +555,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0bf50>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15d6a0>
 
 object: Anthropogenic environment
 
@@ -572,7 +572,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0bd10>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15cd40>
 
 object: https://w3id.org/isample/vocabulary/sampledfeature/1.0/anysampledfeature
 
@@ -589,7 +589,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09730>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15df10>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -604,7 +604,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c08da0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15db80>
 
 object: Sampled feature is produced by or related to human activity past or present.
 
@@ -621,7 +621,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0b3b0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15f290>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -636,7 +636,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09010>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15d0d0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -651,7 +651,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0b320>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ede0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -666,7 +666,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba74d0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103620>
 
 object: Active human occupation site
 
@@ -683,7 +683,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba7da0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b102cc0>
 
 object: https://w3id.org/isample/vocabulary/sampledfeature/1.0/anthropogenicenvironment
 
@@ -700,7 +700,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208cc920>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae242f0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -715,7 +715,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba65d0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b102780>
 
 object: Specimen samples materials or objects produced by current or ongoing human activity
 
@@ -732,7 +732,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba64b0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b1012e0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -747,7 +747,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0a6f0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15dc40>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -762,7 +762,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba6900>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b1026f0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -777,7 +777,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0bce0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15cfb0>
 
 object: Experiment setting
 
@@ -794,7 +794,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0b320>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15e960>
 
 object: https://w3id.org/isample/vocabulary/sampledfeature/1.0/activehumanoccupationsite
 
@@ -811,7 +811,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208ccb00>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae26150>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -826,7 +826,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208ce5a0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae26690>
 
 object: Sampled feature is the experimental set up that produced the sample.
 
@@ -843,7 +843,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09550>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15e150>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -858,7 +858,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2122caca10>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15f7a0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -873,7 +873,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0a810>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ea20>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -888,7 +888,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba5430>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103080>
 
 object: Laboratory or curatorial environment
 
@@ -905,7 +905,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba69c0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b102810>
 
 object: https://w3id.org/isample/vocabulary/sampledfeature/1.0/activehumanoccupationsite
 
@@ -922,7 +922,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208ce5a0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae25370>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -937,7 +937,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208ccf80>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae256d0>
 
 object: Specimen samples environment in a laboratory; e.g. lab blank measurements.
 
@@ -954,7 +954,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208ce9f0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae24620>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -969,7 +969,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208ceba0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae24470>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -984,7 +984,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba6180>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b1015b0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -999,7 +999,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09d90>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15d010>
 
 object: Site of past human activities
 
@@ -1016,7 +1016,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09ca0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15f410>
 
 object: https://w3id.org/isample/vocabulary/sampledfeature/1.0/anthropogenicenvironment
 
@@ -1033,7 +1033,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208ce840>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae26ab0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1048,7 +1048,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208ce210>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae24410>
 
 object: specimen samples a place where humans have been and left evidence of their activity. Includes prehistoric and paleo hominid sites
 
@@ -1065,7 +1065,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208ceea0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae26f90>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1080,7 +1080,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208ce390>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae26c90>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1095,7 +1095,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208ccd40>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae27140>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1110,7 +1110,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0b590>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15e3f0>
 
 object: Biological entity
 
@@ -1127,7 +1127,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0a6f0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15dd90>
 
 object: https://w3id.org/isample/vocabulary/sampledfeature/1.0/anysampledfeature
 
@@ -1144,7 +1144,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba69c0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103a10>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1159,7 +1159,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208ce930>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae25eb0>
 
 object: Sampled feature is an organism. Use for samples that represent some species of organism as the proximate sampled feature for which the focus is not the environment that the organism inhabits.
 
@@ -1176,7 +1176,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba6c60>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103080>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1191,7 +1191,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba6e70>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b1016a0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1206,7 +1206,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208cdf40>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae24c80>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1221,7 +1221,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208cdfd0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae26de0>
 
 object: Earth environment
 
@@ -1238,7 +1238,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba6570>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b102ea0>
 
 object: https://w3id.org/isample/vocabulary/sampledfeature/1.0/anysampledfeature
 
@@ -1255,7 +1255,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0a5a0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15dd00>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1270,7 +1270,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208ce480>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae25370>
 
 object: specimen samples the natural Earth environment
 
@@ -1287,7 +1287,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 2
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208ce6f0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae26d50>
 
 object: http://purl.bioontology.org/ontology/MESH/D004777
 
@@ -1306,7 +1306,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208cd130>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae25940>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1321,7 +1321,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208cef60>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae254f0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1336,7 +1336,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208cfdd0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae27fb0>
 
 object: Atmosphere
 
@@ -1353,7 +1353,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208cf800>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae27a10>
 
 object: https://w3id.org/isample/vocabulary/sampledfeature/1.0/earthenvironment
 
@@ -1370,7 +1370,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2122caca10>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ffe0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1385,7 +1385,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ce85c0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7c0c4d70>
 
 object: specimen samples the Earth's atmosphere
 
@@ -1402,7 +1402,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 2
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba7a10>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103a70>
 
 object: http://purl.obolibrary.org/obo/ENVO_01000267
 
@@ -1421,7 +1421,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2122c1c920>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7c1c81d0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1436,7 +1436,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ed7200>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7c024ef0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1451,7 +1451,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba7410>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b1026f0>
 
 object: Earth interior
 
@@ -1468,7 +1468,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09af0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ee70>
 
 object: https://w3id.org/isample/vocabulary/sampledfeature/1.0/earthenvironment
 
@@ -1485,7 +1485,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0acc0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15d520>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1500,7 +1500,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c090d0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15f2f0>
 
 object: Specimen samples solid material within the earth
 
@@ -1517,7 +1517,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2121ad8800>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b102ed0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1532,7 +1532,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2121ada6c0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b102ff0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1547,7 +1547,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba72f0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103110>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1562,7 +1562,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0be00>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15e990>
 
 object: Earth surface
 
@@ -1579,7 +1579,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c08c20>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15cec0>
 
 object: https://w3id.org/isample/vocabulary/sampledfeature/1.0/earthenvironment
 
@@ -1596,7 +1596,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0abd0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15f8f0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1611,7 +1611,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0a120>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15f740>
 
 object: Specimen samples the interface between solid earth and hydrosphere or atmosphere. Includes samples representing things collected on the surface, or in the uppermost part of the material below the surface. Not including recently deposited sediment that has not been modified by interaction with the surface environment.
 
@@ -1628,7 +1628,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0a150>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ea50>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1643,7 +1643,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba7350>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b102510>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1658,7 +1658,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba7920>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b102450>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1673,7 +1673,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba7350>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103950>
 
 object: Lake river or stream bottom
 
@@ -1690,7 +1690,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba5130>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103110>
 
 object: https://w3id.org/isample/vocabulary/sampledfeature/1.0/earthsurface
 
@@ -1707,7 +1707,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba7500>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103290>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1722,7 +1722,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba7800>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103ef0>
 
 object: Specimen samples the solid Earth interface with a lake or flowing water body
 
@@ -1739,7 +1739,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09640>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15e990>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1754,7 +1754,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba5100>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103800>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1769,7 +1769,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba5b20>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b100c20>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1784,7 +1784,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba5940>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b102570>
 
 object: Marine water body bottom
 
@@ -1801,7 +1801,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0b890>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15d070>
 
 object: https://w3id.org/isample/vocabulary/sampledfeature/1.0/earthsurface
 
@@ -1818,7 +1818,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09af0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ef30>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1833,7 +1833,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c08440>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ecf0>
 
 object: Specimen samples the solid Earth interface with marine or brackish water body. Includes benthic boundary layer:  the bottom layer of water and the uppermost layer of sediment directly influenced by the overlying water
 
@@ -1850,7 +1850,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09f70>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ef90>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1865,7 +1865,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0a720>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15fad0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1880,7 +1880,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09f70>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ef90>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1895,7 +1895,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba5490>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b1015b0>
 
 object: Subaerial surface environment
 
@@ -1912,7 +1912,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba7c50>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b100e60>
 
 object: https://w3id.org/isample/vocabulary/sampledfeature/1.0/earthsurface
 
@@ -1929,7 +1929,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c098b0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ce60>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1944,7 +1944,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0a810>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15edb0>
 
 object: Specimen samples the interface between solid Earth and atmosphere.  Sample is collected on the surface, or immediately below surface (zone of bioturbation). Include soil and recently deposited subaerial sediment at the surface.
 
@@ -1961,7 +1961,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0ba10>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ce30>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1976,7 +1976,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0b620>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15f200>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1991,7 +1991,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0ba10>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ce30>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2006,7 +2006,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c08ef0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15f530>
 
 object: Glacier environment
 
@@ -2023,7 +2023,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba7c50>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103650>
 
 object: https://w3id.org/isample/vocabulary/sampledfeature/1.0/earthenvironment
 
@@ -2040,7 +2040,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba7da0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103050>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2055,7 +2055,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba6e70>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103a40>
 
 object: Sample of ice, water, or other thing from a glacier, ice sheet, ice shelf, iceberg. Does not include various environments adjacent to glacier.
 
@@ -2072,7 +2072,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0b800>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15dbe0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2087,7 +2087,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0aed0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15fc80>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2102,7 +2102,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0bef0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ff80>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2117,7 +2117,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c08e60>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15f890>
 
 object: Subsurface fluid reservoir
 
@@ -2134,7 +2134,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c098e0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15e660>
 
 object: https://w3id.org/isample/vocabulary/sampledfeature/1.0/earthenvironment
 
@@ -2151,7 +2151,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09b50>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15f110>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2166,7 +2166,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba7200>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103f20>
 
 object: Specimen samples fluid that resides in fractures or intergranular porosity in the solid earth.
 
@@ -2183,7 +2183,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba6c00>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b101760>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2198,7 +2198,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0bbc0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15e150>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2213,7 +2213,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0af90>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15f8f0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2228,7 +2228,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09910>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15fb30>
 
 object: Water body
 
@@ -2245,7 +2245,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c093a0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ff80>
 
 object: https://w3id.org/isample/vocabulary/sampledfeature/1.0/earthenvironment
 
@@ -2262,7 +2262,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0a360>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15f410>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2277,7 +2277,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208ce540>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae26ff0>
 
 object: Specimen samples the hydrosphere
 
@@ -2294,7 +2294,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f21208ce7e0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7ae243b0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2309,7 +2309,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09940>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ff80>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2324,7 +2324,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09460>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15e5d0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2339,7 +2339,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09670>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15e300>
 
 object: Marine environment
 
@@ -2356,7 +2356,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0b2f0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15df10>
 
 object: https://w3id.org/isample/vocabulary/sampledfeature/1.0/waterbody
 
@@ -2373,7 +2373,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0a6c0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15cc20>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2388,7 +2388,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0b8c0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15f9b0>
 
 object: specimen samples marine hydrosphere
 
@@ -2405,7 +2405,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba5850>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b103260>
 
 object: http://purl.obolibrary.org/obo/ENVO_01000686
 
@@ -2422,7 +2422,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09490>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ccb0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2437,7 +2437,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120ba6d20>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b102450>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2452,7 +2452,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c090a0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15d0a0>
 
 object: Terrestrial water body
 
@@ -2469,7 +2469,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c097f0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ef30>
 
 object: https://w3id.org/isample/vocabulary/sampledfeature/1.0/waterbody
 
@@ -2486,7 +2486,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0ab40>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15d100>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2501,7 +2501,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c085c0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15e300>
 
 object: Specimen samples terrestrial hydrosphere-- lake, other standing water, or a flowing water body (river, stream..) Include saline water in terrestrial evaporite environments.
 
@@ -2518,7 +2518,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09f70>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15c8c0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2533,7 +2533,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0acf0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15f980>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2548,7 +2548,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0b1a0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15d070>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2563,7 +2563,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c098b0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15f050>
 
 object: Extraterrestrial environment
 
@@ -2580,7 +2580,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0bc80>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15dc10>
 
 object: https://w3id.org/isample/vocabulary/sampledfeature/1.0/anysampledfeature
 
@@ -2597,7 +2597,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0b500>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ce30>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2612,7 +2612,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c0bd70>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15e360>
 
 object: specimen samples environment outside of solid earth, hydrosphere, or atmosphere.
 
@@ -2629,7 +2629,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09190>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ce30>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2644,7 +2644,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c08f20>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15ee40>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2659,7 +2659,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f2120c09040>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f8c7b15fec0>
 
 ---
 comment: | 
