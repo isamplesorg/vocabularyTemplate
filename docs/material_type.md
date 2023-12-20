@@ -1,3 +1,4 @@
+vocabulary name: https://w3id.org/isample/vocabulary/material/1.0/materialsvocabulary
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -11,7 +12,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa8a8a8d0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b534dac0>
 
 object: iSamples Materials Vocabulary 
 
@@ -28,7 +29,7 @@ getObject predicate: http://purl.org/dc/terms/modified
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa8b08890>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b5bc0770>
 
 object: 2022-03-11
 
@@ -45,7 +46,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3d550>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b351f0>
 
 object: High level vocabulary to specify the kind of material that constitutes a physical sample
 
@@ -62,7 +63,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3e7e0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b5bc0560>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -77,7 +78,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#historyNote
 
 length of qres: 2
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3d4f0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b35580>
 
 object: 2022-01-05 SMR version 0.9, change base uri to https://w3id.org/isample/vocabulary/material/0.9/ for testing with ESIP COR and w3id uri resolution
 
@@ -96,7 +97,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3f1a0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b37650>
 
 object: Material 
 
@@ -113,7 +114,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3d670>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b5bc0200>
 
 object: Any anthropogenic material
 
@@ -130,7 +131,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9aa50>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b36c60>
 
 object: Anthropogenic metal material 
 
@@ -147,7 +148,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9a7e0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480b830>
 
 object: Anthropogenic material
 
@@ -164,7 +165,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3f740>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b5a1f5c0>
 
 object: Any ice
 
@@ -181,7 +182,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3d8b0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b36990>
 
 object: Frozen water
 
@@ -198,7 +199,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9a3c0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b35730>
 
 object: Biogenic non-organic material
 
@@ -215,7 +216,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a989b0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480ae70>
 
 object: Dispersed media
 
@@ -232,7 +233,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3f350>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b5bc1a00>
 
 object: Natural Solid Material
 
@@ -249,7 +250,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9b4d0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b36b10>
 
 object: Mineral 
 
@@ -266,7 +267,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9bc50>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b35b20>
 
 object: Mixed soil sediment or rock
 
@@ -283,7 +284,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9aea0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480b950>
 
 object: Particulate
 
@@ -300,7 +301,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9af00>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b35400>
 
 object: Rock or sediment
 
@@ -317,7 +318,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9b9b0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b35b50>
 
 object: Rock
 
@@ -334,7 +335,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3f410>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480af90>
 
 object: Sediment
 
@@ -351,7 +352,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a78530>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480b3b0>
 
 object: Soil
 
@@ -368,7 +369,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3e4b0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481c200>
 
 object: Fluid material
 
@@ -385,7 +386,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a99dc0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480b380>
 
 object: Gaseous material
 
@@ -402,7 +403,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a991f0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b35c40>
 
 object: Liquid water
 
@@ -419,7 +420,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a795e0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481c230>
 
 object: Non-aqueous liquid material 
 
@@ -436,7 +437,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a79ac0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481dee0>
 
 object: Organic material
 
@@ -453,7 +454,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9a810>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4809d30>
 
 object: Material 
 
@@ -470,7 +471,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9a4e0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b5bc0560>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -485,7 +486,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9a900>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4809970>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -500,7 +501,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a99dc0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480af30>
 
 object: Top Concept in iSamples Material Category scheme
 
@@ -517,7 +518,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9b230>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480a9f0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -532,7 +533,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a99910>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b36c00>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -547,7 +548,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a99310>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b37140>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -562,7 +563,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3ed80>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b36c00>
 
 object: Any anthropogenic material
 
@@ -579,7 +580,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3f740>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b34fb0>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/material
 
@@ -596,7 +597,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3e4b0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b37710>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -611,7 +612,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3cad0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4809d60>
 
 object: Material produced by human activity.
 
@@ -628,7 +629,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9a3f0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4809340>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -643,7 +644,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a99fd0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4809520>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -658,7 +659,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3d130>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4809c10>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -673,7 +674,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9bf50>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481e750>
 
 object: Anthropogenic metal material 
 
@@ -690,7 +691,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3ea80>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481eab0>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/anyanthropogenicmaterial
 
@@ -707,7 +708,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3d220>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480ba70>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -722,7 +723,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a999a0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b5bc02f0>
 
 object: Specimen is dominantly composed of metal that has been produced or used by humans; subclass of anthropogenic material. Samples of naturally occuring metallic material (e.g. native copper, gold nuggets) should be considered mineral material. Metallic material is material that when polished or fractured, shows a lustrous appearance, and conducts electricity and heat relatively well. Metals are typically malleable (they can be hammered into thin sheets) or ductile (can be drawn into wires). The boundaries between metals, nonmetals, and metalloids fluctuate slightly due to a lack of universally accepted definitions of the categories involved. (https://en.wikipedia.org/wiki/Metal). c.f. http://purl.obolibrary.org/obo/ENVO_01001069
 
@@ -739,7 +740,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a99580>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b48095e0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -754,7 +755,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9bd40>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480b440>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -769,7 +770,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9b8c0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4809e20>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -784,7 +785,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9b110>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480af00>
 
 object: Anthropogenic material
 
@@ -801,7 +802,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7a570>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481e660>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/anyanthropogenicmaterial
 
@@ -818,7 +819,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a78440>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480a450>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -833,7 +834,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a99e50>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b34fb0>
 
 object: Non-metallic material produced by human activity. Organic products of agricultural activity are both anthropogenic and organic. Include lab preparations like XRF pellet and rock powders. Examples: ceramics, concrete, slag, (anthropogenic) glass, mine tailing, plaster, waste.
 
@@ -850,7 +851,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a17f20>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b37da0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -865,7 +866,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a17dd0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b37710>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -880,7 +881,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9bb90>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480aa20>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -895,7 +896,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3f410>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480a6c0>
 
 object: Any ice
 
@@ -912,7 +913,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9b9b0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481d1f0>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/material
 
@@ -929,7 +930,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a794c0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480b440>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -944,7 +945,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a79190>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480b440>
 
 object: a solid material that is normally a liquid or gas at Standard Temperature and Pressre (STP) that is in a solid state under the observed temperature and pressure conditions.
 
@@ -961,7 +962,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3d1c0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481ed50>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -976,7 +977,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3d250>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480acf0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -991,7 +992,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3d1c0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480b410>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1006,7 +1007,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9a690>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480a630>
 
 object: Frozen water
 
@@ -1023,7 +1024,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9b170>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4809610>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/anyice
 
@@ -1040,7 +1041,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7a300>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b35fd0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1055,7 +1056,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a79ac0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480b020>
 
 object: Water that is in a solid state.
 
@@ -1072,7 +1073,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a78fe0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b36db0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1087,7 +1088,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7a630>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481e480>
 
 object: Water ice
 
@@ -1104,7 +1105,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9b4d0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480a540>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1119,7 +1120,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3ebd0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b37320>
 
 object: Biogenic non-organic material
 
@@ -1136,7 +1137,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7a630>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481d310>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/material
 
@@ -1153,7 +1154,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7a5d0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481df10>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1168,7 +1169,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a799d0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481eea0>
 
 object: Material produced by an organism but not composed of 'very large molecules of biological origin.' E.g. bone, tooth, shell, coral skeleton,
 
@@ -1185,7 +1186,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a79b20>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481d340>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1200,7 +1201,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a79460>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481ec90>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1215,7 +1216,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7ac00>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481d340>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1230,7 +1231,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9a990>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b357f0>
 
 object: Dispersed media
 
@@ -1247,7 +1248,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7bfe0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4809c10>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/material
 
@@ -1264,7 +1265,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7a5d0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b5bc1d60>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1279,7 +1280,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7af00>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481c830>
 
 object: A material contains discrete elements of one medium that are dispersed in a continuous fluid medium.  The dispersed component can be a gas, a liquid or a solid (based on https://en.wikipedia.org/wiki/Dispersed_media). Does not include mixtures of granular material like soil, sediment, particulate, or solids that would be considered a rock.
 
@@ -1296,7 +1297,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a79340>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481ddf0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1311,7 +1312,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a79f40>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481f1d0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1326,7 +1327,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a79340>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481ddf0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1341,7 +1342,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7b740>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481e9c0>
 
 object: Natural Solid Material
 
@@ -1358,7 +1359,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9b1d0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4a92a20>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/material
 
@@ -1375,7 +1376,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a9ba10>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b36c60>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1390,7 +1391,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a78e30>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480a720>
 
 object: Undifferentiated soil, sediment, rock, or natural particulates. Typically (nessarily?) a granular aggregate that might include any of the previous constiturents. Use for Earth Material aggregates of uncertain origin
 
@@ -1407,7 +1408,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a78560>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481ffe0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1422,7 +1423,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a78080>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481cda0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1437,7 +1438,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7b620>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481cd70>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1452,7 +1453,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7ab10>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481f560>
 
 object: Mineral 
 
@@ -1469,7 +1470,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a79cd0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481c410>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/earthmaterial
 
@@ -1486,7 +1487,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7b442c0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480a720>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1501,7 +1502,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7ae70>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481ce60>
 
 object: Material consists of a single mineral or mineraloid phase. .  'A mineral is an element or chemical compound that is normally crystalline and that has been formed as a result of geological processes.' (Nickel, Ernest H. (1995), The definition of a mineral, The Canadian Mineralogist. 33 (3): 689–90). Include mineraloids. ... A material primarily composed of some substance that is naturally occurring, solid and stable at room temperature, representable by a chemical formula, usually abiogenic, and that has an ordered atomic structure. (http://purl.obolibrary.org/obo/ENVO_01000256). Comment: the identity of a mineral species is defined by a crystal structure and a chemical composition that might include various specific elemental substitutions in that structure. Mineraloid: A naturally occurring mineral-like substance that does not demonstrate crystallinity. Mineraloids possess chemical compositions that vary beyond the generally accepted ranges for specific minerals. Examples: obsidian, Opal. (https://en.wikipedia.org/wiki/Mineraloid)
 
@@ -1518,7 +1519,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7ae40>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4809c10>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1533,7 +1534,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7a270>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481ca10>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1548,7 +1549,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7b1d0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481dc70>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1563,7 +1564,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a795b0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481e600>
 
 object: Mixed soil sediment or rock
 
@@ -1580,7 +1581,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7a2d0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481e450>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/earthmaterial
 
@@ -1597,7 +1598,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a798e0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481d910>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1612,7 +1613,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a79fd0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4858530>
 
 object: Material is mixed aggregation of fragments of undifferentiated soil, sediment or rock origin. e.g. cuttings from some boreholes (rock fragments and caved soil or sediment).
 
@@ -1629,7 +1630,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa79d6de0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b480bbf0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1644,7 +1645,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7b2c0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b37320>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1659,7 +1660,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7b680>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b37500>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1674,7 +1675,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7a720>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481f500>
 
 object: Particulate
 
@@ -1691,7 +1692,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7a960>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481c530>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/earthmaterial
 
@@ -1708,7 +1709,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7a7e0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481f1a0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1723,7 +1724,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7b9e0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481f4a0>
 
 object: Material consists of microscopic particulate material derived by precipitation, filtering, or settling from suspension in a fluid, e.g. filtrate from water, deposition from atmosphere, astro material particles. Might include mineral, organic, or biological material. ENVO definition (ENVO_01000060) has "composed of microscopic portions of solid or liquid material suspended in another environmental material.", refine here to define as the solid particles, distinct from a material in which they are suspended. A material that includes solid or liquid particles suspended in another material would be a dispersed_media in this scheme, not defined in ENVO. Human manufactured particulates (e.g. rock powder) should be categorized as 'anthropogenic material' as well as 'Particulate'
 
@@ -1740,7 +1741,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a790d0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4859940>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1755,7 +1756,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7c011f0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b37680>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1770,7 +1771,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa79d4470>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b37440>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1785,7 +1786,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a792b0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481ca40>
 
 object: Rock or sediment
 
@@ -1802,7 +1803,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a78290>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481da90>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/earthmaterial
 
@@ -1819,7 +1820,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7ba10>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481e000>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1834,7 +1835,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a79010>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481fda0>
 
 object: Material is rock or sediment.  E.g. for samples from subsurface cores that are not well described, from drill holes that likely penetrate sediment near the surface an might be sampling rock at greater depth.
 
@@ -1851,7 +1852,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7bda0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4859070>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1866,7 +1867,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a79640>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481e6c0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1881,7 +1882,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a78bc0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481c770>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1896,7 +1897,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7b3b0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481f6e0>
 
 object: Rock
 
@@ -1913,7 +1914,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a783e0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481d4c0>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/rockorsediment
 
@@ -1930,7 +1931,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7a870>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481cb60>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1945,7 +1946,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7bbc0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481dac0>
 
 object: Consolidated aggregate of particles (grains) of rock, mineral (including native elements), mineraloid, or solid organic material. Includes mineral aggregates such as granite, shale, marble; natural glass such as obsidian; organic material formed by geologic processes such a coal;  extraterrestrial material in meteorites; and  crushed rock fragments like drill cuttings from rock.  (based on http://resource.geosciml.org/classifier/cgi/lithology/rock, same as http://purl.obolibrary.org/obo/ENVO_00001995)
 
@@ -1962,7 +1963,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 2
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7b230>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481cef0>
 
 object: http://purl.obolibrary.org/obo/ENVO_00001995
 
@@ -1981,7 +1982,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7bcb0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481e780>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -1996,7 +1997,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7b650>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481cef0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2011,7 +2012,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa8b0bce0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481c8c0>
 
 object: Sediment
 
@@ -2028,7 +2029,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a79220>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b5a1eb40>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/rockorsediment
 
@@ -2045,7 +2046,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7b3e0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481dca0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2060,7 +2061,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a78e90>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481eb70>
 
 object: Solid granular material transported by wind, water, or gravity, not modified by interaction with biosphere or atmosphere (to differentiate from soil). Particles derived by erosion of pre-existing rock, from shell or other body parts from organisms, precipitated chemically in the surficial environment, or generated by explosive volcanic activity. (http://resource.geosciml.org/classifier/cgi/lithology/sediment). Sediment is not consolidated, i.e. Particulate constituents of a compound material do not adhere to each other strongly enough that the aggregate can be considered a solid material in its own right. Similar to http://purl.obolibrary.org/obo/ENVO_00002007
 
@@ -2077,7 +2078,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a78e30>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481c200>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2092,7 +2093,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7ae10>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481c7a0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2107,7 +2108,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a78d70>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481c200>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2122,7 +2123,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3cbc0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481f860>
 
 object: Soil
 
@@ -2139,7 +2140,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a787d0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481fe30>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/earthmaterial
 
@@ -2156,7 +2157,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a780b0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481cbf0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2171,7 +2172,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7a120>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481c290>
 
 object: Mixed granular mineral and organic matter modified by interaction between earth material, biosphere, and atmosphere, consisting mostly of varying proportions of sand, silt, and clay, organic material such as humus, gases, liquids, and a broad range of resident micro- and macroorganisms. (https://en.wikipedia.org/wiki/Soil) Soil consists of horizons near the Earth's surface that, in contrast to the underlying parent material, have been altered by the interactions of climate, relief, and living organisms over time. (http://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/edu/?cid=nrcs142p2_054280) (http://purl.obolibrary.org/obo/ENVO_00001998)
 
@@ -2188,7 +2189,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a78a10>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481c9e0>
 
 object: http://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/edu/?cid=nrcs142p2_054280
 
@@ -2205,7 +2206,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7b650>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481dd30>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2220,7 +2221,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7a300>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481c470>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2235,7 +2236,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3eb40>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481e390>
 
 object: Fluid material
 
@@ -2252,7 +2253,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3e900>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b35b20>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/material
 
@@ -2269,7 +2270,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3f7a0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b367e0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2284,7 +2285,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a79460>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b379b0>
 
 object: a substance that continually deforms (flows) under an applied shear stress, or external force. Fluids are a phase of matter and include liquids, gases and plasmas. They are substances with zero shear modulus, or, in simpler terms, substances that cannot resist any shear force applied to them. (https://en.wikipedia.org/wiki/Fluid)
 
@@ -2301,7 +2302,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a79e20>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b36870>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2316,7 +2317,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a79fd0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b36bd0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2331,7 +2332,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a780e0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b357f0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2346,7 +2347,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7a120>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b37770>
 
 object: Gaseous material
 
@@ -2363,7 +2364,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3d730>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481d5b0>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/fluid
 
@@ -2380,7 +2381,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3d520>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481cc50>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2395,7 +2396,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3e600>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481f5c0>
 
 object: Material composed of one or more chemical entities that has neither independent shape nor volume but tends to expand indefinitely (http://purl.obolibrary.org/obo/ENVO_01000797). Infer that the sample is curated in some kind of container.
 
@@ -2412,7 +2413,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7a870>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481e2a0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2427,7 +2428,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7a930>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481e240>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2442,7 +2443,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a784d0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481fdd0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2457,7 +2458,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a78200>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481c6b0>
 
 object: Liquid water
 
@@ -2474,7 +2475,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3e5a0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481fe90>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/fluid
 
@@ -2491,7 +2492,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a785c0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481e390>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2506,7 +2507,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7bfb0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b36b10>
 
 object: A material primarily composed of dihydrogen oxide in its liquid form; infer that the sample is curated in some kind of container.
 
@@ -2523,7 +2524,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3cb00>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b35d00>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2538,7 +2539,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3d5e0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b374d0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2553,7 +2554,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a781a0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481c560>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2568,7 +2569,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7af60>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481f200>
 
 object: Non-aqueous liquid material 
 
@@ -2585,7 +2586,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7b950>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481f860>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/fluid
 
@@ -2602,7 +2603,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a79c10>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b37830>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2617,7 +2618,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a78560>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b379b0>
 
 object: Liquid composed dominantly of material other than water. Includes liquids that do not fit in any other category. E.g. alcohol, petroleum.
 
@@ -2634,7 +2635,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a788c0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b35820>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2649,7 +2650,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a78d70>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b35af0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2664,7 +2665,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3e6c0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b35820>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2679,7 +2680,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3f500>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b36ea0>
 
 object: Organic material
 
@@ -2696,7 +2697,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#broader
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3f1a0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b4b35bb0>
 
 object: https://w3id.org/isample/vocabulary/material/1.0/material
 
@@ -2713,7 +2714,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3ccb0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481c7a0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2728,7 +2729,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 1
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3d070>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481e420>
 
 object: Environmental material derived from living organisms and composed primarily of one or more very large molecules of biological origin. Examples: body (animal or plant), body part, fecal matter, seeds, wood, tissue, biological fluids, biological waste, algal material, biofilm, necromass, plankton. source: http://purl.obolibrary.org/obo/ENVO_01000155
 
@@ -2745,7 +2746,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#seeAlso
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3e630>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481dd60>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2760,7 +2761,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#altLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a3c710>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481c560>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -2775,7 +2776,7 @@ getObject predicate: http://purl.org/dc/terms/source
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f7aa7a7b0e0>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f11b481e240>
 
 ---
 comment: | 
