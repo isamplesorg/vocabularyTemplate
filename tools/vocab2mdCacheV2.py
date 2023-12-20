@@ -110,9 +110,15 @@ def getObjects(g, s, p):
     WHERE {
         ?subject ?predicate ?o .
     }""")
+    print(f"getObject prefixes: {PFX}\n")
+    print(f"getObject subject: {s}\n")
+    print(f"getObject predicate: {p}\n")
     qres = g.query(q, initBindings={'subject': s, 'predicate': p})
+    print(f"length of qres: {len(qres)}\n", )
+    print(f"qres: {qres}\n")
     res = []
     for row in qres:
+        print(f"object: {row[0]}\n")
         res.append(row[0])
     return res
 
@@ -354,7 +360,7 @@ def main(source, vocabulary):
     res = []
 
     vocabulary = store.expand_name(vocabulary)
-#    print(f"vocabulary name: {vocabulary}")
+    print(f"vocabulary name: {vocabulary}")
     theMarkdown = describeVocabulary(store._g, vocabulary)
     res.append(theMarkdown)
 
