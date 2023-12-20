@@ -218,7 +218,9 @@ PREFIX rdfs: <{NS['rdfs']}>
         return res
 
     def _result_single_value(self, rows, abbreviate=False) -> typing.Any:
+        L.debug(f"VocabularyStore-count rows in query result: {len(rows)}")
         for r in rows:
+            L.debug(f"VocabularyStore-result single value row: {self.compact_name(r[0])}")
             if abbreviate:
                 return self.compact_name(r[0])
             return r[0]
