@@ -22,7 +22,7 @@ no modified date
 subtitle: 
 
 Namespace: 
-[`https://w3id.org/isample/vocabulary/material/0.9/materialsvocabulary`](https://w3id.org/isample/vocabulary/material/0.9/materialsvocabulary)
+[`mat:materialsvocabulary`](mat:materialsvocabulary)
 
 **History**
 
