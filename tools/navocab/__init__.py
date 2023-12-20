@@ -10,6 +10,8 @@ import rdflib
 import rdflib.namespace
 import rdflib.plugins.sparql
 import sqlalchemy
+import logging
+import logging.config
 
 STORE_IDENTIFIER = "https://w3id.org/isample/vocabulary"
 NS = {

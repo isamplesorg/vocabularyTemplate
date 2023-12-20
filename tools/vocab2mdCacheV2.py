@@ -360,7 +360,7 @@ def main(source, vocabulary):
     res = []
 
     vocabulary = store.expand_name(vocabulary)
-#    print(f"vocabulary name: {vocabulary}")
+    print(f"vocabulary name: {vocabulary}")
     theMarkdown = describeVocabulary(store._g, vocabulary)
     res.append(theMarkdown)
 
