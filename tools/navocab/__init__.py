@@ -130,6 +130,8 @@ PREFIX rdfs: <{NS['rdfs']}>
         bindings: typing.Optional[dict] = None,
     ):
         g_loaded = self._g.parse(source, format=format)
+        L.info("Navocab.load.source: %s", source)
+
         if bindings is not None:
             for k, v in bindings.items():
                 self._g.bind(k, v)
@@ -145,6 +147,7 @@ PREFIX rdfs: <{NS['rdfs']}>
         }"""
         )
         qres = g_loaded.query(q)
+        L.info("Navocab.load.query result: %s", gres)
         loaded_vocabulary = self._result_single_value(qres, abbreviate=False)
         if loaded_vocabulary is not None:
             L.info("Loaded vocabulary %s", loaded_vocabulary)
