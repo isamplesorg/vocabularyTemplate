@@ -1,0 +1,31 @@
+---
+comment: | 
+  WARNING: This file is generated. Any edits will be lost!
+format:
+  html:
+    ascii: true
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    anchor-sections: false
+    number-depth: 8
+execute:
+  echo: false
+---
+
+[]{#ConceptScheme}
+
+# **Concept scheme:** ConceptScheme
+
+no modified date
+
+subtitle: 
+
+Namespace: 
+[`https://w3id.org/isample/vocabulary/material/0.9/materialsvocabulary`](https://w3id.org/isample/vocabulary/material/0.9/materialsvocabulary)
+
+**History**
+
+
+**Concepts**
+
