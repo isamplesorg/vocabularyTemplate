@@ -109,6 +109,8 @@ def load(ctx, uri):
     """Load RDF from the provided local or remote URI."""
     L = getLogger()
     _s = ctx.obj["store"]
+    # try running init
+    _s.__init__(purge_existing=True)
     uris = [uri, ]
     L.debug(f"uri to load: {uri}")
     if uri =="known":
