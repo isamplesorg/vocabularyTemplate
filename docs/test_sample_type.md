@@ -12,7 +12,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7fcc3d711040>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7fc1fa12aed0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -27,7 +27,7 @@ getObject predicate: http://purl.org/dc/terms/modified
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7fcc3c9e8200>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7fc1fa1b06b0>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -42,7 +42,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7fcc3b929940>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7fc1f911d850>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -57,7 +57,7 @@ getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7fcc3c9e8710>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7fc1fa1b0c80>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -72,7 +72,7 @@ getObject predicate: http://www.w3.org/2004/02/skos/core#historyNote
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7fcc3b929d60>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7fc1f911e7e0>
 
 ---
 comment: | 
