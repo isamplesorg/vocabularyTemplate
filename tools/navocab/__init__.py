@@ -72,7 +72,7 @@ PREFIX rdfs: <{NS['rdfs']}>
         storage_uri=DEFAULT_STORE,
         store_identifier=STORE_IDENTIFIER,
 #        purge_existing=False,
-        purge_existing=False  # change to true to get rid of previous loads
+        purge_existing=True  # change to true to get rid of previous loads
     ):
         self.origin = None
         self.storage_uri = storage_uri
@@ -93,6 +93,7 @@ PREFIX rdfs: <{NS['rdfs']}>
         
         
         if purge:
+            L.debug("navocab init: purging %s", self.store_identifier)
             graph.destroy(self.storage_uri)
         
         graph.open(self.storage_uri, create=True)
