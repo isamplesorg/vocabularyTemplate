@@ -87,6 +87,7 @@ PREFIX rdfs: <{NS['rdfs']}>
         return len(self._g)
 
     def purge_store(self):
+        """Clears out the Sqlite cache."""
         # added by SMR to enable purge
         L.debug("purge_store: purging %s", self.store_identifier)
         graph.destroy(self.storage_uri)
