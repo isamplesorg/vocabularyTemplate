@@ -143,6 +143,7 @@ PREFIX rdfs: <{NS['rdfs']}>
         # First check for extension_vocab rdfs:subPropertyOf extended_vocab
         # if not present, then compute and add it for later use.
         # What vocabulary did we just load?
+        L.debug("bindings: %s", bindings.items())
         q = (
             VocabularyStore._PFX
             + """SELECT ?s
@@ -151,7 +152,6 @@ PREFIX rdfs: <{NS['rdfs']}>
         }"""
         )
         qres = g_loaded.query(q)
-        L.info("Navocab.load.query result: %s", qres)
         loaded_vocabulary = self._result_single_value(qres, abbreviate=False)
         if loaded_vocabulary is not None:
             L.info("Loaded vocabulary %s", loaded_vocabulary)
