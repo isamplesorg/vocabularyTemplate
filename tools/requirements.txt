@@ -1,4 +1,5 @@
 click
 rdflib
+SQLAlchemy==1.4.50
 rdflib-sqlalchemy
 requests
