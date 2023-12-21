@@ -72,7 +72,7 @@ PREFIX rdfs: <{NS['rdfs']}>
         storage_uri=DEFAULT_STORE,
         store_identifier=STORE_IDENTIFIER,
 #        purge_existing=False,
-        purge_existing=False  # change to true to get rid of previous loads
+        purge_existing=True  # change to true to get rid of previous loads
     ):
         self.origin = None
         self.storage_uri = storage_uri
@@ -93,6 +93,7 @@ PREFIX rdfs: <{NS['rdfs']}>
         
         
         if purge:
+            L.debug("navocab init: purging %s", self.store_identifier)
             graph.destroy(self.storage_uri)
         
         graph.open(self.storage_uri, create=True)
@@ -142,6 +143,7 @@ PREFIX rdfs: <{NS['rdfs']}>
         # First check for extension_vocab rdfs:subPropertyOf extended_vocab
         # if not present, then compute and add it for later use.
         # What vocabulary did we just load?
+        L.debug("bindings: %s", bindings.items())
         q = (
             VocabularyStore._PFX
             + """SELECT ?s
@@ -150,7 +152,6 @@ PREFIX rdfs: <{NS['rdfs']}>
         }"""
         )
         qres = g_loaded.query(q)
-        L.info("Navocab.load.query result: %s", qres)
         loaded_vocabulary = self._result_single_value(qres, abbreviate=False)
         if loaded_vocabulary is not None:
             L.info("Loaded vocabulary %s", loaded_vocabulary)
