@@ -1,4 +1,4 @@
-vocabulary name: https://w3id.org/isample/vocabulary/sampledfeature/1.0/testfeaturevocabulary
+vocabulary name: sft:testfeaturevocabulary
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -6,13 +6,13 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 
-getObject subject: https://w3id.org/isample/vocabulary/sampledfeature/1.0/testfeaturevocabulary
+getObject subject: sft:testfeaturevocabulary
 
 getObject predicate: http://www.w3.org/2004/02/skos/core#prefLabel
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7efc8fd01580>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f9fe97d4260>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -21,13 +21,13 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 
-getObject subject: https://w3id.org/isample/vocabulary/sampledfeature/1.0/testfeaturevocabulary
+getObject subject: sft:testfeaturevocabulary
 
 getObject predicate: http://purl.org/dc/terms/modified
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7efc9028cc50>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f9fe9930950>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -36,13 +36,13 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 
-getObject subject: https://w3id.org/isample/vocabulary/sampledfeature/1.0/testfeaturevocabulary
+getObject subject: sft:testfeaturevocabulary
 
 getObject predicate: http://www.w3.org/2004/02/skos/core#definition
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7efc8f1f9b20>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f9fe889d910>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -51,13 +51,13 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 
-getObject subject: https://w3id.org/isample/vocabulary/sampledfeature/1.0/testfeaturevocabulary
+getObject subject: sft:testfeaturevocabulary
 
 getObject predicate: http://www.w3.org/2000/01/rdf-schema#comment
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7efc9028d880>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f9fe9930530>
 
 getObject prefixes: 
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -66,13 +66,13 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 
-getObject subject: https://w3id.org/isample/vocabulary/sampledfeature/1.0/testfeaturevocabulary
+getObject subject: sft:testfeaturevocabulary
 
 getObject predicate: http://www.w3.org/2004/02/skos/core#historyNote
 
 length of qres: 0
 
-qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7efc8f1f9d60>
+qres: <rdflib.plugins.sparql.processor.SPARQLResult object at 0x7f9fe889dd00>
 
 ---
 comment: | 
@@ -98,7 +98,7 @@ no modified date
 subtitle: 
 
 Namespace: 
-[`https://w3id.org/isample/vocabulary/sampledfeature/1.0/testfeaturevocabulary`](https://w3id.org/isample/vocabulary/sampledfeature/1.0/testfeaturevocabulary)
+[`sft:testfeaturevocabulary`](sft:testfeaturevocabulary)
 
 **History**
 

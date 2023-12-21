@@ -96,6 +96,11 @@ def main(ctx, store, verbosity) -> int:
     ctx.obj["store"] = navocab.VocabularyStore(storage_uri=store_uri)
     return 0
 
+@main.command("purgeStore")
+@click.pass_context
+def purgeStore(ctx):
+    _s = ctx.obj["store"]
+    _s.purge_store()
 
 @main.command("load")
 @click.pass_context

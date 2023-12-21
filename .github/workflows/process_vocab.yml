@@ -44,7 +44,7 @@ jobs:
           #    used for output files with the appropriate extension.
           inputttl: test_sample_type|test_feature_type
           # these are the URIs for the ConceptScheme; there must be a conceptScheme defined in each vocabulary.
-          inputvocaburi: spec:testvocabulary|sf:testfeaturevocabulary
+          inputvocaburi: spt:testvocabulary|sft:testfeaturevocabulary
 
       - name: Deploy docs
         uses: JamesIves/github-pages-deploy-action@v4

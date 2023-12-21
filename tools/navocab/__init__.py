@@ -73,7 +73,7 @@ PREFIX rdfs: <{NS['rdfs']}>
         store_identifier=STORE_IDENTIFIER,
 #        purge_existing=False,
         purge_existing=True  # change to true to get rid of previous loads
-    ):
+        ):
         self.origin = None
         self.storage_uri = storage_uri
         self.store_identifier = store_identifier
@@ -86,9 +86,14 @@ PREFIX rdfs: <{NS['rdfs']}>
     def __len__(self):
         return len(self._g)
 
+    def purge_store(self):
+        # added by SMR to enable purge
+        L.debug("purge_store: purging %s", self.store_identifier)
+        graph.destroy(self.storage_uri)
+
     def _initialize_store(self, purge=False):
         """Sets up the rdf store using an Sqlite cache."""
-    #    print("initialize SQLAlchemy datastore")
+        L.debug("initialize SQLAlchemy datastore. purge:%s",purge)
         graph = rdflib.ConjunctiveGraph("SQLAlchemy", identifier=self.store_identifier)
         
         
@@ -165,7 +170,7 @@ PREFIX rdfs: <{NS['rdfs']}>
             qres = self._g.query(q, initBindings={"vocabulary": loaded_vocabulary})
             _extended_vocab = self._result_single_value(qres, abbreviate=False)
             if _extended_vocab is not None:
-                L.info("Extends: %s", _extended_vocab)
+                L.info("subPropertyOf Extends: %s", _extended_vocab)
                 return
             # The extended vocabulary is not specified
             # Figure it by examining the broader concepts for each
@@ -187,7 +192,7 @@ PREFIX rdfs: <{NS['rdfs']}>
                     vocabs.add(concept.vocabulary)
             for vocab in vocabs:
                 if str(vocab) != str(loaded_vocabulary):
-                    L.info("Extends: %s", vocab)
+                    L.info("broader concept Extends: %s", vocab)
                     self._g.add((rdflib.URIRef(loaded_vocabulary), rdfsT("subPropertyOf"), rdflib.URIRef(vocab)))
                     self._g.commit()
             return
@@ -222,7 +227,7 @@ PREFIX rdfs: <{NS['rdfs']}>
         return res
 
     def _result_single_value(self, rows, abbreviate=False) -> typing.Any:
-        L.debug(f"VocabularyStore-count rows in query result: {len(rows)}")
+        L.debug(f"result_single_value-count rows in query result: {len(rows)}")
         for r in rows:
             L.debug(f"VocabularyStore-result single value row: {self.compact_name(r[0])}")
             if abbreviate:
