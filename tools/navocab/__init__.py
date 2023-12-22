@@ -147,7 +147,7 @@ PREFIX rdfs: <{NS['rdfs']}>
 
         test = self._g.namespace_manager.namespaces
         if test is not None:
-            L.debug("_g namespaces: ", test)
+            L.debug("_g namespaces: %s", test)
 
         if bindings is not None:
             for k, v in bindings.items():

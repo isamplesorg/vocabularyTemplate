@@ -138,8 +138,8 @@ def namespaces(ctx, bind):
     if bind is not None:
         p_uri = bind.split("=", 1)
         if len(p_uri) < 2:
-            L.error("Insufficient parameters: %s", bind)
-            L.info("Format the bind request like 'prefix=namspace'")
+            L.error("namespace.bind: Insufficient parameters: %s", bind)
+            L.info("namespace.bind: Format the bind request like 'prefix=namspace'")
             return
         _s.bind(p_uri[0].strip(), p_uri[1].strip())
     for prefix, uri in _s.namespaces():
