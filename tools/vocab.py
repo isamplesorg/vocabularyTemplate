@@ -62,10 +62,10 @@ LOG_LEVELS = {
 #     "https://raw.githubusercontent.com/isamplesorg/metadata/develop/src/vocabularies/OpenContextMaterial.ttl",
 # ]
 CURRENT_ISAMPLES_VOCABULARIES = [
-    "https://raw.githubusercontent.com/isamplesorg/metadata_profile_earth_science/main/vocabulary/earthenv_material_extension_mineral_group.ttl",
-    "https://raw.githubusercontent.com/isamplesorg/metadata_profile_earth_science/main/vocabulary/earthenv_material_extension_rock_sediment.ttl",
-    "https://raw.githubusercontent.com/isamplesorg/metadata_profile_earth_science/main/vocabulary/earthenv_sampled_feature_role.ttl",
-    "https://raw.githubusercontent.com/isamplesorg/metadata_profile_earth_science/main/vocabulary/earthenv_specimen_type.ttl"
+    # "https://raw.githubusercontent.com/isamplesorg/metadata_profile_earth_science/main/vocabulary/earthenv_material_extension_mineral_group.ttl",
+    # "https://raw.githubusercontent.com/isamplesorg/metadata_profile_earth_science/main/vocabulary/earthenv_material_extension_rock_sediment.ttl",
+    # "https://raw.githubusercontent.com/isamplesorg/metadata_profile_earth_science/main/vocabulary/earthenv_sampled_feature_role.ttl",
+    # "https://raw.githubusercontent.com/isamplesorg/metadata_profile_earth_science/main/vocabulary/earthenv_specimen_type.ttl"
 ]
 
 def getLogger():
@@ -84,7 +84,7 @@ def getDefaultVocabulary(vs, abbreviate=False):
 @click.group()
 @click.pass_context
 @click.option("-s", "--store", default="vocabularies.db", help="SQLite db for vocabularies" )
-@click.option("--verbosity", default="ERROR", help="Logging level")
+@click.option("--verbosity", default="DEBUG", help="Logging level")
 def main(ctx, store, verbosity) -> int:
     verbosity = verbosity.upper()
     logging_config["loggers"][""]["level"] = verbosity
@@ -96,22 +96,31 @@ def main(ctx, store, verbosity) -> int:
     ctx.obj["store"] = navocab.VocabularyStore(storage_uri=store_uri)
     return 0
 
+@main.command("purgeStore")
+@click.pass_context
+def purgeStore(ctx):
+    _s = ctx.obj["store"]
+    _s.purge_store()
 
 @main.command("load")
 @click.pass_context
-@click.argument("uri")
-def load(ctx, uri):
+@click.argument("inputf")
+@click.argument("voc_uri")
+def load(ctx, inputf, voc_uri):
     """Load RDF from the provided local or remote URI."""
+    import warnings
     L = getLogger()
     _s = ctx.obj["store"]
-    uris = [uri, ]
-    L.debug(f"uri to load: {uri}")
-    if uri =="known":
-        uris = CURRENT_ISAMPLES_VOCABULARIES
-    for uri in uris:
-        L.info("Loading URI: %s", uri)
-        _s.load(uri)
-        L.info("Graph now has %s statements.", len(_s._g))
+#
+    L.debug(f"input file to load: {inputf}")
+#    if inputf =="known":
+#        uris = CURRENT_ISAMPLES_VOCABULARIES
+#    for aninputf in uris:
+    L.info("Loading URI: %s", inputf)
+    # stifle cascade of warnings from sqlalchemy about 
+    # 'caught a TypeError, retrying call to <class 'rdflib_sqlalchemy.store.SQLAlchemy'>.bind without override'
+    _s.load(inputf,voc_uri)
+    L.info("Graph now has %s statements.", len(_s._g))
 
 
 @main.command("namespaces")

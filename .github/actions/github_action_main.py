@@ -11,7 +11,7 @@ completes
 original code by Dave Vieglais for iSamples project
 modified by SM Richard 2023-12-14
 
-input argumets are grabbed from environmental variables
+input arguments are grabbed from environmental variables
 """
 
 import logging
@@ -62,11 +62,13 @@ def main():
     # do function of original Makefile here
   
     for inputf in inputttl:
-        result=load_cachedb(sourcevocabdir + "/" + inputf + ".ttl", cachepath)
+        theindex=0
+        result=load_cachedb(sourcevocabdir + "/" + inputf + ".ttl", cachepath, inputvocaburi[theindex] )
         if (result == 0):
-           print(f"load_cachedb call successful for: {inputf}")
+           print(f"load_cachedb call successful for: {inputf}, {inputvocaburi[theindex]}")
         else:
-           print(f"load_cachedb had problem processing: {inputf}")
+           print(f"load_cachedb had problem processing: {inputf},{inputvocaburi[theindex]}")
+        theindex = theindex + 1
 
 
     if command == "uijson":
@@ -80,24 +82,27 @@ def main():
         index = 0
         print(f"input markdown file: {inputttl[index]}, vocab uri: {inputvocaburi[index]}")
         while index < len(inputttl):
-            _run_docs_in_container(os.path.join(path, inputttl[index]+".md"), inputvocaburi[index])
-            _quarto_render_html((os.path.join(path, inputttl[index]+".md")),path)
+            result = _run_docs_in_container(os.path.join(path, inputttl[index]+".md"), inputvocaburi[index])
+            if result == 0:
+                _quarto_render_html((os.path.join(path, inputttl[index]+".md")),path)
+            else:
+                print(f"problem with {inputttl[index]}, don't call quarto")
             index += 1
     else:
         print(f"Unknown command {command}.  Exiting.")
         sys.exit(-1)
 
-def load_cachedb(inputf, cachepath):
+def load_cachedb(inputf, cachepath, voc_uri):
     # tools/vocab.py --verbosity ERROR -s $(CACHE) load $(SRC)/$@
 
     print(f"cachdb file to load: {inputf}")
-    load_args = ["--verbosity","ERROR", "-s", cachepath, "load", inputf]
+    load_args = ["--verbosity","DEBUG", "-s", cachepath, "load", inputf, voc_uri]
     result = _run_python_in_container("/app/tools/vocab.py", load_args, f="")
     if (result == 0):
-        print(f"vocab.py call successful for {inputf}")
+        print(f"vocab.py.load call successful for {inputf}")
         return 0
     else:
-        print(f"vocab.py had problem processing {inputf}")
+        print(f"vocab.py.load had problem processing {inputf}")
         return 1
     
 
@@ -105,6 +110,7 @@ def _quarto_render_html(markdown_in:str, output_path:str):
 #     print("In githubActionMain: Quarto render: ",markdown_in,  output_path)
 #     result = subprocess.run(["/opt/quarto/bin/quarto", "check"])
 #     print("Quarto check result ", result.returncode)
+#  NOTE update quarto location for your local install...
      result = subprocess.run(["/opt/quarto/bin/quarto", "render", markdown_in, "-t", "html"])
 #     print("Quarto call result ", result.returncode)
      if (result.returncode == 0):
@@ -120,26 +126,26 @@ def _run_make_in_container(target: str):
     subprocess.run(["/usr/bin/make", "-C", "/app", "-f", "/app/Makefile", target])
 
 
-def _run_uijson_in_container(output_path: str, vocab_uri: str):
+def _run_uijson_in_container(output_path: str, vocab_location: str):
     with open(output_path, "w") as f:
-        vocab_args = ["-s", "/app/cache/vocabularies.db", "uijson", vocab_uri, "-e"]
+        vocab_args = ["-s", "/app/cache/vocabularies.db", "uijson", vocab_location, "-e"]
         testflag = _run_python_in_container("/app/tools/vocab.py", vocab_args, f)
         if (testflag == 0):
-            print(f"Successfully wrote uijson file to {output_path}")
+            print(f"Run_uijson: Successfully wrote uijson file to {output_path}")
             return 0
         else:
-            print(f"problem processing {vocab_uri}")
+            print(f"problem processing {vocab_location}")
             return 1
 
-def _run_docs_in_container(output_path: str, vocab_uri: str):
+def _run_docs_in_container(output_path: str, vocab_location: str):
     with open(output_path, "w") as f:
-        docs_args = ["/app/cache/vocabularies.db", vocab_uri]
+        docs_args = ["/app/cache/vocabularies.db", vocab_location]
         testflag = _run_python_in_container("/app/tools/vocab2mdCacheV2.py", docs_args, f)
         if (testflag == 0):
-            print(f"Successfully wrote doc file to {output_path}")
+            print(f"Docs in container: Successfully wrote doc file {vocab_location} to {output_path}")
             return 0
         else:
-            print(f"problem processing {vocab_uri}")
+            print(f"vocab2mdCacheV2. problem processing {vocab_location}")
             return 1
 
 def _run_python_in_container(path_to_python_script: str, args: list[str], f):

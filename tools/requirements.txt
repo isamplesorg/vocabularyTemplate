@@ -1,4 +1,5 @@
 click
 rdflib
+SQLAlchemy
 rdflib-sqlalchemy
 requests
