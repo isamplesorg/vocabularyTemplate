@@ -147,12 +147,13 @@ PREFIX rdfs: <{NS['rdfs']}>
 
         test = self._g.namespace_manager.namespaces
         if test is not None:
-            L.debug("_g namespaces: %s", test)
+            for ns in test:
+                L.debug("_g namespace: %s", ns)
 
         if bindings is not None:
             for k, v in bindings.items():
-                L.debug("binding item k: %", k)
-                L.debug("binding item v: %", v)
+                L.debug("VocabularyStore: binding item k: %s", k)
+                L.debug("VocabularyStore: binding item v: %s", v)
                 self._g.bind(k, v)
         # Figure the broader concept vocabularies.
         # First check for extension_vocab rdfs:subPropertyOf extended_vocab
