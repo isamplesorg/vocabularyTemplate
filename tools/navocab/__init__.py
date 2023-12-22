@@ -145,8 +145,14 @@ PREFIX rdfs: <{NS['rdfs']}>
 #        L = getLogger()
         L.info("Navocab.load.source: %s", source)
 
+        test = self._g.namespace_manager.namespaces
+        if test is not None:
+            L.debug("_g namespaces: %s", test)
+
         if bindings is not None:
             for k, v in bindings.items():
+                L.debug("binding item k: %", k)
+                L.debug("binding item v: %", v)
                 self._g.bind(k, v)
         # Figure the broader concept vocabularies.
         # First check for extension_vocab rdfs:subPropertyOf extended_vocab
