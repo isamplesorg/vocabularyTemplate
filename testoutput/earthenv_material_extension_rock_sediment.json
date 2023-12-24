@@ -1,0 +1,737 @@
+{
+  "https://w3id.org/isample/vocabulary/material/1.0/rock": {
+    "label": {
+      "en": "Rock"
+    },
+    "children": [
+      {
+        "https://w3id.org/isample/earthenv/rocksediment/1.0/Aphanite": {
+          "label": {
+            "en": "rksd:Aphanite"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/rocksediment/1.0/Breccia": {
+          "label": {
+            "en": "rksd:Breccia"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/rocksediment/1.0/Fault_Related_Material": {
+          "label": {
+            "en": "rksd:Fault_Related_Material"
+          },
+          "children": [
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Cataclasite_Series": {
+                "label": {
+                  "en": "rksd:Cataclasite_Series"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Mylonitic_Rock": {
+                "label": {
+                  "en": "rksd:Mylonitic_Rock"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/breccia_gouge_series": {
+                "label": {
+                  "en": "rksd:breccia_gouge_series"
+                },
+                "children": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/rocksediment/1.0/Fragmental_Igneous_Rock": {
+          "label": {
+            "en": "rksd:Fragmental_Igneous_Rock"
+          },
+          "children": [
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Pyroclastic_Rock": {
+                "label": {
+                  "en": "rksd:Pyroclastic_Rock"
+                },
+                "children": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/rocksediment/1.0/Igneous_Rock": {
+          "label": {
+            "en": "rksd:Igneous_Rock"
+          },
+          "children": [
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Acidic_Igneous_Rock": {
+                "label": {
+                  "en": "rksd:Acidic_Igneous_Rock"
+                },
+                "children": [
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Dacite": {
+                      "label": {
+                        "en": "rksd:Dacite"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Granitoid": {
+                      "label": {
+                        "en": "rksd:Granitoid"
+                      },
+                      "children": [
+                        {
+                          "https://w3id.org/isample/earthenv/rocksediment/1.0/Alkali_Feldspar_Granite": {
+                            "label": {
+                              "en": "rksd:Alkali_Feldspar_Granite"
+                            },
+                            "children": []
+                          }
+                        },
+                        {
+                          "https://w3id.org/isample/earthenv/rocksediment/1.0/Granite": {
+                            "label": {
+                              "en": "rksd:Granite"
+                            },
+                            "children": []
+                          }
+                        },
+                        {
+                          "https://w3id.org/isample/earthenv/rocksediment/1.0/Granodiorite": {
+                            "label": {
+                              "en": "rksd:Granodiorite"
+                            },
+                            "children": []
+                          }
+                        },
+                        {
+                          "https://w3id.org/isample/earthenv/rocksediment/1.0/Tonalite": {
+                            "label": {
+                              "en": "rksd:Tonalite"
+                            },
+                            "children": []
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Quartz_Rich_Igneous_Rock": {
+                      "label": {
+                        "en": "rksd:Quartz_Rich_Igneous_Rock"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Rhyolitoid": {
+                      "label": {
+                        "en": "rksd:Rhyolitoid"
+                      },
+                      "children": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Basic_Igneous_Rock": {
+                "label": {
+                  "en": "rksd:Basic_Igneous_Rock"
+                },
+                "children": [
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Basalt": {
+                      "label": {
+                        "en": "rksd:Basalt"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Gabbroic_Rock": {
+                      "label": {
+                        "en": "rksd:Gabbroic_Rock"
+                      },
+                      "children": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Doleritic_Rock": {
+                "label": {
+                  "en": "rksd:Doleritic_Rock"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Exotic_Composition_Igneous_Rock": {
+                "label": {
+                  "en": "rksd:Exotic_Composition_Igneous_Rock"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Fine_Grained_Igneous_Rock": {
+                "label": {
+                  "en": "rksd:Fine_Grained_Igneous_Rock"
+                },
+                "children": [
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Andesite": {
+                      "label": {
+                        "en": "rksd:Andesite"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Basalt": {
+                      "label": {
+                        "en": "rksd:Basalt"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Dacite": {
+                      "label": {
+                        "en": "rksd:Dacite"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Foiditoid": {
+                      "label": {
+                        "en": "rksd:Foiditoid"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/High_Magnesium_Fine_Grained_Igneous_Rock": {
+                      "label": {
+                        "en": "rksd:High_Magnesium_Fine_Grained_Igneous_Rock"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Phonolitoid": {
+                      "label": {
+                        "en": "rksd:Phonolitoid"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Rhyolitoid": {
+                      "label": {
+                        "en": "rksd:Rhyolitoid"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Tephritoid": {
+                      "label": {
+                        "en": "rksd:Tephritoid"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Trachytoid": {
+                      "label": {
+                        "en": "rksd:Trachytoid"
+                      },
+                      "children": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Fragmental_Igneous_Rock": {
+                "label": {
+                  "en": "rksd:Fragmental_Igneous_Rock"
+                },
+                "children": [
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Pyroclastic_Rock": {
+                      "label": {
+                        "en": "rksd:Pyroclastic_Rock"
+                      },
+                      "children": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Glass_Rich_Igneous_Rock": {
+                "label": {
+                  "en": "rksd:Glass_Rich_Igneous_Rock"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Hypabyssal_Intrusive_Rock": {
+                "label": {
+                  "en": "rksd:Hypabyssal_Intrusive_Rock"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Intermediate_Composition_Igneous_Rock": {
+                "label": {
+                  "en": "rksd:Intermediate_Composition_Igneous_Rock"
+                },
+                "children": [
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Andesite": {
+                      "label": {
+                        "en": "rksd:Andesite"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Dioritoid": {
+                      "label": {
+                        "en": "rksd:Dioritoid"
+                      },
+                      "children": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Phaneritic_Igneous_Rock": {
+                "label": {
+                  "en": "rksd:Phaneritic_Igneous_Rock"
+                },
+                "children": [
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Anorthositic_Rock": {
+                      "label": {
+                        "en": "rksd:Anorthositic_Rock"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Aplite": {
+                      "label": {
+                        "en": "rksd:Aplite"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Dioritoid": {
+                      "label": {
+                        "en": "rksd:Dioritoid"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Foid_Dioritoid": {
+                      "label": {
+                        "en": "rksd:Foid_Dioritoid"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Foid_Gabbroid": {
+                      "label": {
+                        "en": "rksd:Foid_Gabbroid"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Foid_Syenitoid": {
+                      "label": {
+                        "en": "rksd:Foid_Syenitoid"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Foidolite": {
+                      "label": {
+                        "en": "rksd:Foidolite"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Gabbroid": {
+                      "label": {
+                        "en": "rksd:Gabbroid"
+                      },
+                      "children": [
+                        {
+                          "https://w3id.org/isample/earthenv/rocksediment/1.0/Gabbroic_Rock": {
+                            "label": {
+                              "en": "rksd:Gabbroic_Rock"
+                            },
+                            "children": []
+                          }
+                        },
+                        {
+                          "https://w3id.org/isample/earthenv/rocksediment/1.0/Monzogabbroic_Rock": {
+                            "label": {
+                              "en": "rksd:Monzogabbroic_Rock"
+                            },
+                            "children": []
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Granitoid": {
+                      "label": {
+                        "en": "rksd:Granitoid"
+                      },
+                      "children": [
+                        {
+                          "https://w3id.org/isample/earthenv/rocksediment/1.0/Alkali_Feldspar_Granite": {
+                            "label": {
+                              "en": "rksd:Alkali_Feldspar_Granite"
+                            },
+                            "children": []
+                          }
+                        },
+                        {
+                          "https://w3id.org/isample/earthenv/rocksediment/1.0/Granite": {
+                            "label": {
+                              "en": "rksd:Granite"
+                            },
+                            "children": []
+                          }
+                        },
+                        {
+                          "https://w3id.org/isample/earthenv/rocksediment/1.0/Granodiorite": {
+                            "label": {
+                              "en": "rksd:Granodiorite"
+                            },
+                            "children": []
+                          }
+                        },
+                        {
+                          "https://w3id.org/isample/earthenv/rocksediment/1.0/Tonalite": {
+                            "label": {
+                              "en": "rksd:Tonalite"
+                            },
+                            "children": []
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Hornblendite": {
+                      "label": {
+                        "en": "rksd:Hornblendite"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Pegmatite": {
+                      "label": {
+                        "en": "rksd:Pegmatite"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Peridotite": {
+                      "label": {
+                        "en": "rksd:Peridotite"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Pyroxenite": {
+                      "label": {
+                        "en": "rksd:Pyroxenite"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Quartz_Rich_Igneous_Rock": {
+                      "label": {
+                        "en": "rksd:Quartz_Rich_Igneous_Rock"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Syenitoid": {
+                      "label": {
+                        "en": "rksd:Syenitoid"
+                      },
+                      "children": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Plutonic_Igneous_Rock": {
+                "label": {
+                  "en": "rksd:Plutonic_Igneous_Rock"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Porphyry": {
+                "label": {
+                  "en": "rksd:Porphyry"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Ultrabasic_Igneous_Rock": {
+                "label": {
+                  "en": "rksd:Ultrabasic_Igneous_Rock"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Ultramafic_Igneous_Rock": {
+                "label": {
+                  "en": "rksd:Ultramafic_Igneous_Rock"
+                },
+                "children": [
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Hornblendite": {
+                      "label": {
+                        "en": "rksd:Hornblendite"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Peridotite": {
+                      "label": {
+                        "en": "rksd:Peridotite"
+                      },
+                      "children": []
+                    }
+                  },
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Pyroxenite": {
+                      "label": {
+                        "en": "rksd:Pyroxenite"
+                      },
+                      "children": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Volcanic_Rock": {
+                "label": {
+                  "en": "volcanic rock"
+                },
+                "children": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/rocksediment/1.0/Impact_Generated_Material": {
+          "label": {
+            "en": "rksd:Impact_Generated_Material"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/rocksediment/1.0/Massive_Sulphide": {
+          "label": {
+            "en": "rksd:Massive_Sulphide"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/rocksediment/1.0/Metamorphic_Rock": {
+          "label": {
+            "en": "rksd:Metamorphic_Rock"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/rocksediment/1.0/Metasomatic_Rock": {
+          "label": {
+            "en": "rksd:Metasomatic_Rock"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/rocksediment/1.0/Sedimentary_Rock": {
+          "label": {
+            "en": "rksd:Sedimentary_Rock"
+          },
+          "children": [
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Carbonate_Sedimentary_Rock": {
+                "label": {
+                  "en": "rksd:Carbonate_Sedimentary_Rock"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Clastic_Sedimentary_Rock": {
+                "label": {
+                  "en": "rksd:Clastic_Sedimentary_Rock"
+                },
+                "children": [
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Diamictite": {
+                      "label": {
+                        "en": "rksd:Diamictite"
+                      },
+                      "children": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Generic_Conglomerate": {
+                "label": {
+                  "en": "rksd:Generic_Conglomerate"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Generic_Mudstone": {
+                "label": {
+                  "en": "rksd:Generic_Mudstone"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Generic_Sandstone": {
+                "label": {
+                  "en": "rksd:Generic_Sandstone"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Hybrid_Sedimentary_Rock": {
+                "label": {
+                  "en": "rksd:Hybrid_Sedimentary_Rock"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Iron_Rich_Sedimentary_Rock": {
+                "label": {
+                  "en": "rksd:Iron_Rich_Sedimentary_Rock"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Non_Clastic_Siliceous_Sedimentary_Rock": {
+                "label": {
+                  "en": "rksd:Non_Clastic_Siliceous_Sedimentary_Rock"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Organic_Rich_Sedimentary_Rock": {
+                "label": {
+                  "en": "rksd:Organic_Rich_Sedimentary_Rock"
+                },
+                "children": [
+                  {
+                    "https://w3id.org/isample/earthenv/rocksediment/1.0/Coal": {
+                      "label": {
+                        "en": "rksd:Coal"
+                      },
+                      "children": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/rocksediment/1.0/Phosphorite": {
+                "label": {
+                  "en": "rksd:Phosphorite"
+                },
+                "children": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/rocksediment/1.0/Tuffite": {
+          "label": {
+            "en": "rksd:Tuffite"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/rocksediment/1.0/residual_material": {
+          "label": {
+            "en": "rksd:residual_material"
+          },
+          "children": []
+        }
+      }
+    ]
+  }
+}

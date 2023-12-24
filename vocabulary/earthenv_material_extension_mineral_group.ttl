@@ -1,13 +1,13 @@
-# baseURI: https://w3id.org/isample/vocabulary/mingroup/1.0/mineralgroupvocabulary
+# baseURI: https://w3id.org/isample/earthenv/mingroup/1.0/mineralgroupvocabulary
 # imports: http://www.w3.org/2004/02/skos/core
 
-@prefix : <https://w3id.org/isample/vocabulary/mingroup/1.0/> .
 @prefix dcterm: <http://purl.org/dc/terms/> .
 @prefix mat: <https://w3id.org/isample/vocabulary/material/1.0/> .
-@prefix ming: <https://w3id.org/isample/vocabulary/mingroup/1.0/> .
+@prefix ming: <https://w3id.org/isample/earthenv/mingroup/1.0/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -27,9 +27,11 @@ dcterm:modified
   rdfs:comment "orchid-id: https://orcid.org/0000-0001-6041-5302" ;
   rdfs:label "Dr. Stephen M. Richard" ;
 .
-mat:mineral
-  skos:prefLabel "mineral"@en ;
-  skos:topConceptOf ming:mineralgroupvocabulary ;
+<AWDID:2004562>
+  rdf:type schema:Grant ;
+  schema:funder <https://ror.org/04nh1dc89> ;
+  schema:name "Collaborative Research: Frameworks: Internet of Samples: Toward an Interdisciplinary Cyberinfrastructure for Material Samples" ;
+  schema:url "https://nsf.gov/awardsearch/showAward?AWD_ID=2004562" ;
 .
 ming:boratemineral
   rdf:type owl:NamedIndividual ;
@@ -78,11 +80,13 @@ ming:mineralgroupvocabulary
   dcterm:source "MINERALOGICAL TABLES: by Hugo Strunz and Ernest H. Nickel. E. Schweizerbart’sche Verlagsbuchhandlung, 2002, Stuttgart, Germany (9th edition). 870 p. ISBN number 3-510-65188-X." ;
   rdf:seeAlso "https://www.mindat.org/strunz.php" ;
   rdf:seeAlso "https://www.webmineral.com/help/StrunzClass.shtml" ;
-  rdfs:label "iSamples Mineral Group Vocabulary"@en ;
+  rdfs:label "Earth and Environmental Science extension -  Mineral group vocabulary"@en ;
   owl:imports <http://www.w3.org/2004/02/skos/core> ;
-  skos:definition "Vocabulary to extend the mineral material type category with the top level mineral group categories. Uses the Nickel–Strunz mineral classes, which divide minerals into ten classes according to chemical composition and crystal structure. Nickel-Strunz group 10 is not included because that material would be mat:organiccompounds. Version 10 of the classification is modified from v 9 (Strunz and Nickel,2002) by Jim Ferraiolo and others, and now extended and maintained by mindat.org. Some scope notes from linked.data.gov.au. "@en ;
+  skos:definition "Vocabulary to extend the mineral material type category with the top level mineral group categories. Uses the Nickel–Strunz mineral classes, which divide minerals into ten classes according to chemical composition and crystal structure. Nickel-Strunz group 10 is not included because that material would be mat:organiccompounds. Version 10 of the classification is modified from v 9 (Strunz and Nickel,2002) by Jim Ferraiolo and others, and now extended and maintained by mindat.org.  Some scope notes from linked.data.gov.au."@en ;
   skos:hasTopConcept mat:mineral ;
-  skos:prefLabel "iSamples Mineral Group Vocabulary "@en ;
+  skos:prefLabel "Earth and Environmental Science extension -  Mineral group vocabulary"@en ;
+    schema:funding <AWDID:2004562> ;
+  schema:provider <https://vocabs.ardc.edu.au/> ;
 .
 ming:nativeelementmineral
   rdf:type owl:NamedIndividual ;
@@ -168,4 +172,8 @@ ming:sulfidesulfosaltmineral
   skos:exactMatch <http://linked.data.gov.au/def/minerals/sulfides-and-sulfosalts-sulfides-selenides-tellurides-arsenides-antimonides-bismuthides-sulfarsenites-sulfantimonites-sulfbismuthites-etc> ;
   skos:inScheme ming:mineralgroupvocabulary ;
   skos:prefLabel "Mineral-Sulfide or Sulfosalt"@en ;
+.
+mat:mineral
+  skos:prefLabel "mineral"@en ;
+  skos:topConceptOf ming:mineralgroupvocabulary ;
 .

@@ -41,10 +41,10 @@ jobs:
           action: docs
           path: ${{ github.workspace }}
           # provide ttl file names without extensions; the base file name will be 
-          #    used for output files with the appropriate extension.
+          #    used for output files with the appropriate extension. 
           inputttl: earthenv_material_extension_mineral_group|earthenv_material_extension_rock_sediment|earthenv_sampled_feature_role|earthenv_specimen_type
           # these are the URIs for the ConceptScheme; there must be a conceptScheme defined in each vocabulary.
-          inputvocaburi: ming:mineralgroupvocabulary|rksd:rocksedimentvocabulary|essfrole:sfrolevocabulary|esmat:essampletype
+          inputvocaburi: ming:mineralgroupvocabulary|rksd:rocksedimentvocabulary|essampledfeatrole:sfrolevocabulary|esmat:essampletype
 
 
       - name: Deploy docs

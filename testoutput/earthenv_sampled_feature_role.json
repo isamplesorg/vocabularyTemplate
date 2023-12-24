@@ -1,0 +1,115 @@
+{
+  "https://w3id.org/isample/earthenv/essampledfeatrole/1.0/sampledfeaturepart": {
+    "label": {
+      "en": "Sampled feature part"
+    },
+    "children": [
+      {
+        "https://w3id.org/isample/earthenv/essampledfeatrole/1.0/inclusion": {
+          "label": {
+            "en": "inclusion"
+          },
+          "children": [
+            {
+              "https://w3id.org/isample/earthenv/essampledfeatrole/1.0/clast": {
+                "label": {
+                  "en": "clast"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/essampledfeatrole/1.0/cognateinclusion": {
+                "label": {
+                  "en": "cognate inclusion"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/essampledfeatrole/1.0/fluidinclusion": {
+                "label": {
+                  "en": "fluid inclusion"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/essampledfeatrole/1.0/meltinclusion": {
+                "label": {
+                  "en": "melt inclusion"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/essampledfeatrole/1.0/mineralinclusion": {
+                "label": {
+                  "en": "mineral inclusion"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/essampledfeatrole/1.0/xenolith": {
+                "label": {
+                  "en": "xenolith"
+                },
+                "children": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/essampledfeatrole/1.0/individualconstituent": {
+          "label": {
+            "en": "individual constituent"
+          },
+          "children": [
+            {
+              "https://w3id.org/isample/earthenv/essampledfeatrole/1.0/cement": {
+                "label": {
+                  "en": "cement"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/essampledfeatrole/1.0/groundmass": {
+                "label": {
+                  "en": "groundmass"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/essampledfeatrole/1.0/phenocryst": {
+                "label": {
+                  "en": "phenocryst"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/essampledfeatrole/1.0/porphyroblast": {
+                "label": {
+                  "en": "porphyroblast"
+                },
+                "children": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/essampledfeatrole/1.0/rockbody": {
+          "label": {
+            "en": "rock body"
+          },
+          "children": []
+        }
+      }
+    ]
+  }
+}

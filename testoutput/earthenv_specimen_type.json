@@ -1,0 +1,198 @@
+{
+  "https://w3id.org/isample/vocabulary/specimentype/1.0/analyticalpreparation": {
+    "label": {
+      "en": "Analytical preparation"
+    },
+    "children": [
+      {
+        "https://w3id.org/isample/earthenv/esmaterialsample/1.0/cellculture": {
+          "label": {
+            "en": "Cell culture"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/esmaterialsample/1.0/dissolvedchemicalfraction": {
+          "label": {
+            "en": "Dissolved chemical fraction"
+          },
+          "children": [
+            {
+              "https://w3id.org/isample/vocabulary/specimentype/1.0/eluate": {
+                "label": {
+                  "en": "Eluate"
+                },
+                "children": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/esmaterialsample/1.0/fiblamella": {
+          "label": {
+            "en": "FIB lamella"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/esmaterialsample/1.0/glassslidesmear": {
+          "label": {
+            "en": "Glass slide smear"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/esmaterialsample/1.0/individualsolidcube": {
+          "label": {
+            "en": "Individual solid cube"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/esmaterialsample/1.0/magneticfraction": {
+          "label": {
+            "en": "Magnetic fraction"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/esmaterialsample/1.0/mechanicalfraction": {
+          "label": {
+            "en": "Mechanical fraction"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/esmaterialsample/1.0/mineralseparate": {
+          "label": {
+            "en": "Mineral separate"
+          },
+          "children": [
+            {
+              "https://w3id.org/isample/earthenv/esmaterialsample/1.0/magneticfraction": {
+                "label": {
+                  "en": "Magnetic fraction"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/esmaterialsample/1.0/nonmagneticfraction": {
+                "label": {
+                  "en": "Non-magnetic fraction"
+                },
+                "children": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/esmaterialsample/1.0/mountedsection": {
+          "label": {
+            "en": "Sectioned specimen"
+          },
+          "children": [
+            {
+              "https://w3id.org/isample/earthenv/esmaterialsample/1.0/thicksection": {
+                "label": {
+                  "en": "Thick section"
+                },
+                "children": []
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/esmaterialsample/1.0/thinsection": {
+                "label": {
+                  "en": "Thin section"
+                },
+                "children": [
+                  {
+                    "https://w3id.org/isample/earthenv/esmaterialsample/1.0/polishedthinsection": {
+                      "label": {
+                        "en": "Polished thin section"
+                      },
+                      "children": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "https://w3id.org/isample/earthenv/esmaterialsample/1.0/ultrathinsection": {
+                "label": {
+                  "en": "Ultra thin section"
+                },
+                "children": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/esmaterialsample/1.0/nonmagneticfraction": {
+          "label": {
+            "en": "Non-magnetic fraction"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/esmaterialsample/1.0/peel": {
+          "label": {
+            "en": "Peel"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/esmaterialsample/1.0/preparedpowder": {
+          "label": {
+            "en": "Prepared powder"
+          },
+          "children": [
+            {
+              "https://w3id.org/isample/earthenv/esmaterialsample/1.0/preparedrockpowder": {
+                "label": {
+                  "en": "Prepared rock powder"
+                },
+                "children": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/esmaterialsample/1.0/pressedpellet": {
+          "label": {
+            "en": "Pressed pellet"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/esmaterialsample/1.0/residualmaterial": {
+          "label": {
+            "en": "Residual material"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/esmaterialsample/1.0/slab": {
+          "label": {
+            "en": "Slab"
+          },
+          "children": []
+        }
+      }
+    ]
+  }
+}

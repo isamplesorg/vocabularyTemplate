@@ -24,7 +24,7 @@ subtitle:
   Rock and sediment categories for iSamples materialType classification. Remove anthropogenic materials and classes for consolidated or non-consolidated material; remove leaf classes subjectively based on abundance of material type and number of subclasses. There are 83 'mat:rock' subclasses; these include some classes that are non-consolidated material (e.g. fault gouge) but these are not sediment and adding 'material' classes that are independent of consolidation seems like more overhead than needed. Note that a given material is likely to fit in more that one class; for example the sediment subclasses include compositional classes (e.g. carbonate, clastic) as well as grain size classes (gravel-size sediment). A calcareous ooze sample would be both 'mud-size sediment' and 'carbonate sediment'.   Change owl:class to skos:concept, and rdfs:subClassOf to skos:broader.
 
 Namespace: 
-[`https://w3id.org/isample/vocabulary/rocksediment/0.9/rocksedimentvocabulary`](https://w3id.org/isample/vocabulary/rocksediment/0.9/rocksedimentvocabulary)
+[`https://w3id.org/isample/earthenv/rocksediment/1.0/rocksedimentvocabulary`](https://w3id.org/isample/earthenv/rocksediment/1.0/rocksedimentvocabulary)
 
 **History**
 
@@ -32,57 +32,57 @@ Namespace:
 - [Rock](#rock)
     - [aphanite](#aphanite)
     - [breccia](#breccia)
-    - [fault_related_material](#fault_related_material)
-        - [cataclasite_series](#cataclasite_series)
-        - [mylonitic_rock](#mylonitic_rock)
-        - [breccia_gouge_series](#breccia_gouge_series)
-    - [fragmental_igneous_rock](#fragmental_igneous_rock)
-        - [pyroclastic_rock](#pyroclastic_rock)
-    - [igneous_rock](#igneous_rock)
-        - [acidic_igneous_rock](#acidic_igneous_rock)
+    - [fault related material](#fault_related_material)
+        - [cataclasite series](#cataclasite_series)
+        - [mylonitic rock](#mylonitic_rock)
+        - [breccia gouge series](#breccia_gouge_series)
+    - [fragmental igneous rock](#fragmental_igneous_rock)
+        - [pyroclastic rock](#pyroclastic_rock)
+    - [igneous rock](#igneous_rock)
+        - [acidic igneous rock](#acidic_igneous_rock)
             - [dacite](#dacite)
             - [granitoid](#granitoid)
-                - [alkali_feldspar_granite](#alkali_feldspar_granite)
+                - [alkali feldspar granite](#alkali_feldspar_granite)
                 - [granite](#granite)
                 - [granodiorite](#granodiorite)
                 - [tonalite](#tonalite)
-            - [quartz_rich_igneous_rock](#quartz_rich_igneous_rock)
+            - [quartz rich igneous rock](#quartz_rich_igneous_rock)
             - [rhyolitoid](#rhyolitoid)
-        - [basic_igneous_rock](#basic_igneous_rock)
+        - [basic igneous rock](#basic_igneous_rock)
             - [basalt](#basalt)
-            - [gabbroic_rock](#gabbroic_rock)
-        - [doleritic_rock](#doleritic_rock)
-        - [exotic_composition_igneous_rock](#exotic_composition_igneous_rock)
-        - [fine_grained_igneous_rock](#fine_grained_igneous_rock)
+            - [gabbroic rock](#gabbroic_rock)
+        - [doleritic rock](#doleritic_rock)
+        - [exotic composition igneous rock](#exotic_composition_igneous_rock)
+        - [fine grained igneous rock](#fine_grained_igneous_rock)
             - [andesite](#andesite)
             - [basalt](#basalt)
             - [dacite](#dacite)
             - [foiditoid](#foiditoid)
-            - [high_magnesium_fine_grained_igneous_rock](#high_magnesium_fine_grained_igneous_rock)
+            - [high magnesium fine grained igneous rock](#high_magnesium_fine_grained_igneous_rock)
             - [phonolitoid](#phonolitoid)
             - [rhyolitoid](#rhyolitoid)
             - [tephritoid](#tephritoid)
             - [trachytoid](#trachytoid)
-        - [fragmental_igneous_rock](#fragmental_igneous_rock)
-            - [pyroclastic_rock](#pyroclastic_rock)
-        - [glass_rich_igneous_rock](#glass_rich_igneous_rock)
-        - [hypabyssal_intrusive_rock](#hypabyssal_intrusive_rock)
-        - [intermediate_composition_igneous_rock](#intermediate_composition_igneous_rock)
+        - [fragmental igneous rock](#fragmental_igneous_rock)
+            - [pyroclastic rock](#pyroclastic_rock)
+        - [glass rich igneous rock](#glass_rich_igneous_rock)
+        - [hypabyssal intrusive rock](#hypabyssal_intrusive_rock)
+        - [intermediate composition igneous rock](#intermediate_composition_igneous_rock)
             - [andesite](#andesite)
             - [dioritoid](#dioritoid)
-        - [phaneritic_igneous_rock](#phaneritic_igneous_rock)
-            - [anorthositic_rock](#anorthositic_rock)
+        - [phaneritic igneous rock](#phaneritic_igneous_rock)
+            - [anorthositic rock](#anorthositic_rock)
             - [aplite](#aplite)
             - [dioritoid](#dioritoid)
-            - [foid_dioritoid](#foid_dioritoid)
-            - [foid_gabbroid](#foid_gabbroid)
-            - [foid_syenitoid](#foid_syenitoid)
+            - [foid dioritoid](#foid_dioritoid)
+            - [foid gabbroid](#foid_gabbroid)
+            - [foid syenitoid](#foid_syenitoid)
             - [foidolite](#foidolite)
             - [gabbroid](#gabbroid)
-                - [gabbroic_rock](#gabbroic_rock)
-                - [monzogabbroic_rock](#monzogabbroic_rock)
+                - [gabbroic rock](#gabbroic_rock)
+                - [monzogabbroic rock](#monzogabbroic_rock)
             - [granitoid](#granitoid)
-                - [alkali_feldspar_granite](#alkali_feldspar_granite)
+                - [alkali feldspar granite](#alkali_feldspar_granite)
                 - [granite](#granite)
                 - [granodiorite](#granodiorite)
                 - [tonalite](#tonalite)
@@ -90,49 +90,49 @@ Namespace:
             - [pegmatite](#pegmatite)
             - [peridotite](#peridotite)
             - [pyroxenite](#pyroxenite)
-            - [quartz_rich_igneous_rock](#quartz_rich_igneous_rock)
+            - [quartz rich igneous rock](#quartz_rich_igneous_rock)
             - [syenitoid](#syenitoid)
-        - [plutonic_igneous_rock](#plutonic_igneous_rock)
+        - [plutonic rock](#plutonic_igneous_rock)
         - [porphyry](#porphyry)
-        - [ultrabasic_igneous_rock](#ultrabasic_igneous_rock)
-        - [ultramafic_igneous_rock](#ultramafic_igneous_rock)
+        - [ultrabasic igneous rock](#ultrabasic_igneous_rock)
+        - [ultramafic igneous rock](#ultramafic_igneous_rock)
             - [hornblendite](#hornblendite)
             - [peridotite](#peridotite)
             - [pyroxenite](#pyroxenite)
         - [volcanic rock](#volcanic_rock)
-    - [impact_generated_material](#impact_generated_material)
-    - [massive_sulphide](#massive_sulphide)
-    - [metamorphic_rock](#metamorphic_rock)
-    - [metasomatic_rock](#metasomatic_rock)
-    - [sedimentary_rock](#sedimentary_rock)
-        - [carbonate_sedimentary_rock](#carbonate_sedimentary_rock)
-        - [clastic_sedimentary_rock](#clastic_sedimentary_rock)
+    - [impact generated material](#impact_generated_material)
+    - [massive sulphide](#massive_sulphide)
+    - [metamorphic rock](#metamorphic_rock)
+    - [metasomatic rock](#metasomatic_rock)
+    - [sedimentary rock](#sedimentary_rock)
+        - [carbonate sedimentary rock](#carbonate_sedimentary_rock)
+        - [clastic sedimentary rock](#clastic_sedimentary_rock)
             - [diamictite](#diamictite)
-        - [generic_conglomerate](#generic_conglomerate)
-        - [generic_mudstone](#generic_mudstone)
-        - [generic_sandstone](#generic_sandstone)
-        - [hybrid_sedimentary_rock](#hybrid_sedimentary_rock)
-        - [iron_rich_sedimentary_rock](#iron_rich_sedimentary_rock)
-        - [non_clastic_siliceous_sedimentary_rock](#non_clastic_siliceous_sedimentary_rock)
-        - [organic_rich_sedimentary_rock](#organic_rich_sedimentary_rock)
+        - [generic conglomerate](#generic_conglomerate)
+        - [generic mudstone](#generic_mudstone)
+        - [generic sandstone](#generic_sandstone)
+        - [hybrid sedimentary rock](#hybrid_sedimentary_rock)
+        - [iron rich sedimentary rock](#iron_rich_sedimentary_rock)
+        - [non clastic siliceous sedimentary rock](#non_clastic_siliceous_sedimentary_rock)
+        - [organic rich sedimentary rock](#organic_rich_sedimentary_rock)
             - [coal](#coal)
         - [phosphorite](#phosphorite)
-    - [tuffite](#tuffite)
-    - [residual_material](#residual_material)
+    - [tuffit](#tuffite)
+    - [residual material](#residual_material)
 
 - [Sediment](#sediment)
-    - [biogenic_sediment](#biogenic_sediment)
-    - [carbonate_sediment](#carbonate_sediment)
-    - [chemical_sedimentary_material](#chemical_sedimentary_material)
-    - [clastic_sediment](#clastic_sediment)
+    - [biogenic sediment](#biogenic_sediment)
+    - [carbonate sediment](#carbonate_sediment)
+    - [chemical sedimentary material](#chemical_sedimentary_material)
+    - [clastic sediment](#clastic_sediment)
         - [diamicton](#diamicton)
-    - [gravel_size_sediment](#gravel_size_sediment)
-    - [hybrid_sediment](#hybrid_sediment)
-    - [iron_rich_sediment](#iron_rich_sediment)
-    - [mud_size_sediment](#mud_size_sediment)
-    - [non_clastic_siliceous_sediment](#non_clastic_siliceous_sediment)
-    - [phosphate_rich_sediment](#phosphate_rich_sediment)
-    - [sand_size_sediment](#sand_size_sediment)
+    - [gravel size sediment](#gravel_size_sediment)
+    - [hybrid sediment](#hybrid_sediment)
+    - [iron rich sediment](#iron_rich_sediment)
+    - [mud size sediment](#mud_size_sediment)
+    - [non clastic siliceous sediment](#non_clastic_siliceous_sediment)
+    - [phosphate rich sediment](#phosphate_rich_sediment)
+    - [sand size sediment](#sand_size_sediment)
     - [tephra](#tephra)
 
 **Concepts**
@@ -147,7 +147,8 @@ Namespace:
 
 []{#aphanite}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Aphanite`
+###  aphanite
+
 
 - Child of:
  [`rock`](#rock)
@@ -162,7 +163,8 @@ This vocabulary
 
 []{#breccia}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Breccia`
+###  breccia
+
 
 - Child of:
  [`rock`](#rock)
@@ -189,7 +191,8 @@ Neuendorf et al. 2005
 
 []{#fault_related_material}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Fault_Related_Material`
+###  fault related material
+
 
 - Child of:
  [`rock`](#rock)
@@ -207,7 +210,8 @@ This vocabulary; SLTTm 2004
 
 []{#cataclasite_series}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Cataclasite_Series`
+####  cataclasite series
+
 
 - Child of:
  [`Fault_Related_Material`](#Fault_Related_Material)
@@ -227,7 +231,8 @@ Sibson, 1977; Scholz, 1990; Snoke and Tullis, 1998; Barker, 1998 Appendix II; NA
 
 []{#mylonitic_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Mylonitic_Rock`
+####  mylonitic rock
+
 
 - Child of:
  [`Fault_Related_Material`](#Fault_Related_Material)
@@ -245,7 +250,8 @@ Marshak and Mitra 1988
 
 []{#breccia_gouge_series}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/breccia_gouge_series`
+####  breccia gouge series
+
 
 - Child of:
  [`Fault_Related_Material`](#Fault_Related_Material)
@@ -263,7 +269,8 @@ SLTTm 2004
 
 []{#fragmental_igneous_rock}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Fragmental_Igneous_Rock`
+###  fragmental igneous rock
+
 
 - Child of:
  [`rock`](#rock)
@@ -283,7 +290,8 @@ This vocabulary
 
 []{#pyroclastic_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Pyroclastic_Rock`
+####  pyroclastic rock
+
 
 - Child of:
  [`Fragmental_Igneous_Rock`](#Fragmental_Igneous_Rock)
@@ -302,7 +310,8 @@ based on LeMaitre et al. 2002
 
 []{#igneous_rock}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Igneous_Rock`
+###  igneous rock
+
 
 - Child of:
  [`rock`](#rock)
@@ -318,7 +327,8 @@ Neuendorf et al 2005
 
 []{#acidic_igneous_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Acidic_Igneous_Rock`
+####  acidic igneous rock
+
 
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
@@ -333,7 +343,8 @@ after LeMaitre et al. 2002
 
 []{#dacite}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Dacite`
+#####  dacite
+
 
 - Child of:
  [`Acidic_Igneous_Rock`](#Acidic_Igneous_Rock)
@@ -355,7 +366,8 @@ LeMaitre et al. 2002
 
 []{#granitoid}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Granitoid`
+#####  granitoid
+
 
 - Child of:
  [`Acidic_Igneous_Rock`](#Acidic_Igneous_Rock)
@@ -378,7 +390,8 @@ LeMaitre et al. 2002
 
 []{#alkali_feldspar_granite}
 
-######  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Alkali_Feldspar_Granite`
+######  alkali feldspar granite
+
 
 - Child of:
  [`Granitoid`](#Granitoid)
@@ -394,7 +407,8 @@ LeMaitre et al. 2002
 
 []{#granite}
 
-######  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Granite`
+######  granite
+
 
 - Child of:
  [`Granitoid`](#Granitoid)
@@ -412,7 +426,8 @@ LeMaitre et al. 2002
 
 []{#granodiorite}
 
-######  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Granodiorite`
+######  granodiorite
+
 
 - Child of:
  [`Granitoid`](#Granitoid)
@@ -430,7 +445,8 @@ LeMaitre et al. 2002
 
 []{#tonalite}
 
-######  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Tonalite`
+######  tonalite
+
 
 - Child of:
  [`Granitoid`](#Granitoid)
@@ -447,7 +463,8 @@ LeMaitre et al. 2002
 
 []{#quartz_rich_igneous_rock}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Quartz_Rich_Igneous_Rock`
+#####  quartz rich igneous rock
+
 
 - Child of:
  [`Acidic_Igneous_Rock`](#Acidic_Igneous_Rock)
@@ -470,7 +487,8 @@ Gillespie and Styles 1999; LeMaitre et al. 2002
 
 []{#rhyolitoid}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Rhyolitoid`
+#####  rhyolitoid
+
 
 - Child of:
  [`Acidic_Igneous_Rock`](#Acidic_Igneous_Rock)
@@ -506,7 +524,8 @@ LeMaitre et al. 2002
 
 []{#basic_igneous_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Basic_Igneous_Rock`
+####  basic igneous rock
+
 
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
@@ -521,7 +540,8 @@ after LeMaitre et al. 2002
 
 []{#basalt}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Basalt`
+#####  basalt
+
 
 - Child of:
  [`Basic_Igneous_Rock`](#Basic_Igneous_Rock)
@@ -549,7 +569,8 @@ after LeMaitre et al. 2002
 
 []{#gabbroic_rock}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Gabbroic_Rock`
+#####  gabbroic rock
+
 
 - Child of:
  [`Basic_Igneous_Rock`](#Basic_Igneous_Rock)
@@ -569,7 +590,8 @@ LeMaitre et al. 2002
 
 []{#doleritic_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Doleritic_Rock`
+####  doleritic rock
+
 
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
@@ -588,7 +610,8 @@ Neuendorf et al 2005; LeMaitre et al. 2002; Gillespie and Styles 1999
 
 []{#exotic_composition_igneous_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Exotic_Composition_Igneous_Rock`
+####  exotic composition igneous rock
+
 
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
@@ -608,7 +631,8 @@ Gillespie and Styles 1999; LeMaitre et al. 2002
 
 []{#fine_grained_igneous_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Fine_Grained_Igneous_Rock`
+####  fine grained igneous rock
+
 
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
@@ -634,7 +658,8 @@ Gillespie and Styles 1999; LeMaitre et al. 2002
 
 []{#andesite}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Andesite`
+#####  andesite
+
 
 - Child of:
  [`Fine_Grained_Igneous_Rock`](#Fine_Grained_Igneous_Rock)
@@ -666,7 +691,8 @@ after LeMaitre et al. 2002
 
 []{#basalt}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Basalt`
+#####  basalt
+
 
 - Child of:
  [`Basic_Igneous_Rock`](#Basic_Igneous_Rock)
@@ -694,7 +720,8 @@ after LeMaitre et al. 2002
 
 []{#dacite}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Dacite`
+#####  dacite
+
 
 - Child of:
  [`Acidic_Igneous_Rock`](#Acidic_Igneous_Rock)
@@ -716,7 +743,8 @@ LeMaitre et al. 2002
 
 []{#foiditoid}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Foiditoid`
+#####  foiditoid
+
 
 - Child of:
  [`Fine_Grained_Igneous_Rock`](#Fine_Grained_Igneous_Rock)
@@ -739,7 +767,8 @@ LeMaitre et al. 2002
 
 []{#high_magnesium_fine_grained_igneous_rock}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/High_Magnesium_Fine_Grained_Igneous_Rock`
+#####  high magnesium fine grained igneous rock
+
 
 - Child of:
  [`Fine_Grained_Igneous_Rock`](#Fine_Grained_Igneous_Rock)
@@ -757,7 +786,8 @@ LeMaitre et al. 2002
 
 []{#phonolitoid}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Phonolitoid`
+#####  phonolitoid
+
 
 - Child of:
  [`Fine_Grained_Igneous_Rock`](#Fine_Grained_Igneous_Rock)
@@ -780,7 +810,8 @@ LeMaitre et al. 2002
 
 []{#rhyolitoid}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Rhyolitoid`
+#####  rhyolitoid
+
 
 - Child of:
  [`Acidic_Igneous_Rock`](#Acidic_Igneous_Rock)
@@ -816,7 +847,8 @@ LeMaitre et al. 2002
 
 []{#tephritoid}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Tephritoid`
+#####  tephritoid
+
 
 - Child of:
  [`Fine_Grained_Igneous_Rock`](#Fine_Grained_Igneous_Rock)
@@ -839,7 +871,8 @@ LeMaitre et al. 2002
 
 []{#trachytoid}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Trachytoid`
+#####  trachytoid
+
 
 - Child of:
  [`Fine_Grained_Igneous_Rock`](#Fine_Grained_Igneous_Rock)
@@ -860,7 +893,8 @@ LeMaitre et al. 2002
 
 []{#fragmental_igneous_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Fragmental_Igneous_Rock`
+####  fragmental igneous rock
+
 
 - Child of:
  [`rock`](#rock)
@@ -880,7 +914,8 @@ This vocabulary
 
 []{#pyroclastic_rock}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Pyroclastic_Rock`
+#####  pyroclastic rock
+
 
 - Child of:
  [`Fragmental_Igneous_Rock`](#Fragmental_Igneous_Rock)
@@ -899,7 +934,8 @@ based on LeMaitre et al. 2002
 
 []{#glass_rich_igneous_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Glass_Rich_Igneous_Rock`
+####  glass rich igneous rock
+
 
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
@@ -914,7 +950,8 @@ This vocabulary, based on Gillespie and Styles 1999
 
 []{#hypabyssal_intrusive_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Hypabyssal_Intrusive_Rock`
+####  hypabyssal intrusive rock
+
 
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
@@ -932,7 +969,8 @@ This vocabulary
 
 []{#intermediate_composition_igneous_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Intermediate_Composition_Igneous_Rock`
+####  intermediate composition igneous rock
+
 
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
@@ -947,7 +985,8 @@ after LeMaitre et al. 2002
 
 []{#andesite}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Andesite`
+#####  andesite
+
 
 - Child of:
  [`Fine_Grained_Igneous_Rock`](#Fine_Grained_Igneous_Rock)
@@ -979,7 +1018,8 @@ after LeMaitre et al. 2002
 
 []{#dioritoid}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Dioritoid`
+#####  dioritoid
+
 
 - Child of:
  [`Intermediate_Composition_Igneous_Rock`](#Intermediate_Composition_Igneous_Rock)
@@ -1001,7 +1041,8 @@ LeMaitre et al. 2002
 
 []{#phaneritic_igneous_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Phaneritic_Igneous_Rock`
+####  phaneritic igneous rock
+
 
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
@@ -1024,7 +1065,8 @@ Neuendorf et al. 2005
 
 []{#anorthositic_rock}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Anorthositic_Rock`
+#####  anorthositic rock
+
 
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
@@ -1046,7 +1088,8 @@ LeMaitre et al. 2002; This vocabulary
 
 []{#aplite}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Aplite`
+#####  aplite
+
 
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
@@ -1064,7 +1107,8 @@ Neuendorf et al. 2005
 
 []{#dioritoid}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Dioritoid`
+#####  dioritoid
+
 
 - Child of:
  [`Intermediate_Composition_Igneous_Rock`](#Intermediate_Composition_Igneous_Rock)
@@ -1086,7 +1130,8 @@ LeMaitre et al. 2002
 
 []{#foid_dioritoid}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Foid_Dioritoid`
+#####  foid dioritoid
+
 
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
@@ -1106,7 +1151,8 @@ LeMaitre et al. 2002
 
 []{#foid_gabbroid}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Foid_Gabbroid`
+#####  foid gabbroid
+
 
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
@@ -1126,7 +1172,8 @@ LeMaitre et al. 2002
 
 []{#foid_syenitoid}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Foid_Syenitoid`
+#####  foid syenitoid
+
 
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
@@ -1144,7 +1191,8 @@ LeMaitre et al. 2002
 
 []{#foidolite}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Foidolite`
+#####  foidolite
+
 
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
@@ -1161,7 +1209,8 @@ LeMaitre et al. 2002
 
 []{#gabbroid}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Gabbroid`
+#####  gabbroid
+
 
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
@@ -1181,7 +1230,8 @@ LeMaitre et al. 2002
 
 []{#gabbroic_rock}
 
-######  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Gabbroic_Rock`
+######  gabbroic rock
+
 
 - Child of:
  [`Basic_Igneous_Rock`](#Basic_Igneous_Rock)
@@ -1201,7 +1251,8 @@ LeMaitre et al. 2002
 
 []{#monzogabbroic_rock}
 
-######  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Monzogabbroic_Rock`
+######  monzogabbroic rock
+
 
 - Child of:
  [`Gabbroid`](#Gabbroid)
@@ -1217,7 +1268,8 @@ LeMaitre et al. 2002, This vocabulary
 
 []{#granitoid}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Granitoid`
+#####  granitoid
+
 
 - Child of:
  [`Acidic_Igneous_Rock`](#Acidic_Igneous_Rock)
@@ -1240,7 +1292,8 @@ LeMaitre et al. 2002
 
 []{#alkali_feldspar_granite}
 
-######  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Alkali_Feldspar_Granite`
+######  alkali feldspar granite
+
 
 - Child of:
  [`Granitoid`](#Granitoid)
@@ -1256,7 +1309,8 @@ LeMaitre et al. 2002
 
 []{#granite}
 
-######  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Granite`
+######  granite
+
 
 - Child of:
  [`Granitoid`](#Granitoid)
@@ -1274,7 +1328,8 @@ LeMaitre et al. 2002
 
 []{#granodiorite}
 
-######  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Granodiorite`
+######  granodiorite
+
 
 - Child of:
  [`Granitoid`](#Granitoid)
@@ -1292,7 +1347,8 @@ LeMaitre et al. 2002
 
 []{#tonalite}
 
-######  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Tonalite`
+######  tonalite
+
 
 - Child of:
  [`Granitoid`](#Granitoid)
@@ -1309,7 +1365,8 @@ LeMaitre et al. 2002
 
 []{#hornblendite}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Hornblendite`
+#####  hornblendite
+
 
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
@@ -1328,7 +1385,8 @@ LeMaitre et al. 2002
 
 []{#pegmatite}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Pegmatite`
+#####  pegmatite
+
 
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
@@ -1347,7 +1405,8 @@ Neuendorf et al. 2005
 
 []{#peridotite}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Peridotite`
+#####  peridotite
+
 
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
@@ -1368,7 +1427,8 @@ LeMaitre et al. 2002
 
 []{#pyroxenite}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Pyroxenite`
+#####  pyroxenite
+
 
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
@@ -1388,7 +1448,8 @@ LeMaitre et al. 2002
 
 []{#quartz_rich_igneous_rock}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Quartz_Rich_Igneous_Rock`
+#####  quartz rich igneous rock
+
 
 - Child of:
  [`Acidic_Igneous_Rock`](#Acidic_Igneous_Rock)
@@ -1411,7 +1472,8 @@ Gillespie and Styles 1999; LeMaitre et al. 2002
 
 []{#syenitoid}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Syenitoid`
+#####  syenitoid
+
 
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
@@ -1432,7 +1494,8 @@ LeMaitre et al. 2002
 
 []{#plutonic_igneous_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Plutonic_Igneous_Rock`
+####  plutonic rock
+
 
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
@@ -1452,7 +1515,8 @@ This vocabulary
 
 []{#porphyry}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Porphyry`
+####  porphyry
+
 
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
@@ -1469,7 +1533,8 @@ LeMaitre et al. 2002
 
 []{#ultrabasic_igneous_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Ultrabasic_Igneous_Rock`
+####  ultrabasic igneous rock
+
 
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
@@ -1484,7 +1549,8 @@ after LeMaitre et al. 2002
 
 []{#ultramafic_igneous_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Ultramafic_Igneous_Rock`
+####  ultramafic igneous rock
+
 
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
@@ -1500,7 +1566,8 @@ LeMaitre et al. 2002; Gillespie and Styles 1999
 
 []{#hornblendite}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Hornblendite`
+#####  hornblendite
+
 
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
@@ -1519,7 +1586,8 @@ LeMaitre et al. 2002
 
 []{#peridotite}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Peridotite`
+#####  peridotite
+
 
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
@@ -1540,7 +1608,8 @@ LeMaitre et al. 2002
 
 []{#pyroxenite}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Pyroxenite`
+#####  pyroxenite
+
 
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
@@ -1561,6 +1630,7 @@ LeMaitre et al. 2002
 []{#volcanic_rock}
 
 ####  volcanic rock
+* `volcanic rock `
 
 
 - Child of:
@@ -1573,7 +1643,8 @@ its genesis.
 
 []{#impact_generated_material}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Impact_Generated_Material`
+###  impact generated material
+
 
 - Child of:
  [`rock`](#rock)
@@ -1591,7 +1662,8 @@ Stöffler and Grieve 2007; Jackson 1997
 
 []{#massive_sulphide}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Massive_Sulphide`
+###  massive sulphide
+
 
 - Child of:
  [`rock`](#rock)
@@ -1601,7 +1673,8 @@ formed by any processes. Includes hydrothermal and sedimentary
 ehalative sulfide.
 
 - **Alternate labels:**
-Massive Sulfide
+Massive Sulfide, 
+massive Sulfide, 
 
 
 - **Source:**
@@ -1612,7 +1685,8 @@ Provisional SMR 2020-06-07
 
 []{#metamorphic_rock}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Metamorphic_Rock`
+###  metamorphic rock
+
 
 - Child of:
  [`rock`](#rock)
@@ -1646,7 +1720,8 @@ Jackson 1997
 
 []{#metasomatic_rock}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Metasomatic_Rock`
+###  metasomatic rock
+
 
 - Child of:
  [`rock`](#rock)
@@ -1671,7 +1746,8 @@ This vocabulary
 
 []{#sedimentary_rock}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Sedimentary_Rock`
+###  sedimentary rock
+
 
 - Child of:
  [`rock`](#rock)
@@ -1690,7 +1766,8 @@ SLTTs 2004
 
 []{#carbonate_sedimentary_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Carbonate_Sedimentary_Rock`
+####  carbonate sedimentary rock
+
 
 - Child of:
  [`Sedimentary_Rock`](#Sedimentary_Rock)
@@ -1725,7 +1802,8 @@ SLTTs 2004
 
 []{#clastic_sedimentary_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Clastic_Sedimentary_Rock`
+####  clastic sedimentary rock
+
 
 - Child of:
  [`Sedimentary_Rock`](#Sedimentary_Rock)
@@ -1757,7 +1835,8 @@ SLTTs 2004; Neuendorf et al. 2005
 
 []{#diamictite}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Diamictite`
+#####  diamictite
+
 
 - Child of:
  [`Clastic_Sedimentary_Rock`](#Clastic_Sedimentary_Rock)
@@ -1779,7 +1858,8 @@ Fairbridge and Bourgeois 1978
 
 []{#generic_conglomerate}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Generic_Conglomerate`
+####  generic conglomerate
+
 
 - Child of:
  [`Sedimentary_Rock`](#Sedimentary_Rock)
@@ -1801,7 +1881,8 @@ Neuendorf et al. 2005; SLTTs 2004; particle sizes defined from Krumbein phi scal
 
 []{#generic_mudstone}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Generic_Mudstone`
+####  generic mudstone
+
 
 - Child of:
  [`Sedimentary_Rock`](#Sedimentary_Rock)
@@ -1826,7 +1907,8 @@ Pettijohn et al. 1987 referenced in Hallsworth and Knox 1999; extrapolated from 
 
 []{#generic_sandstone}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Generic_Sandstone`
+####  generic sandstone
+
 
 - Child of:
  [`Sedimentary_Rock`](#Sedimentary_Rock)
@@ -1843,7 +1925,8 @@ SLTTs 2004; Neuendorf et al. 2005; particle sizes defined from Krumbein phi scal
 
 []{#hybrid_sedimentary_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Hybrid_Sedimentary_Rock`
+####  hybrid sedimentary rock
+
 
 - Child of:
  [`Sedimentary_Rock`](#Sedimentary_Rock)
@@ -1861,7 +1944,8 @@ Hallsworth and Knox, 1999
 
 []{#iron_rich_sedimentary_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Iron_Rich_Sedimentary_Rock`
+####  iron rich sedimentary rock
+
 
 - Child of:
  [`Sedimentary_Rock`](#Sedimentary_Rock)
@@ -1879,7 +1963,8 @@ Hallsworth and Knox 1999; SLTTs 2004
 
 []{#non_clastic_siliceous_sedimentary_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Non_Clastic_Siliceous_Sedimentary_Rock`
+####  non clastic siliceous sedimentary rock
+
 
 - Child of:
  [`Sedimentary_Rock`](#Sedimentary_Rock)
@@ -1900,7 +1985,8 @@ modified from SLTTs 2004
 
 []{#organic_rich_sedimentary_rock}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Organic_Rich_Sedimentary_Rock`
+####  organic rich sedimentary rock
+
 
 - Child of:
  [`Sedimentary_Rock`](#Sedimentary_Rock)
@@ -1919,7 +2005,9 @@ SLTTs 2004
 
 []{#coal}
 
-#####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Coal`
+#####  coal
+* `kohle`
+
 
 - Child of:
  [`Organic_Rich_Sedimentary_Rock`](#Organic_Rich_Sedimentary_Rock)
@@ -1940,7 +2028,8 @@ Economic commission for Europe, committee on Sustainable Energy- United Nations 
 
 []{#phosphorite}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Phosphorite`
+####  phosphorite
+
 
 - Child of:
  [`Sedimentary_Rock`](#Sedimentary_Rock)
@@ -1959,7 +2048,9 @@ HallsworthandKnox 1999, Jackson 1997
 
 []{#tuffite}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Tuffite`
+###  tuffit
+* `tuffite`
+
 
 - Child of:
  [`rock`](#rock)
@@ -1987,7 +2078,8 @@ LeMaitre et al. 2002; Murawski and Meyer 1998
 
 []{#residual_material}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/residual_material`
+###  residual material
+
 
 - Child of:
  [`rock`](#rock)
@@ -2016,7 +2108,8 @@ This vocabulary
 
 []{#biogenic_sediment}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Biogenic_Sediment`
+###  biogenic sediment
+
 
 - Child of:
  [`sediment`](#sediment)
@@ -2037,7 +2130,8 @@ SLTTs 2004
 
 []{#carbonate_sediment}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Carbonate_Sediment`
+###  carbonate sediment
+
 
 - Child of:
  [`sediment`](#sediment)
@@ -2055,7 +2149,8 @@ SLTTs 2004
 
 []{#chemical_sedimentary_material}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Chemical_Sedimentary_Material`
+###  chemical sedimentary material
+
 
 - Child of:
  [`sediment`](#sediment)
@@ -2076,7 +2171,8 @@ SLTTs 2004
 
 []{#clastic_sediment}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Clastic_Sediment`
+###  clastic sediment
+
 
 - Child of:
  [`sediment`](#sediment)
@@ -2105,7 +2201,8 @@ SLTTs 2004; Neuendorf et al. 2005
 
 []{#diamicton}
 
-####  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Diamicton`
+####  diamicton
+
 
 - Child of:
  [`Clastic_Sediment`](#Clastic_Sediment)
@@ -2128,7 +2225,8 @@ Fairbridge and Bourgeois 1978
 
 []{#gravel_size_sediment}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Gravel_Size_Sediment`
+###  gravel size sediment
+
 
 - Child of:
  [`sediment`](#sediment)
@@ -2145,7 +2243,8 @@ SLTTs 2004; particle sizes defined from Krumbein phi scale (W C Krumbein and L L
 
 []{#hybrid_sediment}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Hybrid_Sediment`
+###  hybrid sediment
+
 
 - Child of:
  [`sediment`](#sediment)
@@ -2163,7 +2262,8 @@ Hallsworth and Knox, 1999
 
 []{#iron_rich_sediment}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Iron_Rich_Sediment`
+###  iron rich sediment
+
 
 - Child of:
  [`sediment`](#sediment)
@@ -2181,7 +2281,8 @@ SLTTs 2004
 
 []{#mud_size_sediment}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Mud_Size_Sediment`
+###  mud size sediment
+
 
 - Child of:
  [`sediment`](#sediment)
@@ -2204,7 +2305,8 @@ based on SLTTs 2004; Neuendorf et al. 2005; particle sizes defined from Krumbein
 
 []{#non_clastic_siliceous_sediment}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Non_Clastic_Siliceous_Sediment`
+###  non clastic siliceous sediment
+
 
 - Child of:
  [`sediment`](#sediment)
@@ -2222,7 +2324,8 @@ NGMDB 2008; Hallsworth and Knox 1999
 
 []{#phosphate_rich_sediment}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Phosphate_Rich_Sediment`
+###  phosphate rich sediment
+
 
 - Child of:
  [`sediment`](#sediment)
@@ -2238,7 +2341,8 @@ SLTTs 2004
 
 []{#sand_size_sediment}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Sand_Size_Sediment`
+###  sand size sediment
+
 
 - Child of:
  [`sediment`](#sediment)
@@ -2255,7 +2359,8 @@ Neuendorf et al. 2005 ; particle sizes defined from Krumbein phi scale (W C Krum
 
 []{#tephra}
 
-###  `https://w3id.org/isample/vocabulary/rocksediment/0.9/Tephra`
+###  tephra
+
 
 - Child of:
  [`sediment`](#sediment)
