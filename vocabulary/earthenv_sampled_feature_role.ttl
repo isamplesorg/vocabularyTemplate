@@ -168,6 +168,7 @@ essampledfeatrole:sfrolevocabulary
   skos:prefLabel "Earth and Environmental Science extension - Sampled feature role"@en ;
   schema:funding <AWDID:2004562> ;
   schema:provider <https://vocabs.ardc.edu.au/> ;
+  schema:codeRepository <https://github.com/isamplesorg/metadata_profile_earth_science/tree/main/vocabulary> ;
 .
 essampledfeatrole:xenolith
   rdf:type skos:Concept ;

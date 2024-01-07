@@ -60,6 +60,7 @@ skos:ConceptScheme
   skos:definition "A set of concepts, optionally including statements about semantic relationships between those concepts."@en ;
   skos:example "Thesauri, classification schemes, subject heading lists, taxonomies, 'folksonomies', and other types of controlled vocabulary are all examples of concept schemes. Concept schemes are also embedded in glossaries and terminologies."@en ;
   skos:scopeNote "A concept scheme may be defined to include concepts from different sources."@en ;
+  
 .
 skos:OrderedCollection
   rdf:type owl:Class ;
@@ -542,6 +543,7 @@ esmat:essampletype
   skos:prefLabel "Earth and Environmental Science extension -  Material sample type"@en ;
   schema:funding <AWDID:2004562> ;
   schema:provider <https://vocabs.ardc.edu.au/> ;
+  schema:codeRepository <https://github.com/isamplesorg/metadata_profile_earth_science/tree/main/vocabulary> ;
 .
 esmat:fiblamella
   rdf:type skos:Concept ;
