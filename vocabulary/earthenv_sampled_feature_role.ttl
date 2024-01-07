@@ -146,7 +146,7 @@ essampledfeatrole:sampledfeaturepart
   dcterm:source "this vocabulary" ;
   rdfs:label "Sampled feature part"@en ;
   skos:definition "A sampled feature that is part of a larger sampled feature; Could be improper part (e.g. the whole larger feature)"@en ;
-  skos:prefLabel "Sampled feature part" ;
+  skos:prefLabel "Sampled feature part"@en ;
   skos:topConceptOf essampledfeatrole:sfrolevocabulary ;
 .
 essampledfeatrole:sfrolevocabulary

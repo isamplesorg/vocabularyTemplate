@@ -529,7 +529,9 @@ esmat:essampletype
   skos:prefLabel "Earth and Environmental Science extension -  Material sample type"@en ;
   schema:funding <AWDID:2004562> ;
   schema:provider <https://vocabs.ardc.edu.au/> ;
+  skos:inScheme spec:specimentypevocabulary ;   
 .
+
 esmat:fiblamella
   rdf:type skos:Concept ;
   dcterm:source "https://osiris-rex.atlassian.net/wiki/spaces/UTDMP/pages/410288138#6.5-FIB-sections%2C-microtome-slices%2C-atom-probe-tips%2C-TEM-grids" ;
@@ -714,7 +716,7 @@ esmat:polishedmountedspecimen
   rdfs:label "Polished mounted specimen"@en ;
   skos:altLabel "Grain mount"@en ;
   skos:broader spec:mountedspecimen ;
-  skos:definition "Mounted specimen with polished surface exposing mounted material for analysis {@en}	" ;
+  skos:definition "Mounted specimen with polished surface exposing mounted material for analysis"@en;
   skos:inScheme esmat:essampletype ;
   skos:prefLabel "Polished mounted specimen"@en ;
 .
@@ -867,7 +869,10 @@ esmat:ultrathinsection
 .
 spec:analyticalpreparation
   skos:prefLabel "Analytical preparation"@en ;
+  rdf:type skos:Concept ;
   skos:topConceptOf esmat:essampletype ;
+  skos:inScheme spec:specimentypevocabulary ;
+  skos:definition "Specimen is a product of processing required for some observation procedure, e.g. thin section, XRF bead, SEM stub, rock powder. If identified separately, this should have a ‘parent’ link to the original sample"@en;
 .
 spec:atomprobetip
   rdf:type skos:Concept ;
@@ -883,6 +888,9 @@ spec:atomprobetip
 spec:bundlebiomeaggregation
   skos:prefLabel "Bundle biome aggregation"@en ;
   skos:topConceptOf esmat:essampletype ;
+  rdf:type skos:Concept ;
+  skos:inScheme spec:specimentypevocabulary ;
+  skos:definition "An aggregation of whole organisms representative of some biome"@en;
 .
 spec:chip
   rdf:type skos:Concept ;
@@ -891,7 +899,7 @@ spec:chip
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Chip"@en ;
   skos:broader spec:solidmaterialspecimen ;
-  skos:definition "Individual solid object intentionally broken off a larger solid object sample. A Chip must have a documented parent sample. {@en} " ;
+  skos:definition "Individual solid object intentionally broken off a larger solid object sample. A Chip must have a documented parent sample."@en;
   skos:inScheme esmat:essampletype ;
   skos:prefLabel "Chip"@en ;
 .
@@ -910,10 +918,16 @@ spec:eluate
 spec:fluidincontainer
   skos:prefLabel "Fluid in container"@en ;
   skos:topConceptOf esmat:essampletype ;
+  skos:inScheme spec:specimentypevocabulary ;
+  rdf:type skos:Concept ;
+  skos:definition "Specimen is a container whose contents are liquid, gas, or mixed dominantly fluid phases that is the actual sample material. Fluid might include minor solid particles. Container typically human made, but also includes natural fluid container, e.g. fluid inclusion in a mineral grain.  Includes colloids, foams, gels, suspensions. The sample is the fluid substance; fluid samples collected to analyze the contained biome should be considered 'Biome Aggregation'"@en;
 .
 spec:genericaggregation
   skos:prefLabel "genericAggregation"@en ;
   skos:topConceptOf esmat:essampletype ;
+  rdf:type skos:Concept ;
+  skos:inScheme spec:specimentypevocabulary ;
+  skos:definition "An aggregate specimen that is not biogenic or composed of anthropogenic material fragments.  Examples: loose soil or sediment (e.g. in a bag), rock chips, particulate filtrate or precipitate; rock powders."@en;
 .
 spec:microtomeslice
   rdf:type skos:Concept ;
@@ -942,6 +956,9 @@ spec:mountedspecimen
 spec:othersolidobject
   skos:prefLabel "Other solid Object"@en ;
   skos:topConceptOf esmat:essampletype ;
+      rdf:type skos:Concept ;
+   skos:inScheme spec:specimentypevocabulary ;
+   skos:definition "Single piece of material not one of the other types."@en;
 .
 spec:particle
   rdf:type skos:Concept ;
@@ -956,7 +973,11 @@ spec:particle
   skos:prefLabel "Particle"@en ;
 .
 spec:solidmaterialspecimen
-  skos:inScheme esmat:essampletype ;
+  skos:topConceptOf esmat:essampletype ;
+  rdf:type skos:Concept ;
+  skos:prefLabel "Solid material specimen"@en ;
+  skos:inScheme spec:specimentypevocabulary ;
+  skos:definition "Individual solid object, not formed directly by or part of a living organism, that is representative of some material."@en;
 .
 spec:temgrid
   rdf:type skos:Concept ;
@@ -967,5 +988,5 @@ spec:temgrid
   skos:broader spec:genericaggregation ;
   skos:definition "FIB sections and microtome slices set onto a small grid for handling, transport, and analysis using a transmission electron microscope (TEM). The grid itself can be given a single sample identifier (similar to how there are multiple grains in a grain mount). The linkage from the individual samples in the grid to their parent sample(s) should be documented"@en ;
   skos:inScheme esmat:essampletype ;
-  skos:prefLabel "Resonance ionization mass spectrometry" ;
+  skos:prefLabel "TEM grod"@en ;
 .
