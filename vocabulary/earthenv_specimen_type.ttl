@@ -1,7 +1,7 @@
 # baseURI: https://w3id.org/isample/earthenv/esmaterialsample/1.0/essampletype
 # imports: http://purl.org/dc/terms/
 # imports: http://www.w3.org/2004/02/skos/core
-# imports: https://w3id.org/isample/vocabulary/specimentype/1.0/specimentypevocabulary
+# imports: https://w3id.org/isample/vocabulary/materialsampleobjecttype/1.0/conceptscheme
 
 @prefix dcterm: <http://purl.org/dc/terms/> .
 @prefix esmat: <https://w3id.org/isample/earthenv/esmaterialsample/1.0/> .
@@ -12,14 +12,14 @@
 @prefix sdev: <http://vocab.nerc.ac.uk/collection/L05/current/> .
 @prefix sdo: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix spec: <https://w3id.org/isample/vocabulary/specimentype/1.0/> .
+@prefix spec: <https://w3id.org/isample/vocabulary/materialsampleobjecttype/1.0/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <AWDID:2004562>
-  rdf:type schema:Grant ;
-  schema:funder <https://ror.org/04nh1dc89> ;
-  schema:name "Collaborative Research: Frameworks: Internet of Samples: Toward an Interdisciplinary Cyberinfrastructure for Material Samples" ;
-  schema:url "https://nsf.gov/awardsearch/showAward?AWD_ID=2004562" ;
+  rdf:type sdo:Grant ;
+  sdo:funder <https://ror.org/04nh1dc89> ;
+  sdo:name "Collaborative Research: Frameworks: Internet of Samples: Toward an Interdisciplinary Cyberinfrastructure for Material Samples" ;
+  sdo:url "https://nsf.gov/awardsearch/showAward?AWD_ID=2004562" ;
 .
 <http://www.w3.org/2004/02/skos/core>
   rdf:type owl:Ontology ;
@@ -60,7 +60,6 @@ skos:ConceptScheme
   skos:definition "A set of concepts, optionally including statements about semantic relationships between those concepts."@en ;
   skos:example "Thesauri, classification schemes, subject heading lists, taxonomies, 'folksonomies', and other types of controlled vocabulary are all examples of concept schemes. Concept schemes are also embedded in glossaries and terminologies."@en ;
   skos:scopeNote "A concept scheme may be defined to include concepts from different sources."@en ;
-  
 .
 skos:OrderedCollection
   rdf:type owl:Class ;
@@ -395,7 +394,7 @@ esmat:core
   dcterm:source "this vocabulary" ;
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Core"@en ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "Cylinder of rock or sediment extracted from within the earth, and representing the entire sample extracted during a single borehole drilling event.  Typically using some rotary drilling technology. In many cases the core is extracted in segments that are 'core sections'. A core from a single borehole is rarely a continous unbroken object; commonly parts of the core will break up during drilling or extraction, leaving gaps or sections that are granular material. Cores are normally composed of consolidated ('solid') material, but in some cases loosely consolidated material might be recovered, and considered sediment or tephra. To be called 'core' the material must be sufficiently consolidated to maintain a cylindrical shape. A core hasPart (hasChild) 'Core section'"@en ;
   skos:inScheme esmat:essampletype ;
   skos:prefLabel "Core"@en ;
@@ -415,7 +414,7 @@ esmat:corehalfround
   dcterm:source "https://www.geosamples.org/vocabularies/sample-type-object" ;
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Core half round"@en ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "Half-cylindrical peice of consolidated material produced by along-axis split of a core whole round along a selected diameter .    Has childOf relation to core section or core, core section, or Core peice from which is was split"@en ;
   skos:inScheme esmat:essampletype ;
   skos:prefLabel "Core half round"@en ;
@@ -425,7 +424,7 @@ esmat:corepeice
   dcterm:source "https://www.geosamples.org/vocabularies/sample-type-object" ;
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Core peice"@en ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "A cylindrical peice of consolidated earth material extracted as a single solid object between breaks in recovery of core from a borehole. has parent core section"@en ;
   skos:inScheme esmat:essampletype ;
   skos:prefLabel "Core peice"@en ;
@@ -435,7 +434,7 @@ esmat:corequarterround
   dcterm:source "https://www.geosamples.org/vocabularies/sample-type-object" ;
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Core quarter round"@en ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "a partial cylindrical peice of consolidated material created by along-axis split of a core half round. Has Parent core half round"@en ;
   skos:inScheme esmat:essampletype ;
   skos:prefLabel "Core quarter round"@en ;
@@ -445,7 +444,7 @@ esmat:coresection
   dcterm:source "https://www.geosamples.org/vocabularies" ;
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Core section"@en ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "Segment of a core representing some interval along the well bore. Child of Core"@en ;
   skos:inScheme esmat:essampletype ;
   skos:prefLabel "Core section"@en ;
@@ -455,7 +454,7 @@ esmat:coresubpeice
   dcterm:source "https://www.geosamples.org/vocabularies" ;
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Core subpeice"@en ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "A peice of consolidated material broken from a core peice. has Parent core peice or core section"@en ;
   skos:inScheme esmat:essampletype ;
   skos:prefLabel "Core subpeice"@en ;
@@ -524,26 +523,27 @@ esmat:eluate
   skos:prefLabel "Eluate"@en ;
 .
 esmat:essampletype
+  rdf:type sdo:CreativeWork ;
   rdf:type owl:Ontology ;
   rdf:type skos:ConceptScheme ;
-  rdf:type schema:CreativeWork ;
   dcterm:contributor <https://orcid.org/0000-0001-6041-5302> ;
   dcterm:created "2023-07-01"^^xsd:date ;
   dcterm:creator <https://orcid.org/0000-0001-6041-5302> ;
-  dcterm:modified "2023-07-27"^^xsd:date ;
+  dcterm:modified "2024-07-15"^^xsd:date ;
   dcterm:publisher "iSamples project" ;
+  sdo:codeRepository <https://github.com/isamplesorg/metadata_profile_earth_science/tree/main/vocabulary> ;
+  sdo:funding <AWDID:2004562> ;
+  sdo:provider <https://vocabs.ardc.edu.au/> ;
   rdfs:label "Earth and Environmental Science extension -  Material sample type"@en ;
   owl:imports dcterm: ;
   owl:imports <http://www.w3.org/2004/02/skos/core> ;
-  owl:imports spec:specimentypevocabulary ;
+  owl:imports spec:conceptscheme ;
   skos:definition "This concept scheme contains skos concepts for categorizing kinds of Earth Material sample types, extending the iSamples Material Sample Type vocabulary. Defintions from SESAR, ODM2, wikipedia, ESS-DIVE, and other sources; sources are cited with each term."@en ;
   skos:historyNote "2023-07-07 SMR add solid material sample and broader relations from classes it subsumes."@en ;
   skos:historyNote "2023-07-27 SMR modify base specimen type vocabulary, add 'Non biologic solid object' to replace 'solid material sample', change broader relations in this vocab to use that as parent class where appropriate. 'Solid material sample' is too closely linked to material type, created confusion. Intention is a specimen category for solid objects that are not biologic. Obviously there is some overlap with Research specimens."@en ;
-  skos:inScheme spec:specimentypevocabulary ;
+  skos:historyNote "2024-07-15 SMR fix import to base vocabulary on renamed material_sample_type vocabulary, change from specimentypevocabulary to materialsampleobjecttype/1.0/conceptscheme"@en ;
+  skos:inScheme spec:conceptscheme ;
   skos:prefLabel "Earth and Environmental Science extension -  Material sample type"@en ;
-  schema:funding <AWDID:2004562> ;
-  schema:provider <https://vocabs.ardc.edu.au/> ;
-  schema:codeRepository <https://github.com/isamplesorg/metadata_profile_earth_science/tree/main/vocabulary> ;
 .
 esmat:fiblamella
   rdf:type skos:Concept ;
@@ -552,7 +552,7 @@ esmat:fiblamella
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "FIB lamella"@en ;
   skos:broader spec:analyticalpreparation ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "very thin sheet of solid material milled from a larger sample using a focused ion beam. Used for TEM analysis."@en ;
   skos:inScheme esmat:essampletype ;
   skos:prefLabel "FIB lamella"@en ;
@@ -594,7 +594,7 @@ esmat:individualsolidcube
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Individual solid cube"@en ;
   skos:broader spec:analyticalpreparation ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "A sample that is a prepared cube of material, intended as a sample of that material."@en ;
   skos:inScheme esmat:essampletype ;
   skos:note "Cubes that are manufatured for decorative or utilitarian purposes should be categorized as artifacts."@en ;
@@ -605,7 +605,7 @@ esmat:individualsolidcylinder
   dcterm:source "SESAR speciment types, ODM 2" ;
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Individual solid cylinder"@en ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "A cylindrical peice of consolidated material not obtained by subsurface drilling.  Cores drilled for paleomagnetic analysis are a common example. Tree ring cores are another..."@en ;
   skos:inScheme esmat:essampletype ;
   skos:note "may be core, plug sample, drill a cylinder from a core"@en ;
@@ -649,7 +649,7 @@ esmat:meteorite
   dcterm:source "https://www.iau.org/static/science/scientific_bodies/commissions/f1/meteordefinitions_approved.pdf" ;
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Meteorite"@en ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "A meteorite is a solid object that originates in interplanetary space and survives passage through an atmosphere to reach the surface of a planet or moon."@en ;
   skos:inScheme esmat:essampletype ;
   skos:prefLabel "Meteorite"@en ;
@@ -670,7 +670,7 @@ esmat:mineralspecimen
   dcterm:source "this vocabulary" ;
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Mineral specimen"@en ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "a solid object consisting of one particular mineral, or several minerals intended to be representative of one or more of the mineral species."@en ;
   skos:inScheme esmat:essampletype ;
   skos:note "a sample is a 'Rock hand sample' or 'Mineral specimen' is based on whether the original collection intention is to represent a mineral species, or a rock type.  If the sample could be considered representative of a rock type or some particular mineral constitutent in the rock, classify as both."@en ;
@@ -682,7 +682,7 @@ esmat:mountedsection
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Sectioned specimen"@en ;
   skos:broader spec:analyticalpreparation ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "a thin slice of a solid material that has been mounted on a glass slide for study"@en ;
   skos:inScheme esmat:essampletype ;
   skos:prefLabel "Sectioned specimen"@en ;
@@ -771,7 +771,7 @@ esmat:pressedpellet
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Pressed pellet"@en ;
   skos:broader spec:analyticalpreparation ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "a sample prepared by grinding a parent sample to a fine powder, mixing it with a binder, and pressing the mixture into a die at a pressure of between 15 and 35 tons to produce a solid disc for subsequent analysis, typically by X-Ray fluorescence."@en ;
   skos:inScheme esmat:essampletype ;
   skos:prefLabel "Pressed pellet"@en ;
@@ -802,7 +802,7 @@ esmat:rockhandsample
   dcterm:source "this vocabulary" ;
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Rock hand sample"@en ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "individual peice of rock broken from an outcrop or larger peice of rock."@en ;
   skos:inScheme esmat:essampletype ;
   skos:note "use this category for rough peices of rock that have not undergone any preparation processing (crushing, sawing, etching...)"@en ;
@@ -824,7 +824,7 @@ esmat:slab
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Slab"@en ;
   skos:broader spec:analyticalpreparation ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "a relatively planar rock sample,cut from a large sample to produce a tabular peice of rock with the irregular outline of the original sample on the diameter where the cut was mate."@en ;
   skos:inScheme esmat:essampletype ;
   skos:prefLabel "Slab"@en ;
@@ -876,7 +876,7 @@ esmat:uchannelsample
   dcterm:source "https://www.geosamples.org/vocabularies/sample-type-object" ;
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "U-channel sample"@en ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "a rectangular prism of loosely consolidated sediment extracted from a core segment. has parent core piece or core segment"@en ;
   skos:inScheme esmat:essampletype ;
   skos:prefLabel "U-channel sample"@en ;
@@ -904,7 +904,7 @@ spec:atomprobetip
   dcterm:source "https://osiris-rex.atlassian.net/wiki/spaces/UTDMP/pages/410288138#6.5-FIB-sections%2C-microtome-slices%2C-atom-probe-tips%2C-TEM-grids" ;
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Atom probe tip"@en ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "needle-shaped sample milled out of a larger sample with a focused ion beam (FIB)."@en ;
   skos:inScheme esmat:essampletype ;
   skos:prefLabel "Atom probe tip"@en ;
@@ -922,7 +922,7 @@ spec:chip
   dcterm:source "https://osiris-rex.atlassian.net/wiki/spaces/UTDMP/pages/410288138/SAMIS-JSC+Curation+Interface+Control+Document+ICD#6.1-Particles-and-chips" ;
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Chip"@en ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "Individual solid object intentionally broken off a larger solid object sample. A Chip must have a documented parent sample."@en ;
   skos:inScheme esmat:essampletype ;
   skos:prefLabel "Chip"@en ;
@@ -948,7 +948,7 @@ spec:microtomeslice
   rdfs:comment "Typically from TEM analysis. Slices are commonly deposited in a grid contain with multiple slices and the grid will be given a single sample name, not the individual slices within it. The provenance of the slice from paticle to mounted specimen to slice should be carefully documented"@en ;
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Microtome slice "@en ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "A very thin slice cut from a mounted specimen using a mocrotome or ultramicrotome."@en ;
   skos:inScheme esmat:essampletype ;
   skos:prefLabel "Microtome slice"@en ;
@@ -960,7 +960,7 @@ spec:mountedspecimen
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Mounted specimen"@en ;
   skos:altLabel "Potted butt"@en ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "one or more solid objects embedded in a stabilizing matrix, typically epoxy, metal, or paraffin to allow slicing through the mounted object(s)."@en ;
   skos:inScheme esmat:essampletype ;
   skos:prefLabel "Mounted specimen"@en ;
@@ -979,15 +979,14 @@ spec:particle
   rdfs:comment "Can also used for small peices broken from a 'Rock hand sample'.   OSIRIS-Rex definition specifies 'competent individual geologic sample of any size'. 'Competent' interpreted to be equivalent to 'solid', or 'consolidated'.  The definition here is broader in that it includes materials of any origin, but narrower in that it is restricted to small objects."@en ;
   rdfs:isDefinedBy esmat:essampletype ;
   rdfs:label "Particle"@en ;
-  skos:broader spec:solidmaterialspecimen ;
+  skos:broader spec:solidmaterialsample ;
   skos:definition "A small individual solid object that is not one of the other sample types."@en ;
   skos:inScheme esmat:essampletype ;
   skos:prefLabel "Particle"@en ;
 .
-spec:solidmaterialspecimen
+spec:solidmaterialsample
   rdf:type skos:Concept ;
-  skos:definition "Individual solid object, not formed directly by or part of a living organism, that is representative of some material."@en ;
-  skos:inScheme spec:specimentypevocabulary ;
-  skos:prefLabel "Solid material specimen"@en ;
+  skos:altLabel "Solid material specimen"@en ;
+  skos:inScheme esmat:essampletype ;
   skos:topConceptOf esmat:essampletype ;
 .
