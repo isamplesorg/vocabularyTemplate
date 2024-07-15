@@ -49,6 +49,7 @@ Namespace:
 []{#sampledfeaturepart}
 
 ##  Sampled feature part
+* `Sampled feature part`
 
 
 - A sampled feature that is part of a larger sampled feature; Could be

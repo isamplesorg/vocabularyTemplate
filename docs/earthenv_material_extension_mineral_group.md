@@ -48,6 +48,22 @@ Namespace:
 ##  mineral
 
 
+- Material consists of a single mineral or mineraloid phase. .  'A
+mineral is an element or chemical compound that is normally
+crystalline and that has been formed as a result of geological
+processes.' (Nickel, Ernest H. (1995), The definition of a mineral,
+The Canadian Mineralogist. 33 (3): 689–90). Include mineraloids. ... A
+material primarily composed of some substance that is naturally
+occurring, solid and stable at room temperature, representable by a
+chemical formula, usually abiogenic, and that has an ordered atomic
+structure. (http://purl.obolibrary.org/obo/ENVO_01000256). Comment:
+the identity of a mineral species is defined by a crystal structure
+and a chemical composition that might include various specific
+elemental substitutions in that structure. Mineraloid: A naturally
+occurring mineral-like substance that does not demonstrate
+crystallinity. Mineraloids possess chemical compositions that vary
+beyond the generally accepted ranges for specific minerals. Examples:
+obsidian, Opal. (https://en.wikipedia.org/wiki/Mineraloid)
 - Concept URI token: mineral
 
 
