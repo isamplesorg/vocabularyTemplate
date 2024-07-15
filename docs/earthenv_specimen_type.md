@@ -183,6 +183,8 @@ Namespace:
         - [Polished mounted specimen](#polishedmountedspecimen)
     - [Particle](#particle)
 
+- [materialsample](#materialsample)
+
 **Concepts**
 
 []{#analyticalpreparation}
@@ -2928,6 +2930,14 @@ OSIRIS-Rex Sample types,
 https://osiris-rex.atlassian.net/wiki/spaces/UTDMP/pages/410288138/SAMIS-JSC+Curation+Interface+Control+Document+ICD#6.1-Particles-and-chips, 
 
 - Concept URI token: particle
+
+
+
+[]{#materialsample}
+
+##  `https://w3id.org/isample/vocabulary/materialsampleobjecttype/1.0/materialsample`
+
+- Concept URI token: materialsample
 
 
 
