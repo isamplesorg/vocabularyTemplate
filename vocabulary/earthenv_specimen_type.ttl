@@ -936,9 +936,6 @@ spec:genericaggregation
   skos:definition "An aggregate specimen that is not biogenic or composed of anthropogenic material fragments.  Examples: loose soil or sediment (e.g. in a bag), rock chips, particulate filtrate or precipitate; rock powders."@en ;
   skos:prefLabel "genericAggregation"@en ;
 .
-spec:materialsample
-  skos:topConceptOf esmat:essampletype ;
-.
 spec:microtomeslice
   rdf:type skos:Concept ;
   dcterm:source "OSIRIS-Rex Sample types" ;
