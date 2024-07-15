@@ -894,7 +894,6 @@ esmat:ultrathinsection
 spec:analyticalpreparation
   rdf:type skos:Concept ;
   skos:definition "Specimen is a product of processing required for some observation procedure, e.g. thin section, XRF bead, SEM stub, rock powder. If identified separately, this should have a ‘parent’ link to the original sample"@en ;
-  skos:inScheme spec:specimentypevocabulary ;
   skos:prefLabel "Analytical preparation"@en ;
   skos:topConceptOf esmat:essampletype ;
 .
@@ -930,15 +929,14 @@ spec:chip
 spec:fluidincontainer
   rdf:type skos:Concept ;
   skos:definition "Specimen is a container whose contents are liquid, gas, or mixed dominantly fluid phases that is the actual sample material. Fluid might include minor solid particles. Container typically human made, but also includes natural fluid container, e.g. fluid inclusion in a mineral grain.  Includes colloids, foams, gels, suspensions. The sample is the fluid substance; fluid samples collected to analyze the contained biome should be considered 'Biome Aggregation'"@en ;
-  skos:inScheme spec:specimentypevocabulary ;
   skos:prefLabel "Fluid in container"@en ;
-  skos:topConceptOf esmat:essampletype ;
 .
 spec:genericaggregation
   rdf:type skos:Concept ;
   skos:definition "An aggregate specimen that is not biogenic or composed of anthropogenic material fragments.  Examples: loose soil or sediment (e.g. in a bag), rock chips, particulate filtrate or precipitate; rock powders."@en ;
-  skos:inScheme spec:specimentypevocabulary ;
   skos:prefLabel "genericAggregation"@en ;
+.
+spec:materialsample
   skos:topConceptOf esmat:essampletype ;
 .
 spec:microtomeslice
@@ -968,9 +966,7 @@ spec:mountedspecimen
 spec:othersolidobject
   rdf:type skos:Concept ;
   skos:definition "Single piece of material not one of the other types."@en ;
-  skos:inScheme spec:specimentypevocabulary ;
   skos:prefLabel "Other solid Object"@en ;
-  skos:topConceptOf esmat:essampletype ;
 .
 spec:particle
   rdf:type skos:Concept ;
@@ -987,6 +983,4 @@ spec:particle
 spec:solidmaterialsample
   rdf:type skos:Concept ;
   skos:altLabel "Solid material specimen"@en ;
-  skos:inScheme esmat:essampletype ;
-  skos:topConceptOf esmat:essampletype ;
 .
