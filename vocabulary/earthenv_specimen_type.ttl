@@ -538,7 +538,7 @@ esmat:essampletype
   owl:imports dcterm: ;
   owl:imports <http://www.w3.org/2004/02/skos/core> ;
   owl:imports spec:conceptscheme ;
-  skos:definition "This concept scheme contains skos concepts for categorizing kinds of Earth Material sample types, extending the iSamples Material Sample Type vocabulary. Defintions from SESAR, ODM2, wikipedia, ESS-DIVE, and other sources; sources are cited with each term."@en ;
+  skos:definition "This concept scheme contains skos concepts for categorizing kinds of Earth Material sample types, extending the iSamples Material Sample Object Type vocabulary. Defintions from SESAR, ODM2, wikipedia, ESS-DIVE, and other sources; sources are cited with each term."@en ;
   skos:historyNote "2023-07-07 SMR add solid material sample and broader relations from classes it subsumes."@en ;
   skos:historyNote "2023-07-27 SMR modify base specimen type vocabulary, add 'Non biologic solid object' to replace 'solid material sample', change broader relations in this vocab to use that as parent class where appropriate. 'Solid material sample' is too closely linked to material type, created confusion. Intention is a specimen category for solid objects that are not biologic. Obviously there is some overlap with Research specimens."@en ;
   skos:historyNote "2024-07-15 SMR fix import to base vocabulary on renamed material_sample_type vocabulary, change from specimentypevocabulary to materialsampleobjecttype/1.0/conceptscheme"@en ;
