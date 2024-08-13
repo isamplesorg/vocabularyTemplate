@@ -1,7 +1,7 @@
 # Documentation and vocabulary presentation pages for Earth and Environmental science samples
 
 What's here:
-HTML representations of draft vocabularies for extending material sample type, material, sampled feature, and sampled feature role categories used to document Earth material samples. Based on content in samples registered with the [SESAR system](https://www.geosamples.org/). 
+HTML representations of draft vocabularies for extending material sample object type, material, sampled feature, and sampled feature role categories used to document Earth material samples. Based on content in samples registered with the [SESAR system](https://www.geosamples.org/). 
 
 ## Concept scheme: iSamples Mineral group vocabulary
 [HTML web page version](https://isamplesorg.github.io/metadata_profile_earth_science/earthenv_material_extension_mineral_group.html) 
