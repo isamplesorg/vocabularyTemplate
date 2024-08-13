@@ -13,14 +13,13 @@ execute:
   echo: false
 ---
 
-[]{#iSamplesMineralGroupVocabulary}
+[]{#EarthandEnvironmentalScienceextension-Mineralgroupvocabulary}
 
-# **Concept scheme:** iSamples Mineral Group Vocabulary 
+# **Concept scheme:** Earth and Environmental Science extension -  Mineral group vocabulary
 
 Vocabulary last modified:  2022-08-27
 
 subtitle: 
-  Vocabulary to extend the mineral material type category with the top level mineral group categories. Uses the Nickel–Strunz mineral classes, which divide minerals into ten classes according to chemical composition and crystal structure. Nickel-Strunz group 10 is not included because that material would be mat:organiccompounds. Version 10 of the classification is modified from v 9 (Strunz and Nickel,2002) by Jim Ferraiolo and others, and now extended and maintained by mindat.org. Some scope notes from linked.data.gov.au.
   Vocabulary to extend the mineral material type category with the top level mineral group categories. Uses the Nickel–Strunz mineral classes, which divide minerals into ten classes according to chemical composition and crystal structure. Nickel-Strunz group 10 is not included because that material would be mat:organiccompounds. Version 10 of the classification is modified from v 9 (Strunz and Nickel,2002) by Jim Ferraiolo and others, and now extended and maintained by mindat.org.  Some scope notes from linked.data.gov.au.
 
 Namespace: 

@@ -24,10 +24,10 @@ HTML representations of draft vocabularies for extending material sample type, m
 
 [RDF source file](https://raw.githubusercontent.com/isamplesorg/metadata_profile_earth_science/main/vocabulary/earthenv_sampled_feature_role.ttl). This is the authoritative representation. 
 
-## Concept scheme: Earth and Environmental Science specimen type extension
-[HTML web page version](https://isamplesorg.github.io/metadata_profile_earth_science/earthenv_specimen_type.html) 
+## Concept scheme: Earth and Environmental Science material sample object type extension
+[HTML web page version](https://isamplesorg.github.io/metadata_profile_earth_science/earthenv_materialsampleobject_type.html) 
 
 [ARDC Research Vocabularies Australia (RVA) vocabulary service landing page](https://vocabs.ardc.edu.au/viewById/671)
 
-[RDF source file](https://raw.githubusercontent.com/isamplesorg/metadata_profile_earth_science/main/vocabulary/earthenv_specimen_type.ttl). This is the authoritative representation. 
+[RDF source file](https://raw.githubusercontent.com/isamplesorg/metadata_profile_earth_science/main/vocabulary/earthenv_materialsampleobject_type.ttl). This is the authoritative representation. 
 
