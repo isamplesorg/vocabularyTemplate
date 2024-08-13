@@ -13,15 +13,13 @@ execute:
   echo: false
 ---
 
-[]{#iSamplesrockandsedimentvocabularyextension}
+[]{#EarthandEnvironmentalScienceextension-Rockandsedimentmaterialsvocabulary}
 
-# **Concept scheme:** iSamples rock and sediment vocabulary extension
+# **Concept scheme:** Earth and Environmental Science extension - Rock and sediment materials vocabulary
 
-Vocabulary last modified:  2023-08-27
+Vocabulary last modified:  2024-01-06
 
 subtitle: 
-  Kinds of rock material.
-  Rock and sediment categories for iSamples materialType classification. Remove anthropogenic materials and classes for consolidated or non-consolidated material; remove leaf classes subjectively based on abundance of material type and number of subclasses. There are 83 'mat:rock' subclasses; these include some classes that are non-consolidated material (e.g. fault gouge) but these are not sediment and adding 'material' classes that are independent of consolidation seems like more overhead than needed. Note that a given material is likely to fit in more that one class; for example the sediment subclasses include compositional classes (e.g. carbonate, clastic) as well as grain size classes (gravel-size sediment). A calcareous ooze sample would be both 'mud-size sediment' and 'carbonate sediment'.   Change owl:class to skos:concept, and rdfs:subClassOf to skos:broader.
   Rock and sediment categories for iSamples materialType classification. Remove anthropogenic materials and classes for consolidated or non-consolidated material; remove leaf classes subjectively based on abundance of material type and number of subclasses. There are 83 'mat:rock' subclasses; these include some classes that are non-consolidated material (e.g. fault gouge) but these are not sediment and adding 'material' classes that are independent of consolidation seems like more overhead than needed. Note that a given material is likely to fit in more that one class; for example the sediment subclasses include compositional classes (e.g. carbonate, clastic) as well as grain size classes (gravel-size sediment). A calcareous ooze sample would be both 'mud-size sediment' and 'carbonate sediment'.   Change owl:class to skos:concept, and rdfs:subClassOf to skos:broader.
 
 Namespace: 
@@ -101,7 +99,7 @@ Namespace:
             - [hornblendite](#hornblendite)
             - [peridotite](#peridotite)
             - [pyroxenite](#pyroxenite)
-        - [volcanic rock](#volcanic_rock)
+        - [volcanic rock ](#volcanic_rock)
     - [impact generated material](#impact_generated_material)
     - [massive sulphide](#massive_sulphide)
     - [metamorphic rock](#metamorphic_rock)
@@ -164,7 +162,6 @@ http://purl.obolibrary.org/obo/ENVO_00001995)
  [`rock`](#rock)
 
 - Rock that is too fine grained to categorize in more detail.
-- Rock that is too fine grained to categorize in more detail.
 
 - **Source:**
 This vocabulary
@@ -180,19 +177,6 @@ This vocabulary
 - Child of:
  [`rock`](#rock)
 
-- Coarse-grained material composed of angular broken rock fragments;
-the fragments typically have sharp edges and unworn corners. The
-fragments may be held together by a mineral cement or in a fine-
-grained matrix, and consolidated or nonconsolidated. Clasts may be of
-any composition or origin. In sedimentary environments, breccia is
-used for material that consists entirely of angular fragments, mostly
-derived from a single source rock body, as in a rock avalanche
-deposit, and matrix is interpreted to be the product of comminution of
-clasts during transport. Diamictite or diamicton is used when the
-material reflects mixing of rock from a variety of sources, some sub
-angular or subrounded clasts may be present, and matrix is pre-
-existing fine grained material that is not a direct product of the
-brecciation/deposition process.
 - Coarse-grained material composed of angular broken rock fragments;
 the fragments typically have sharp edges and unworn corners. The
 fragments may be held together by a mineral cement or in a fine-
@@ -225,10 +209,6 @@ Neuendorf et al. 2005
 than 10 percent matrix; matrix is fine-grained material caused by
 tectonic grainsize reduction. Includes cohesive (cataclasite series,
 mylonitic rocks) and non-cohesive (breccia-gouge series) material.
-- Material formed as a result brittle faulting, composed of greater
-than 10 percent matrix; matrix is fine-grained material caused by
-tectonic grainsize reduction. Includes cohesive (cataclasite series,
-mylonitic rocks) and non-cohesive (breccia-gouge series) material.
 
 - **Source:**
 This vocabulary; SLTTm 2004
@@ -244,12 +224,6 @@ This vocabulary; SLTTm 2004
 - Child of:
  [`Fault_Related_Material`](#Fault_Related_Material)
 
-- Fault-related rock that maintained primary cohesion during
-deformation, with matrix comprising greater than 10 percent of rock
-mass; matrix is fine-grained material formed through grain size
-reduction by fracture as opposed to crystal plastic process that
-operate in mylonitic rock. Includes cataclasite, protocataclasite and
-ultracataclasite.
 - Fault-related rock that maintained primary cohesion during
 deformation, with matrix comprising greater than 10 percent of rock
 mass; matrix is fine-grained material formed through grain size
@@ -275,10 +249,6 @@ Sibson, 1977; Scholz, 1990; Snoke and Tullis, 1998; Barker, 1998 Appendix II; NA
 tectonic grain size reduction, in which more than 10 percent of the
 rock volume has undergone grain size reduction. Includes
 protomylonite, mylonite, ultramylonite, and blastomylonite.
-- Metamorphic rock characterised by a foliation resulting from
-tectonic grain size reduction, in which more than 10 percent of the
-rock volume has undergone grain size reduction. Includes
-protomylonite, mylonite, ultramylonite, and blastomylonite.
 
 - **Source:**
 Marshak and Mitra 1988
@@ -298,10 +268,6 @@ Marshak and Mitra 1988
 unfilled), or unconsolidated matrix material between fragments,
 indicating loss of cohesion during deformation. Includes fault-related
 breccia and gouge.
-- Fault-related material with features such as void spaces (filled or
-unfilled), or unconsolidated matrix material between fragments,
-indicating loss of cohesion during deformation. Includes fault-related
-breccia and gouge.
 
 - **Source:**
 SLTTm 2004
@@ -315,14 +281,9 @@ SLTTm 2004
 
 
 - Child of:
- [`rock`](#rock)
  [`Igneous_Rock`](#Igneous_Rock)
+ [`rock`](#rock)
 
-- Igneous rock in which greater than 75 percent of the rock consists
-of fragments produced as a result of igneous rock-forming process.
-Includes pyroclastic rocks, autobreccia associated with lava flows and
-intrusive breccias. Excludes deposits reworked by epiclastic processes
-(see Tuffite)
 - Igneous rock in which greater than 75 percent of the rock consists
 of fragments produced as a result of igneous rock-forming process.
 Includes pyroclastic rocks, autobreccia associated with lava flows and
@@ -348,11 +309,6 @@ fragments produced as a direct result of eruption or extrusion of
 magma from within the earth onto its surface. Includes autobreccia
 associated with lava flows and excludes deposits reworked by
 epiclastic processes.
-- Fragmental igneous rock that consists of greater than 75 percent
-fragments produced as a direct result of eruption or extrusion of
-magma from within the earth onto its surface. Includes autobreccia
-associated with lava flows and excludes deposits reworked by
-epiclastic processes.
 
 - **Source:**
 based on LeMaitre et al. 2002
@@ -368,8 +324,6 @@ based on LeMaitre et al. 2002
 - Child of:
  [`rock`](#rock)
 
-- rock formed as a result of igneous processes, for example intrusion
-and cooling of magma in the crust, or volcanic eruption.
 - rock formed as a result of igneous processes, for example intrusion
 and cooling of magma in the crust, or volcanic eruption.
 
@@ -388,7 +342,6 @@ Neuendorf et al 2005
  [`Igneous_Rock`](#Igneous_Rock)
 
 - Igneous rock with more than 63 percent SiO2.
-- Igneous rock with more than 63 percent SiO2.
 
 - **Source:**
 after LeMaitre et al. 2002
@@ -405,13 +358,6 @@ after LeMaitre et al. 2002
  [`Acidic_Igneous_Rock`](#Acidic_Igneous_Rock)
  [`Fine_Grained_Igneous_Rock`](#Fine_Grained_Igneous_Rock)
 
-- Fine grained or porphyritic crystalline rock that contains less than
-90 percent mafic minerals, between 20 and 60 percent quartz in the
-QAPF fraction, and has a plagioclase to total feldspar ratio greater
-than 0.65. Includes rocks defined modally in QAPF fields 4 and 5 or
-chemically in TAS Field O3. Typically composed of quartz and sodic
-plagioclase with minor amounts of biotite and/or hornblende and/or
-pyroxene; fine-grained equivalent of granodiorite and tonalite.
 - Fine grained or porphyritic crystalline rock that contains less than
 90 percent mafic minerals, between 20 and 60 percent quartz in the
 QAPF fraction, and has a plagioclase to total feldspar ratio greater
@@ -439,10 +385,6 @@ LeMaitre et al. 2002
 feldspar and/or plagioclase. Includes rocks defined modally in QAPF
 fields 2, 3, 4 and 5 as alkali feldspar granite, granite, granodiorite
 or tonalite.
-- Phaneritic crystalline igneous rock consisting of quartz, alkali
-feldspar and/or plagioclase. Includes rocks defined modally in QAPF
-fields 2, 3, 4 and 5 as alkali feldspar granite, granite, granodiorite
-or tonalite.
 
 - **Alternate labels:**
 granitic rock
@@ -464,8 +406,6 @@ LeMaitre et al. 2002
 
 - Granitic rock that has a plagioclase to total feldspar ratio less
 than 0.1. QAPF field 2.
-- Granitic rock that has a plagioclase to total feldspar ratio less
-than 0.1. QAPF field 2.
 
 - **Source:**
 LeMaitre et al. 2002
@@ -481,10 +421,6 @@ LeMaitre et al. 2002
 - Child of:
  [`Granitoid`](#Granitoid)
 
-- Phaneritic crystalline rock consisting of quartz, alkali feldspar
-and plagioclase (typically sodic) in variable amounts, usually with
-biotite and/or hornblende. Includes rocks defined modally in QAPF
-Field 3.
 - Phaneritic crystalline rock consisting of quartz, alkali feldspar
 and plagioclase (typically sodic) in variable amounts, usually with
 biotite and/or hornblende. Includes rocks defined modally in QAPF
@@ -508,10 +444,6 @@ LeMaitre et al. 2002
 plagioclase and lesser amounts of alkali feldspar with minor
 hornblende and biotite. Includes rocks defined modally in QAPF field
 4.
-- Phaneritic crystalline rock consisting essentially of quartz, sodic
-plagioclase and lesser amounts of alkali feldspar with minor
-hornblende and biotite. Includes rocks defined modally in QAPF field
-4.
 
 - **Source:**
 LeMaitre et al. 2002
@@ -527,9 +459,6 @@ LeMaitre et al. 2002
 - Child of:
  [`Granitoid`](#Granitoid)
 
-- Granitoid consisting of quartz and intermediate plagioclase, usually
-with biotite and amphibole. Includes rocks defined modally in QAPF
-field 5; ratio of plagioclase to total feldspar is greater than 0.9.
 - Granitoid consisting of quartz and intermediate plagioclase, usually
 with biotite and amphibole. Includes rocks defined modally in QAPF
 field 5; ratio of plagioclase to total feldspar is greater than 0.9.
@@ -554,9 +483,6 @@ vanishingly rare, thus subdividing the category does not seem
 warranted for the purposes of This vocabulary. Future usage of the
 vocabulary may motivate including quatzolite and quartz-rich granitoid
 in future revisions
-- Phaneritic crystalline igneous rock that contains less than 90
-percent mafic minerals and contains greater than 60 percent quartz in
-the QAPF fraction.
 - Phaneritic crystalline igneous rock that contains less than 90
 percent mafic minerals and contains greater than 60 percent quartz in
 the QAPF fraction.
@@ -593,14 +519,6 @@ TAS Field R as rhyolite. QAPF normative definition is based on modal
 mineralogy thus: less than 90 percent mafic minerals, between 20 and
 60 percent quartz in the QAPF fraction, and ratio of plagioclse to
 total feldspar is less than 0.65.
-- fine_grained_igneous_rock consisting of quartz and alkali feldspar,
-with minor plagioclase and biotite, in a microcrystalline,
-cryptocrystalline or glassy groundmass. Flow texture is common.
-Includes rocks defined modally in QAPF fields 2 and 3 or chemically in
-TAS Field R as rhyolite. QAPF normative definition is based on modal
-mineralogy thus: less than 90 percent mafic minerals, between 20 and
-60 percent quartz in the QAPF fraction, and ratio of plagioclse to
-total feldspar is less than 0.65.
 
 - **Alternate labels:**
 rhyolitic rock
@@ -621,7 +539,6 @@ LeMaitre et al. 2002
  [`Igneous_Rock`](#Igneous_Rock)
 
 - Igneous rock with between 45 and 52 percent SiO2.
-- Igneous rock with between 45 and 52 percent SiO2.
 
 - **Source:**
 after LeMaitre et al. 2002
@@ -638,19 +555,6 @@ after LeMaitre et al. 2002
  [`Basic_Igneous_Rock`](#Basic_Igneous_Rock)
  [`Fine_Grained_Igneous_Rock`](#Fine_Grained_Igneous_Rock)
 
-- Fine-grained or porphyritic igneous rock with less than 20 percent
-quartz, and less than 10 percent feldspathoid minerals, in which the
-ratio of plagioclase to total feldspar is greater 0.65. Typically
-composed of calcic plagioclase and clinopyroxene; phenocrysts
-typically include one or more of calcic plagioclase, clinopyroxene,
-orthopyroxene, and olivine. Includes rocks defined modally in QAPF
-fields 9 and 10 or chemically in TAS field B as basalt. Basalt and
-andesite are distinguished chemically based on silica content, with
-basalt defined to contain less than 52 weight percent silica. If
-chemical data are not available, the color index is used to
-distinguish the categories, with basalt defined to contain greater
-than 35 percent mafic minerals by volume or greater than 40 percent
-mafic minerals by weight.
 - Fine-grained or porphyritic igneous rock with less than 20 percent
 quartz, and less than 10 percent feldspathoid minerals, in which the
 ratio of plagioclase to total feldspar is greater 0.65. Typically
@@ -685,11 +589,6 @@ after LeMaitre et al. 2002
 category includes the various categories defined in LeMaitre et al.
 (2002) based on the mafic mineralogy, but apparently not subdivided
 based on the quartz/feldspathoid content.
-- Gabbroid that has a plagioclase to total feldspar ratio greater than
-0.9 in the QAPF fraction. Includes QAPF fields 10*, 10, and 10'. This
-category includes the various categories defined in LeMaitre et al.
-(2002) based on the mafic mineralogy, but apparently not subdivided
-based on the quartz/feldspathoid content.
 
 - **Source:**
 LeMaitre et al. 2002
@@ -705,11 +604,6 @@ LeMaitre et al. 2002
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
 
-- Dark colored gabbroic (basaltic) or dioritic (andesitic) rock
-intermediate in grain size between basalt and gabbro and composed of
-plagioclase, pyroxene and opaque minerals; often with ophitic texture.
-Typically occurs as hypabyssal intrusions. Includes dolerite,
-microdiorite, diabase and microgabbro.
 - Dark colored gabbroic (basaltic) or dioritic (andesitic) rock
 intermediate in grain size between basalt and gabbro and composed of
 plagioclase, pyroxene and opaque minerals; often with ophitic texture.
@@ -736,12 +630,6 @@ Criteria include: presence of greater than 10 percent melilite or
 leucite, or presence of kalsilite, or greater than 50 percent
 carbonate minerals. Includes Carbonatite, Melilitic rock, Kalsilitic
 rocks, Kimberlite, Lamproite, Leucitic rock and Lamprophyres.
-- Rock with 'exotic' mineralogical, textural or field setting
-characteristics; typically dark colored, with abundant phenocrysts.
-Criteria include: presence of greater than 10 percent melilite or
-leucite, or presence of kalsilite, or greater than 50 percent
-carbonate minerals. Includes Carbonatite, Melilitic rock, Kalsilitic
-rocks, Kimberlite, Lamproite, Leucitic rock and Lamprophyres.
 
 - **Source:**
 Gillespie and Styles 1999; LeMaitre et al. 2002
@@ -757,11 +645,6 @@ Gillespie and Styles 1999; LeMaitre et al. 2002
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
 
-- Igneous rock in which the framework of the rock consists of crystals
-that are too small to determine mineralogy with the unaided eye;
-framework may include up to 50 percent glass. A significant percentage
-of the rock by volume may be phenocrysts. Includes rocks that are
-generally called volcanic rocks.
 - Need to make decision as to whether devitrified glass should be
 considered glass or microcrystalline framework for purposes of
 categorization
@@ -790,19 +673,6 @@ Gillespie and Styles 1999; LeMaitre et al. 2002
  [`Fine_Grained_Igneous_Rock`](#Fine_Grained_Igneous_Rock)
  [`Intermediate_Composition_Igneous_Rock`](#Intermediate_Composition_Igneous_Rock)
 
-- Fine-grained igneous rock with less than 20 percent quartz and less
-than 10 percent feldspathoid minerals in the QAPF fraction, in which
-the ratio of plagioclase to total feldspar is greater 0.65. Includes
-rocks defined modally in QAPF fields 9 and 10 or chemically in TAS
-field O2 as andesite. Basalt and andesite, which share the same QAPF
-fields, are distinguished chemically based on silica content, with
-basalt defined to contain less than 52 weight percent silica. If
-chemical data are not available, the color index is used to
-distinguish the categories, with basalt defined to contain greater
-than 35 percent mafic minerals by volume or greater than 40 percent
-mafic minerals by weight. Typically consists of plagioclase
-(frequently zoned from labradorite to oligoclase), pyroxene,
-hornblende and/or biotite. Fine grained equivalent of dioritic rock.
 - Note the mela-andesite and leuco-basalt categories are not
 recommended in this system. If chemical analytical data are available
 to constrain the silica content, the basalt or andesite category
@@ -849,19 +719,6 @@ chemical data are not available, the color index is used to
 distinguish the categories, with basalt defined to contain greater
 than 35 percent mafic minerals by volume or greater than 40 percent
 mafic minerals by weight.
-- Fine-grained or porphyritic igneous rock with less than 20 percent
-quartz, and less than 10 percent feldspathoid minerals, in which the
-ratio of plagioclase to total feldspar is greater 0.65. Typically
-composed of calcic plagioclase and clinopyroxene; phenocrysts
-typically include one or more of calcic plagioclase, clinopyroxene,
-orthopyroxene, and olivine. Includes rocks defined modally in QAPF
-fields 9 and 10 or chemically in TAS field B as basalt. Basalt and
-andesite are distinguished chemically based on silica content, with
-basalt defined to contain less than 52 weight percent silica. If
-chemical data are not available, the color index is used to
-distinguish the categories, with basalt defined to contain greater
-than 35 percent mafic minerals by volume or greater than 40 percent
-mafic minerals by weight.
 
 - **Source:**
 after LeMaitre et al. 2002
@@ -885,13 +742,6 @@ than 0.65. Includes rocks defined modally in QAPF fields 4 and 5 or
 chemically in TAS Field O3. Typically composed of quartz and sodic
 plagioclase with minor amounts of biotite and/or hornblende and/or
 pyroxene; fine-grained equivalent of granodiorite and tonalite.
-- Fine grained or porphyritic crystalline rock that contains less than
-90 percent mafic minerals, between 20 and 60 percent quartz in the
-QAPF fraction, and has a plagioclase to total feldspar ratio greater
-than 0.65. Includes rocks defined modally in QAPF fields 4 and 5 or
-chemically in TAS Field O3. Typically composed of quartz and sodic
-plagioclase with minor amounts of biotite and/or hornblende and/or
-pyroxene; fine-grained equivalent of granodiorite and tonalite.
 
 - **Source:**
 LeMaitre et al. 2002
@@ -907,10 +757,6 @@ LeMaitre et al. 2002
 - Child of:
  [`Fine_Grained_Igneous_Rock`](#Fine_Grained_Igneous_Rock)
 
-- Fine grained crystalline rock containing less than 90 percent mafic
-minerals and more than 60 percent feldspathoid minerals in the QAPF
-fraction. Includes rocks defined modally in QAPF field 15 or
-chemically in TAS field F.
 - Fine grained crystalline rock containing less than 90 percent mafic
 minerals and more than 60 percent feldspathoid minerals in the QAPF
 fraction. Includes rocks defined modally in QAPF field 15 or
@@ -939,10 +785,6 @@ LeMaitre et al. 2002
 of MgO. For rocks that contain greater than 52 percent silica, MgO
 must be greater than 8 percent. For rocks containing less than 52
 percent silica, MgO must be greater than 12 percent.
-- fine-grained igneous rock that contains unusually high concentration
-of MgO. For rocks that contain greater than 52 percent silica, MgO
-must be greater than 8 percent. For rocks containing less than 52
-percent silica, MgO must be greater than 12 percent.
 
 - **Source:**
 LeMaitre et al. 2002
@@ -958,11 +800,6 @@ LeMaitre et al. 2002
 - Child of:
  [`Fine_Grained_Igneous_Rock`](#Fine_Grained_Igneous_Rock)
 
-- Fine grained igneous rock than contains less than 90 percent mafic
-minerals, between 10 and 60 percent feldspathoid mineral in the QAPF
-fraction and has a plagioclase to total feldspar ratio less than 0.5.
-Includes rocks defined modally in QAPF fields 11 and 12, and TAS field
-Ph.
 - Fine grained igneous rock than contains less than 90 percent mafic
 minerals, between 10 and 60 percent feldspathoid mineral in the QAPF
 fraction and has a plagioclase to total feldspar ratio less than 0.5.
@@ -1005,14 +842,6 @@ TAS Field R as rhyolite. QAPF normative definition is based on modal
 mineralogy thus: less than 90 percent mafic minerals, between 20 and
 60 percent quartz in the QAPF fraction, and ratio of plagioclse to
 total feldspar is less than 0.65.
-- fine_grained_igneous_rock consisting of quartz and alkali feldspar,
-with minor plagioclase and biotite, in a microcrystalline,
-cryptocrystalline or glassy groundmass. Flow texture is common.
-Includes rocks defined modally in QAPF fields 2 and 3 or chemically in
-TAS Field R as rhyolite. QAPF normative definition is based on modal
-mineralogy thus: less than 90 percent mafic minerals, between 20 and
-60 percent quartz in the QAPF fraction, and ratio of plagioclse to
-total feldspar is less than 0.65.
 
 - **Alternate labels:**
 rhyolitic rock
@@ -1032,11 +861,6 @@ LeMaitre et al. 2002
 - Child of:
  [`Fine_Grained_Igneous_Rock`](#Fine_Grained_Igneous_Rock)
 
-- Fine grained igneous rock than contains less than 90 percent mafic
-minerals, between 10 and 60 percent feldspathoid mineral in the QAPF
-fraction and has a plagioclase to total feldspar ratio greater than
-0.5. Includes rocks classified in QAPF field 13 and 14 or chemically
-in TAS field U1 as basanite or tephrite.
 - Fine grained igneous rock than contains less than 90 percent mafic
 minerals, between 10 and 60 percent feldspathoid mineral in the QAPF
 fraction and has a plagioclase to total feldspar ratio greater than
@@ -1068,13 +892,6 @@ feldspar ratio less than 0.65. Mafic minerals typically include
 amphibole or mica; typically porphyritic. Includes rocks defined
 modally in QAPF fields 6, 7 and 8 (with subdivisions) or chemically in
 TAS Field T as trachyte or latite.
-- Fine grained igneous rock than contains less than 90 percent mafic
-minerals, less than 10 percent feldspathoid mineral and less than 20
-percent quartz in the QAPF fraction and has a plagioclase to total
-feldspar ratio less than 0.65. Mafic minerals typically include
-amphibole or mica; typically porphyritic. Includes rocks defined
-modally in QAPF fields 6, 7 and 8 (with subdivisions) or chemically in
-TAS Field T as trachyte or latite.
 
 - **Source:**
 LeMaitre et al. 2002
@@ -1088,14 +905,9 @@ LeMaitre et al. 2002
 
 
 - Child of:
- [`rock`](#rock)
  [`Igneous_Rock`](#Igneous_Rock)
+ [`rock`](#rock)
 
-- Igneous rock in which greater than 75 percent of the rock consists
-of fragments produced as a result of igneous rock-forming process.
-Includes pyroclastic rocks, autobreccia associated with lava flows and
-intrusive breccias. Excludes deposits reworked by epiclastic processes
-(see Tuffite)
 - Igneous rock in which greater than 75 percent of the rock consists
 of fragments produced as a result of igneous rock-forming process.
 Includes pyroclastic rocks, autobreccia associated with lava flows and
@@ -1121,11 +933,6 @@ fragments produced as a direct result of eruption or extrusion of
 magma from within the earth onto its surface. Includes autobreccia
 associated with lava flows and excludes deposits reworked by
 epiclastic processes.
-- Fragmental igneous rock that consists of greater than 75 percent
-fragments produced as a direct result of eruption or extrusion of
-magma from within the earth onto its surface. Includes autobreccia
-associated with lava flows and excludes deposits reworked by
-epiclastic processes.
 
 - **Source:**
 based on LeMaitre et al. 2002
@@ -1141,7 +948,6 @@ based on LeMaitre et al. 2002
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
 
-- Igneous rock that contains greater than 50 percent massive glass.
 - Igneous rock that contains greater than 50 percent massive glass.
 
 - **Source:**
@@ -1162,10 +968,6 @@ This vocabulary, based on Gillespie and Styles 1999
 surface, characterized by more rapid cooling than plutonic setting to
 produce generally fine-grained intrusive igneous rock, commonly
 associated with co-magmatic volcanic rocks.
-- Igneous rocks formed by crystallisation close to the Earth's
-surface, characterized by more rapid cooling than plutonic setting to
-produce generally fine-grained intrusive igneous rock, commonly
-associated with co-magmatic volcanic rocks.
 
 - **Source:**
 This vocabulary
@@ -1181,7 +983,6 @@ This vocabulary
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
 
-- Igneous rock with between 52 and 63 percent SiO2.
 - Igneous rock with between 52 and 63 percent SiO2.
 
 - **Source:**
@@ -1199,19 +1000,6 @@ after LeMaitre et al. 2002
  [`Fine_Grained_Igneous_Rock`](#Fine_Grained_Igneous_Rock)
  [`Intermediate_Composition_Igneous_Rock`](#Intermediate_Composition_Igneous_Rock)
 
-- Fine-grained igneous rock with less than 20 percent quartz and less
-than 10 percent feldspathoid minerals in the QAPF fraction, in which
-the ratio of plagioclase to total feldspar is greater 0.65. Includes
-rocks defined modally in QAPF fields 9 and 10 or chemically in TAS
-field O2 as andesite. Basalt and andesite, which share the same QAPF
-fields, are distinguished chemically based on silica content, with
-basalt defined to contain less than 52 weight percent silica. If
-chemical data are not available, the color index is used to
-distinguish the categories, with basalt defined to contain greater
-than 35 percent mafic minerals by volume or greater than 40 percent
-mafic minerals by weight. Typically consists of plagioclase
-(frequently zoned from labradorite to oligoclase), pyroxene,
-hornblende and/or biotite. Fine grained equivalent of dioritic rock.
 - Note the mela-andesite and leuco-basalt categories are not
 recommended in this system. If chemical analytical data are available
 to constrain the silica content, the basalt or andesite category
@@ -1252,13 +1040,6 @@ biotite or augite. Plagioclase to total feldspar ratio is greater that
 Less than 10 percent feldspathoid mineral and less than 20 percent
 quartz in the QAPF fraction. Includes rocks defined modally in QAPF
 fields 9 and 10 (and their subdivisions).
-- Phaneritic crystalline igneous rock with M less than 90, consisting
-of intermediate plagioclase, commonly with hornblende and often with
-biotite or augite. Plagioclase to total feldspar ratio is greater that
-0.65, and anorthite content of plagioclase is less than 50 percent.
-Less than 10 percent feldspathoid mineral and less than 20 percent
-quartz in the QAPF fraction. Includes rocks defined modally in QAPF
-fields 9 and 10 (and their subdivisions).
 
 - **Source:**
 LeMaitre et al. 2002
@@ -1274,10 +1055,6 @@ LeMaitre et al. 2002
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
 
-- Igneous rock in which the framework of the rock consists of
-individual crystals that can be discerned with the unaided eye.
-Bounding grain size is on the order of 32 to 100 microns. Igneous
-rocks with 'exotic' composition are excluded from this concept.
 - Igneous rock in which the framework of the rock consists of
 individual crystals that can be discerned with the unaided eye.
 Bounding grain size is on the order of 32 to 100 microns. Igneous
@@ -1302,8 +1079,6 @@ Neuendorf et al. 2005
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
 
-- Anorthositic rock term invented to label the combined QAPF fields
-10, 10*, and 10', in order to construct hierarchy in this vocabulary.
 - Leucocratic phaneritic crystalline igneous rock consisting
 essentially of plagioclase, often with small amounts of pyroxene. By
 definition, colour index M is less than 10, and plagiclase to total
@@ -1331,10 +1106,6 @@ LeMaitre et al. 2002; This vocabulary
 allotriomorphic-granular (aplitic, saccharoidal or xenomorphic)
 texture; typically granitic composition, consisting of quartz, alkali
 feldspar and sodic plagioclase.
-- Light coloured crystalline rock, characterized by a fine grained
-allotriomorphic-granular (aplitic, saccharoidal or xenomorphic)
-texture; typically granitic composition, consisting of quartz, alkali
-feldspar and sodic plagioclase.
 
 - **Source:**
 Neuendorf et al. 2005
@@ -1351,13 +1122,6 @@ Neuendorf et al. 2005
  [`Intermediate_Composition_Igneous_Rock`](#Intermediate_Composition_Igneous_Rock)
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
 
-- Phaneritic crystalline igneous rock with M less than 90, consisting
-of intermediate plagioclase, commonly with hornblende and often with
-biotite or augite. Plagioclase to total feldspar ratio is greater that
-0.65, and anorthite content of plagioclase is less than 50 percent.
-Less than 10 percent feldspathoid mineral and less than 20 percent
-quartz in the QAPF fraction. Includes rocks defined modally in QAPF
-fields 9 and 10 (and their subdivisions).
 - Phaneritic crystalline igneous rock with M less than 90, consisting
 of intermediate plagioclase, commonly with hornblende and often with
 biotite or augite. Plagioclase to total feldspar ratio is greater that
@@ -1386,12 +1150,6 @@ minerals form 10-60 percent of the QAPF fraction, plagioclase has
 anorthite content less than 50 percent. These rocks typically contain
 large amounts of mafic minerals. Includes rocks defined modally in
 QAPF fields 13 and 14.
-- Phaneritic crystalline igneous rock in which M is less than 90, the
-plagioclase to total feldspar ratio is greater than 0.5, feldspathoid
-minerals form 10-60 percent of the QAPF fraction, plagioclase has
-anorthite content less than 50 percent. These rocks typically contain
-large amounts of mafic minerals. Includes rocks defined modally in
-QAPF fields 13 and 14.
 
 - **Source:**
 LeMaitre et al. 2002
@@ -1407,12 +1165,6 @@ LeMaitre et al. 2002
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
 
-- Phaneritic crystalline igneous rock in which M is less than 90, the
-plagioclase to total feldspar ratio is greater than 0.5, feldspathoids
-form 10-60 percent of the QAPF fraction, and plagioclase has anorthite
-content greater than 50 percent. These rocks typically contain large
-amounts of mafic minerals. Includes rocks defined modally in QAPF
-fields 13 and 14.
 - Phaneritic crystalline igneous rock in which M is less than 90, the
 plagioclase to total feldspar ratio is greater than 0.5, feldspathoids
 form 10-60 percent of the QAPF fraction, and plagioclase has anorthite
@@ -1438,10 +1190,6 @@ LeMaitre et al. 2002
 between 10 and 60 percent feldspathoid mineral in the QAPF fraction,
 and has a plagioclase to total feldspar ratio less than 0.5. Includes
 QAPF fields 11 and 12.
-- Phaneritic crystalline igneous rock with M less than 90, contains
-between 10 and 60 percent feldspathoid mineral in the QAPF fraction,
-and has a plagioclase to total feldspar ratio less than 0.5. Includes
-QAPF fields 11 and 12.
 
 - **Source:**
 LeMaitre et al. 2002
@@ -1460,9 +1208,6 @@ LeMaitre et al. 2002
 - Phaneritic crystalline rock containing more than 60 percent
 feldspathoid minerals in the QAPF fraction. Includes rocks defined
 modally in QAPF field 15
-- Phaneritic crystalline rock containing more than 60 percent
-feldspathoid minerals in the QAPF fraction. Includes rocks defined
-modally in QAPF field 15
 
 - **Source:**
 LeMaitre et al. 2002
@@ -1478,12 +1223,6 @@ LeMaitre et al. 2002
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
 
-- Phaneritic crystalline igneous rock that contains less than 90
-percent mafic minerals, and up to 20 percent quartz or up to 10
-percent feldspathoid in the QAPF fraction. The ratio of plagioclase to
-total feldspar is greater than 0.65, and anorthite content of the
-plagioclase is greater than 50 percent. Includes rocks defined modally
-in QAPF fields 9 and 10 and their subdivisions.
 - Phaneritic crystalline igneous rock that contains less than 90
 percent mafic minerals, and up to 20 percent quartz or up to 10
 percent feldspathoid in the QAPF fraction. The ratio of plagioclase to
@@ -1511,11 +1250,6 @@ LeMaitre et al. 2002
 category includes the various categories defined in LeMaitre et al.
 (2002) based on the mafic mineralogy, but apparently not subdivided
 based on the quartz/feldspathoid content.
-- Gabbroid that has a plagioclase to total feldspar ratio greater than
-0.9 in the QAPF fraction. Includes QAPF fields 10*, 10, and 10'. This
-category includes the various categories defined in LeMaitre et al.
-(2002) based on the mafic mineralogy, but apparently not subdivided
-based on the quartz/feldspathoid content.
 
 - **Source:**
 LeMaitre et al. 2002
@@ -1531,8 +1265,6 @@ LeMaitre et al. 2002
 - Child of:
  [`Gabbroid`](#Gabbroid)
 
-- Gabbroid with a plagioclase to total feldspar ratio between 0.65 and
-0.9. QAPF field 9, 9 prime and 9 asterisk
 - Gabbroid with a plagioclase to total feldspar ratio between 0.65 and
 0.9. QAPF field 9, 9 prime and 9 asterisk
 
@@ -1551,10 +1283,6 @@ LeMaitre et al. 2002, This vocabulary
  [`Acidic_Igneous_Rock`](#Acidic_Igneous_Rock)
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
 
-- Phaneritic crystalline igneous rock consisting of quartz, alkali
-feldspar and/or plagioclase. Includes rocks defined modally in QAPF
-fields 2, 3, 4 and 5 as alkali feldspar granite, granite, granodiorite
-or tonalite.
 - Phaneritic crystalline igneous rock consisting of quartz, alkali
 feldspar and/or plagioclase. Includes rocks defined modally in QAPF
 fields 2, 3, 4 and 5 as alkali feldspar granite, granite, granodiorite
@@ -1580,8 +1308,6 @@ LeMaitre et al. 2002
 
 - Granitic rock that has a plagioclase to total feldspar ratio less
 than 0.1. QAPF field 2.
-- Granitic rock that has a plagioclase to total feldspar ratio less
-than 0.1. QAPF field 2.
 
 - **Source:**
 LeMaitre et al. 2002
@@ -1597,10 +1323,6 @@ LeMaitre et al. 2002
 - Child of:
  [`Granitoid`](#Granitoid)
 
-- Phaneritic crystalline rock consisting of quartz, alkali feldspar
-and plagioclase (typically sodic) in variable amounts, usually with
-biotite and/or hornblende. Includes rocks defined modally in QAPF
-Field 3.
 - Phaneritic crystalline rock consisting of quartz, alkali feldspar
 and plagioclase (typically sodic) in variable amounts, usually with
 biotite and/or hornblende. Includes rocks defined modally in QAPF
@@ -1624,10 +1346,6 @@ LeMaitre et al. 2002
 plagioclase and lesser amounts of alkali feldspar with minor
 hornblende and biotite. Includes rocks defined modally in QAPF field
 4.
-- Phaneritic crystalline rock consisting essentially of quartz, sodic
-plagioclase and lesser amounts of alkali feldspar with minor
-hornblende and biotite. Includes rocks defined modally in QAPF field
-4.
 
 - **Source:**
 LeMaitre et al. 2002
@@ -1643,9 +1361,6 @@ LeMaitre et al. 2002
 - Child of:
  [`Granitoid`](#Granitoid)
 
-- Granitoid consisting of quartz and intermediate plagioclase, usually
-with biotite and amphibole. Includes rocks defined modally in QAPF
-field 5; ratio of plagioclase to total feldspar is greater than 0.9.
 - Granitoid consisting of quartz and intermediate plagioclase, usually
 with biotite and amphibole. Includes rocks defined modally in QAPF
 field 5; ratio of plagioclase to total feldspar is greater than 0.9.
@@ -1669,10 +1384,6 @@ LeMaitre et al. 2002
 plus pyroxene and has a hornblende to pyroxene ratio greater than 1.
 Includes olivine hornblendite, olivine-pyroxene hornblendite, pyroxene
 hornblendite, and hornblendite.
-- Ultramafic rock that consists of greater than 40 percent hornblende
-plus pyroxene and has a hornblende to pyroxene ratio greater than 1.
-Includes olivine hornblendite, olivine-pyroxene hornblendite, pyroxene
-hornblendite, and hornblendite.
 
 - **Source:**
 LeMaitre et al. 2002
@@ -1688,11 +1399,6 @@ LeMaitre et al. 2002
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
 
-- Exceptionally coarse grained crystalline rock with interlocking
-crystals; most grains are 1cm or more diameter; composition is
-generally that of granite, but the term may refer to the coarse
-grained facies of any type of igneous rock;usually found as irregular
-dikes, lenses, or veins associated with plutons or batholiths.
 - Exceptionally coarse grained crystalline rock with interlocking
 crystals; most grains are 1cm or more diameter; composition is
 generally that of granite, but the term may refer to the coarse
@@ -1720,12 +1426,6 @@ commonly altered to serpentinite. Includes rocks defined modally in
 the ultramafic rock classification as dunite, harzburgite, lherzolite,
 wehrlite, olivinite, pyroxene peridotite, pyroxene hornblende
 peridotite or hornblende peridotite.
-- Ultramafic rock consisting of more than 40 percent (by volume)
-olivine with pyroxene and/or amphibole and little or no feldspar.
-commonly altered to serpentinite. Includes rocks defined modally in
-the ultramafic rock classification as dunite, harzburgite, lherzolite,
-wehrlite, olivinite, pyroxene peridotite, pyroxene hornblende
-peridotite or hornblende peridotite.
 
 - **Source:**
 LeMaitre et al. 2002
@@ -1742,11 +1442,6 @@ LeMaitre et al. 2002
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
  [`Ultramafic_Igneous_Rock`](#Ultramafic_Igneous_Rock)
 
-- Ultramafic phaneritic igneous rock composed almost entirely of one
-or more pyroxenes and occasionally biotite, hornblende and olivine.
-Includes rocks defined modally in the ultramafic rock classification
-as olivine pyroxenite, olivine-hornblende pyroxenite, pyroxenite,
-orthopyroxenite, clinopyroxenite and websterite.
 - Ultramafic phaneritic igneous rock composed almost entirely of one
 or more pyroxenes and occasionally biotite, hornblende and olivine.
 Includes rocks defined modally in the ultramafic rock classification
@@ -1776,9 +1471,6 @@ in future revisions
 - Phaneritic crystalline igneous rock that contains less than 90
 percent mafic minerals and contains greater than 60 percent quartz in
 the QAPF fraction.
-- Phaneritic crystalline igneous rock that contains less than 90
-percent mafic minerals and contains greater than 60 percent quartz in
-the QAPF fraction.
 
 - **Source:**
 Gillespie and Styles 1999; LeMaitre et al. 2002
@@ -1794,13 +1486,6 @@ Gillespie and Styles 1999; LeMaitre et al. 2002
 - Child of:
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
 
-- Phaneritic crystalline igneous rock with M less than 90, consisting
-mainly of alkali feldspar and plagioclase; minor quartz or nepheline
-may be present, along with pyroxene, amphibole or biotite. Ratio of
-plagioclase to total feldspar is less than 0.65, quartz forms less
-than 20 percent of QAPF fraction, and feldspathoid minerals form less
-than 10 percent of QAPF fraction. Includes rocks classified in QAPF
-fields 6, 7 and 8 and their subdivisions.
 - Phaneritic crystalline igneous rock with M less than 90, consisting
 mainly of alkali feldspar and plagioclase; minor quartz or nepheline
 may be present, along with pyroxene, amphibole or biotite. Ratio of
@@ -1829,12 +1514,6 @@ bodies forms holocrystalline medium to coarse grained igneous rock,
 wall rocks generally do not include volcanic products related to the
 magma, and some contact metamorphism is tyypically developed at
 intrusive contacts.
-- Instrusive igneous rock formed by crystallisation of magma far
-enough below Earth surface that complete crystallization of magma
-bodies forms holocrystalline medium to coarse grained igneous rock,
-wall rocks generally do not include volcanic products related to the
-magma, and some contact metamorphism is tyypically developed at
-intrusive contacts.
 
 - **Source:**
 This vocabulary
@@ -1850,9 +1529,6 @@ This vocabulary
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
 
-- Igneous rock that contains conspicuous phenocrysts in a finer
-grained groundmass; groundmass itself may be phaneritic or fine-
-grained.
 - Igneous rock that contains conspicuous phenocrysts in a finer
 grained groundmass; groundmass itself may be phaneritic or fine-
 grained.
@@ -1872,7 +1548,6 @@ LeMaitre et al. 2002
  [`Igneous_Rock`](#Igneous_Rock)
 
 - Igneous rock with less than 45 percent SiO2.
-- Igneous rock with less than 45 percent SiO2.
 
 - **Source:**
 after LeMaitre et al. 2002
@@ -1888,8 +1563,6 @@ after LeMaitre et al. 2002
 - Child of:
  [`Igneous_Rock`](#Igneous_Rock)
 
-- Igneous rock that consists of greater than 90 percent mafic
-minerals.
 - Igneous rock that consists of greater than 90 percent mafic
 minerals.
 
@@ -1912,10 +1585,6 @@ LeMaitre et al. 2002; Gillespie and Styles 1999
 plus pyroxene and has a hornblende to pyroxene ratio greater than 1.
 Includes olivine hornblendite, olivine-pyroxene hornblendite, pyroxene
 hornblendite, and hornblendite.
-- Ultramafic rock that consists of greater than 40 percent hornblende
-plus pyroxene and has a hornblende to pyroxene ratio greater than 1.
-Includes olivine hornblendite, olivine-pyroxene hornblendite, pyroxene
-hornblendite, and hornblendite.
 
 - **Source:**
 LeMaitre et al. 2002
@@ -1932,12 +1601,6 @@ LeMaitre et al. 2002
  [`Phaneritic_Igneous_Rock`](#Phaneritic_Igneous_Rock)
  [`Ultramafic_Igneous_Rock`](#Ultramafic_Igneous_Rock)
 
-- Ultramafic rock consisting of more than 40 percent (by volume)
-olivine with pyroxene and/or amphibole and little or no feldspar.
-commonly altered to serpentinite. Includes rocks defined modally in
-the ultramafic rock classification as dunite, harzburgite, lherzolite,
-wehrlite, olivinite, pyroxene peridotite, pyroxene hornblende
-peridotite or hornblende peridotite.
 - Ultramafic rock consisting of more than 40 percent (by volume)
 olivine with pyroxene and/or amphibole and little or no feldspar.
 commonly altered to serpentinite. Includes rocks defined modally in
@@ -1965,11 +1628,6 @@ or more pyroxenes and occasionally biotite, hornblende and olivine.
 Includes rocks defined modally in the ultramafic rock classification
 as olivine pyroxenite, olivine-hornblende pyroxenite, pyroxenite,
 orthopyroxenite, clinopyroxenite and websterite.
-- Ultramafic phaneritic igneous rock composed almost entirely of one
-or more pyroxenes and occasionally biotite, hornblende and olivine.
-Includes rocks defined modally in the ultramafic rock classification
-as olivine pyroxenite, olivine-hornblende pyroxenite, pyroxenite,
-orthopyroxenite, clinopyroxenite and websterite.
 
 - **Source:**
 LeMaitre et al. 2002
@@ -1980,7 +1638,7 @@ LeMaitre et al. 2002
 []{#volcanic_rock}
 
 ####  volcanic rock
-* `volcanic rock `
+* `volcanic rock`
 
 
 - Child of:
@@ -2003,10 +1661,6 @@ its genesis.
 such as microscopic planar deformation features within grains or
 shatter cones, interpreted to be the result of extraterrestrial bolide
 impact. Includes breccias and melt rocks.
-- Material that contains features indicative of shock metamorphism,
-such as microscopic planar deformation features within grains or
-shatter cones, interpreted to be the result of extraterrestrial bolide
-impact. Includes breccias and melt rocks.
 
 - **Source:**
 Stöffler and Grieve 2007; Jackson 1997
@@ -2025,13 +1679,9 @@ Stöffler and Grieve 2007; Jackson 1997
 - rock consisting of greater than 50% sulphide or sulfosalt minerals
 formed by any processes. Includes hydrothermal and sedimentary
 ehalative sulfide.
-- rock consisting of greater than 50% sulphide or sulfosalt minerals
-formed by any processes. Includes hydrothermal and sedimentary
-ehalative sulfide.
 
 - **Alternate labels:**
-Massive Sulfide, 
-massive Sulfide, 
+massive Sulfide
 
 
 - **Source:**
@@ -2068,9 +1718,6 @@ onset of metamorphism will vary with bulk composition.”
 - Rock formed by solid-state mineralogical, chemical and/or structural
 changes to a pre-existing rock, in response to marked changes in
 temperature, pressure, shearing stress and chemical environment.
-- Rock formed by solid-state mineralogical, chemical and/or structural
-changes to a pre-existing rock, in response to marked changes in
-temperature, pressure, shearing stress and chemical environment.
 
 - **Source:**
 Jackson 1997
@@ -2086,9 +1733,6 @@ Jackson 1997
 - Child of:
  [`rock`](#rock)
 
-- Rock that has fabric and composition indicating open-system
-mineralogical and chemical changes in response to interaction with a
-fluid phase, typically water rich.
 - SLTTm (2004) proposed the following criteria to distinguish
 hydrothermally altered or metasomatic rock from igneous rock. "The
 rock is classified as metamorphic if (1) the texture has been modified
@@ -2115,11 +1759,6 @@ This vocabulary
 - Child of:
  [`rock`](#rock)
 
-- Rock formed by accumulation and cementation of solid fragmental
-material deposited by air, water or ice, or as a result of other
-natural agents, such as precipitation from solution, the accumulation
-of organic material, or from biogenic processes, including secretion
-by organisms. Includes epiclastic deposits.
 - Rock formed by accumulation and cementation of solid fragmental
 material deposited by air, water or ice, or as a result of other
 natural agents, such as precipitation from solution, the accumulation
@@ -2161,9 +1800,6 @@ marlstone...).
 - Sedimentary rock in which at least 50 percent of the primary and/or
 recrystallized constituents are composed of one (or more) of the
 carbonate minerals calcite, aragonite, magnesite or dolomite.
-- Sedimentary rock in which at least 50 percent of the primary and/or
-recrystallized constituents are composed of one (or more) of the
-carbonate minerals calcite, aragonite, magnesite or dolomite.
 
 - **Source:**
 SLTTs 2004
@@ -2179,10 +1815,6 @@ SLTTs 2004
 - Child of:
  [`Sedimentary_Rock`](#Sedimentary_Rock)
 
-- Sedimentary rock in which at least 50 percent of the constituent
-particles were derived from erosion, weathering, or mass-wasting of
-pre-existing earth materials, and transported to the place of
-deposition by mechanical agents such as water, wind, ice and gravity.
 - The conglomerate, sandstone, mudstone, and wackestone categories are
 not defined as kinds of clastic sedimentary rocks because rocks
 meeting their purely grainsize based definitions might also be iron-
@@ -2224,14 +1856,6 @@ related to transport and deposition of sediment by moving air or
 water. If more than 10 percent of the fine grained matrix is of
 indeterminant clastic or diagenetic origin and the fabric is matrix
 supported, may also be categorized as wacke.
-- Unsorted or poorly sorted, clastic sedimentary rock with a wide
-range of particle sizes including a muddy matrix. Biogenic materials
-that have such texture are excluded. Distinguished from conglomerate,
-sandstone, mudstone based on polymodality and lack of structures
-related to transport and deposition of sediment by moving air or
-water. If more than 10 percent of the fine grained matrix is of
-indeterminant clastic or diagenetic origin and the fabric is matrix
-supported, may also be categorized as wacke.
 
 - **Source:**
 Fairbridge and Bourgeois 1978
@@ -2247,14 +1871,6 @@ Fairbridge and Bourgeois 1978
 - Child of:
  [`Sedimentary_Rock`](#Sedimentary_Rock)
 
-- Sedimentary rock composed of at least 30 percent rounded to
-subangular fragments larger than 2 mm in diameter; typically contains
-finer grained material in interstices between larger fragments. If
-more than 15 percent of the fine grained matrix is of indeterminant
-clastic or diagenetic origin and the fabric is matrix supported, may
-also be categorized as wackestone. If rock has unsorted or poorly
-sorted texture with a wide range of particle sizes, may also be
-categorized as diamictite.
 - Sedimentary rock composed of at least 30 percent rounded to
 subangular fragments larger than 2 mm in diameter; typically contains
 finer grained material in interstices between larger fragments. If
@@ -2289,9 +1905,6 @@ v.29, p141-154.
 - Sedimentary rock consisting of less than 30 percent gravel-size (2
 mm) particles and with a mud to sand ratio greater than 1. Clasts may
 be of any composition or origin.
-- Sedimentary rock consisting of less than 30 percent gravel-size (2
-mm) particles and with a mud to sand ratio greater than 1. Clasts may
-be of any composition or origin.
 
 - **Source:**
 Pettijohn et al. 1987 referenced in Hallsworth and Knox 1999; extrapolated from Folk, 1954, Figure 1a; particle sizes defined from Krumbein phi scale (W C Krumbein and L L Sloss, Stratigraphy and Sedimentation, 2nd edition, Freeman, San Francisco, 1963; Krumbein and Pettijohn, 1938, Manual of Sedimentary Petrography: New York, Appleton Century Co., Inc.)
@@ -2307,9 +1920,6 @@ Pettijohn et al. 1987 referenced in Hallsworth and Knox 1999; extrapolated from 
 - Child of:
  [`Sedimentary_Rock`](#Sedimentary_Rock)
 
-- Sedimentary rock in which less than 30 percent of particles are
-greater than 2 mm in diameter (gravel) and the sand to mud ratio is at
-least 1.
 - Sedimentary rock in which less than 30 percent of particles are
 greater than 2 mm in diameter (gravel) and the sand to mud ratio is at
 least 1.
@@ -2332,10 +1942,6 @@ SLTTs 2004; Neuendorf et al. 2005; particle sizes defined from Krumbein phi scal
 composition/genesis categories. Sedimentary rock consisting of three
 or more components which form more than 5 percent but less than 50
 precent of the material.
-- Sedimentary rock that does not fit any of the other
-composition/genesis categories. Sedimentary rock consisting of three
-or more components which form more than 5 percent but less than 50
-precent of the material.
 
 - **Source:**
 Hallsworth and Knox, 1999
@@ -2351,10 +1957,6 @@ Hallsworth and Knox, 1999
 - Child of:
  [`Sedimentary_Rock`](#Sedimentary_Rock)
 
-- Sedimentary rock that consists of at least 50 percent iron-bearing
-minerals (hematite, magnetite, limonite-group, siderite, iron-
-sulfides), as determined by hand-lens or petrographic analysis.
-Corresponds to a rock typically containing 15 percent iron by weight.
 - Sedimentary rock that consists of at least 50 percent iron-bearing
 minerals (hematite, magnetite, limonite-group, siderite, iron-
 sulfides), as determined by hand-lens or petrographic analysis.
@@ -2381,12 +1983,6 @@ processes at the depositional surface, in particles formed by chemical
 or biological processes within the basin of deposition, or formed by
 diagenetic processes. Includes chert and flint found in carbonate
 rocks.
-- Sedimentary rock that consists of at least 50 percent silicate
-mineral material, deposited directly by chemical or biological
-processes at the depositional surface, in particles formed by chemical
-or biological processes within the basin of deposition, or formed by
-diagenetic processes. Includes chert and flint found in carbonate
-rocks.
 
 - **Source:**
 modified from SLTTs 2004
@@ -2404,9 +2000,6 @@ modified from SLTTs 2004
 
 - Sapropelic coal, and asphaltite are not differentiated in This
 vocabulary
-- Sedimentary rock with color, composition, texture and apparent
-density indicating greater than 50 percent organic content by weight
-on a moisture-free basis.
 - Sedimentary rock with color, composition, texture and apparent
 density indicating greater than 50 percent organic content by weight
 on a moisture-free basis.
@@ -2433,13 +2026,6 @@ Nations, 1998), thus including lignite. Sapropelic coal is not
 distinguished in this category from humic coals. Formed from the
 compaction or induration of variously altered plant remains similar to
 those of peaty deposits.
-- A consolidated organic sedimentary material having less than 75%
-moisture. This category includes low, medium, and high rank coals
-according to International Classification of In-Seam Coal (United
-Nations, 1998), thus including lignite. Sapropelic coal is not
-distinguished in this category from humic coals. Formed from the
-compaction or induration of variously altered plant remains similar to
-those of peaty deposits.
 
 - **Source:**
 Economic commission for Europe, committee on Sustainable Energy- United Nations (ECE-UN), 1998, International Classification of in-Seam Coals: Energy 19, 41 pp.
@@ -2455,11 +2041,6 @@ Economic commission for Europe, committee on Sustainable Energy- United Nations 
 - Child of:
  [`Sedimentary_Rock`](#Sedimentary_Rock)
 
-- Sedimentary rock in which at least 50 percent of the primary or
-recrystallized constituents are phosphate minerals. Most commonly
-occurs as a bedded primary or reworked secondary marine rock, composed
-of microcrystalline carbonate fluorapatite in the form of lamina,
-pellets, oolites and nodules, and skeletal, shell and bone fragments.
 - Sedimentary rock in which at least 50 percent of the primary or
 recrystallized constituents are phosphate minerals. Most commonly
 occurs as a bedded primary or reworked secondary marine rock, composed
@@ -2489,11 +2070,6 @@ cutoff with epiclastic rock is in contrast with LeMaitre et al., but
 is used for consistentency with other sedimentary rock categories
 following the pattern that the rock name reflects the predominant
 constituent.
-- Rock consists of more than 50 percent particles of indeterminate
-pyroclastic or epiclastic origin and less than 75 percent particles of
-clearly pyroclastic origin. commonly the rock is laminated or exhibits
-size grading. (based on LeMaitre et al. 2002; Murawski and Meyer
-1998).
 - synonym: volcaniclastic rock
 - Rock consists of more than 50 percent particles of indeterminate
 pyroclastic or epiclastic origin and less than 75 percent particles of
@@ -2515,12 +2091,6 @@ LeMaitre et al. 2002; Murawski and Meyer 1998
 - Child of:
  [`rock`](#rock)
 
-- Material of composite origin resulting from weathering processes at
-the Earth's surface, with genesis dominated by removal of chemical
-constituents by aqueous leaching. Minor clastic, chemical, or organic
-input may also contribute. Consolidation state is not inherent in
-definition, but typically material is unconsolidated or weakly
-consolidated.
 - Material of composite origin resulting from weathering processes at
 the Earth's surface, with genesis dominated by removal of chemical
 constituents by aqueous leaching. Minor clastic, chemical, or organic
@@ -2569,9 +2139,6 @@ carbonate sedimentary rock or organic rich sedimentary rock.
 - Sediment composed of greater than 50 percent material of biogenic
 origin. Because the biogenic material may be skeletal remains that are
 not organic, all biogenic sediment is not necessarily organic-rich.
-- Sediment composed of greater than 50 percent material of biogenic
-origin. Because the biogenic material may be skeletal remains that are
-not organic, all biogenic sediment is not necessarily organic-rich.
 
 - **Source:**
 SLTTs 2004
@@ -2591,10 +2158,6 @@ SLTTs 2004
 recrystallized constituents are composed of one (or more) of the
 carbonate minerals calcite, aragonite and dolomite, in particles of
 intrabasinal origin.
-- Sediment in which at least 50 percent of the primary and/or
-recrystallized constituents are composed of one (or more) of the
-carbonate minerals calcite, aragonite and dolomite, in particles of
-intrabasinal origin.
 
 - **Source:**
 SLTTs 2004
@@ -2610,13 +2173,6 @@ SLTTs 2004
 - Child of:
  [`sediment`](#sediment)
 
-- Sedimentary material that consists of at least 50 percent material
-produced by inorganic chemical processes within the basin of
-deposition. Includes inorganic siliceous, carbonate, evaporite, iron-
-rich, and phosphatic sediment classes, as well as chemical sediments
-associated with submarine hot springs ('black smokers'). Note that
-these sediments might crystallize as a solid as they are deposited,
-thus similar to rock....
 - Sedimentary material that consists of at least 50 percent material
 produced by inorganic chemical processes within the basin of
 deposition. Includes inorganic siliceous, carbonate, evaporite, iron-
@@ -2654,10 +2210,6 @@ and is meant to be included in this category.
 were derived from erosion, weathering, or mass-wasting of pre-existing
 earth materials, and transported to the place of deposition by
 mechanical agents such as water, wind, ice and gravity.
-- Sediment in which at least 50 percent of the constituent particles
-were derived from erosion, weathering, or mass-wasting of pre-existing
-earth materials, and transported to the place of deposition by
-mechanical agents such as water, wind, ice and gravity.
 
 - **Source:**
 SLTTs 2004; Neuendorf et al. 2005
@@ -2673,13 +2225,6 @@ SLTTs 2004; Neuendorf et al. 2005
 - Child of:
  [`Clastic_Sediment`](#Clastic_Sediment)
 
-- Unsorted or poorly sorted, clastic sediment with a wide range of
-particle sizes, including a muddy matrix. Biogenic materials that have
-such texture are excluded. Distinguished from conglomerate, sandstone,
-mudstone based on polymodality and lack of structures related to
-transport and deposition of sediment by moving air or water.
-Assignment to an other size class can be used in conjunction to
-indicate the dominant grain size.
 - definition amplified to help distinguish diamicton, conglomerate and
 wackestone in this version
 - Unsorted or poorly sorted, clastic sediment with a wide range of
@@ -2707,9 +2252,6 @@ Fairbridge and Bourgeois 1978
 - Sediment containing greater than 30 percent gravel-size particles
 (greater than 2.0 mm diameter). Composition or gensis of clasts not
 specified.
-- Sediment containing greater than 30 percent gravel-size particles
-(greater than 2.0 mm diameter). Composition or gensis of clasts not
-specified.
 
 - **Source:**
 SLTTs 2004; particle sizes defined from Krumbein phi scale (W C Krumbein and L L Sloss, Stratigraphy and Sedimentation, 2nd edition, Freeman, San Francisco, 1963; Krumbein and Pettijohn, 1938, Manual of Sedimentary Petrography: New York, Appleton Century Co., Inc.)
@@ -2729,10 +2271,6 @@ SLTTs 2004; particle sizes defined from Krumbein phi scale (W C Krumbein and L L
 composition/genesis categories. Sediment consisting of three or more
 components which form more than 5 percent but less than 50 precent of
 the material.
-- Sediment that does not fit any of the other sediment
-composition/genesis categories. Sediment consisting of three or more
-components which form more than 5 percent but less than 50 precent of
-the material.
 
 - **Source:**
 Hallsworth and Knox, 1999
@@ -2748,10 +2286,6 @@ Hallsworth and Knox, 1999
 - Child of:
  [`sediment`](#sediment)
 
-- Sediment that consists of at least 50 percent iron-bearing minerals
-(hematite, magnetite, limonite-group, siderite, iron-sulfides), as
-determined by hand-lens or petrographic analysis. Corresponds to a
-rock typically containing 15 percent iron by weight.
 - Sediment that consists of at least 50 percent iron-bearing minerals
 (hematite, magnetite, limonite-group, siderite, iron-sulfides), as
 determined by hand-lens or petrographic analysis. Corresponds to a
@@ -2780,15 +2314,6 @@ boundary at .064 or .062 mm (inidistinguishable difference in
 rocks...) BGS 'mud-grade sediment' or sedimentary rock definition is
 'over 75% of the clasts smaller than  .032 mm', which is narrower than
 the definition here.
-- Sediment consisting of less than 30 percent gravel-size (2 mm)
-particles and with a mud-size to sand-size particle ratio greater than
-1. Clasts may be of any composition or origin.  BGS  (Hallsworth and
-Knox, 1999, p. 9) define the  'upper size limit of mud ... at 32
-micrometers (.032 mm)', but Wentworth scale and Krumbein scale put
-boundary at .064 or .062 mm (inidistinguishable difference in
-rocks...) BGS 'mud-grade sediment' or sedimentary rock definition is
-'over 75% of the clasts smaller than  .032 mm', which is narrower than
-the definition here.
 
 - **Source:**
 based on SLTTs 2004; Neuendorf et al. 2005; particle sizes defined from Krumbein phi scale (W C Krumbein and L L Sloss, Stratigraphy and Sedimentation, 2nd edition, Freeman, San Francisco, 1963; Krumbein and Pettijohn, 1938, Manual of Sedimentary Petrography: New York, Appleton Century Co., Inc.)
@@ -2804,10 +2329,6 @@ based on SLTTs 2004; Neuendorf et al. 2005; particle sizes defined from Krumbein
 - Child of:
  [`sediment`](#sediment)
 
-- Sediment that consists of at least 50 percent silicate mineral
-material, deposited directly by chemical or biological processes at
-the depositional surface, or in particles formed by chemical or
-biological processes within the basin of deposition.
 - Sediment that consists of at least 50 percent silicate mineral
 material, deposited directly by chemical or biological processes at
 the depositional surface, or in particles formed by chemical or
@@ -2829,8 +2350,6 @@ NGMDB 2008; Hallsworth and Knox 1999
 
 - Sediment in which at least 50 percent of the primary and/or
 recrystallized constituents are phosphate minerals.
-- Sediment in which at least 50 percent of the primary and/or
-recrystallized constituents are phosphate minerals.
 
 - **Source:**
 SLTTs 2004
@@ -2849,9 +2368,6 @@ SLTTs 2004
 - Sediment in which less than 30 percent of particles are gravel
 (greater than 2 mm in diameter) and the sand to mud ratio is at least
 1. composition or genesis of clasts not specified.
-- Sediment in which less than 30 percent of particles are gravel
-(greater than 2 mm in diameter) and the sand to mud ratio is at least
-1. composition or genesis of clasts not specified.
 
 - **Source:**
 Neuendorf et al. 2005 ; particle sizes defined from Krumbein phi scale (W C Krumbein and L L Sloss, Stratigraphy and Sedimentation, 2nd edition, Freeman, San Francisco, 1963; Krumbein and Pettijohn, 1938, Manual of Sedimentary Petrography: New York, Appleton Century Co., Inc.)
@@ -2867,11 +2383,6 @@ Neuendorf et al. 2005 ; particle sizes defined from Krumbein phi scale (W C Krum
 - Child of:
  [`sediment`](#sediment)
 
-- Unconsolidated pyroclastic material in which greater than 75 percent
-of the fragments are deposited as a direct result of volcanic
-processes and the deposit has not been reworked by epiclastic
-processes. Includes ash, lapilli tephra, bomb tephra, block tephra and
-unconsolidated agglomerate.
 - Unconsolidated pyroclastic material in which greater than 75 percent
 of the fragments are deposited as a direct result of volcanic
 processes and the deposit has not been reworked by epiclastic

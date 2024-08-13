@@ -13,9 +13,9 @@ execute:
   echo: false
 ---
 
-[]{#EarthandEnvironmentalSciencesampledfeatureroleextension}
+[]{#EarthandEnvironmentalScienceextension-Sampledfeaturerole}
 
-# **Concept scheme:** Earth and Environmental Science sampled feature role extension
+# **Concept scheme:** Earth and Environmental Science extension - Sampled feature role
 
 Vocabulary last modified:  2023-11-17
 
@@ -49,7 +49,6 @@ Namespace:
 []{#sampledfeaturepart}
 
 ##  Sampled feature part
-* `Sampled feature part`
 
 
 - A sampled feature that is part of a larger sampled feature; Could be
