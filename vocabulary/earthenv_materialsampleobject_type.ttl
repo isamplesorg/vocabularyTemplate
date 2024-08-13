@@ -402,11 +402,11 @@ esmat:corecatcher
   rdf:type skos:Concept ;
   dcterm:source "https://www.geosamples.org/vocabularies/sample-type-object" ;
   rdfs:isDefinedBy esmat:essampletype ;
-  rdfs:label "Core Catcher"@en ;
+  rdfs:label "Core catcher"@en ;
   skos:broader msot:genericaggregation ;
   skos:definition "material recovered from the core catcher of a sedimentary core and which is treated as a separate section from the core. The core catcher is a device at the bottom of the core barrel that prevents the core from sliding out while the barrel is retrieved from the hole. (http://publications.iodp.org/proceedings/323/102/102_.htm)"@en ;
   skos:inScheme esmat:essampletype ;
-  skos:prefLabel "Core Catcher"@en ;
+  skos:prefLabel "Core catcher"@en ;
 .
 esmat:corehalfround
   rdf:type skos:Concept ;
@@ -624,11 +624,11 @@ esmat:materialcapturedinfilter
   rdf:type skos:Concept ;
   dcterm:source "https://github.com/ess-dive-community/essdive-sample-id-metadata/blob/master/terms/objectType.md" ;
   rdfs:isDefinedBy esmat:essampletype ;
-  rdfs:label "Material Captured in Filter"@en ;
+  rdfs:label "Material captured in filter"@en ;
   skos:broader msot:genericaggregation ;
   skos:definition "A material sample captured in filter, for example from a water sample that was filtered. Must be associated with filter size field."@en ;
   skos:inScheme esmat:essampletype ;
-  skos:prefLabel "Material Captured in Filter"@en ;
+  skos:prefLabel "Material captured in filter"@en ;
 .
 esmat:mechanicalfraction
   rdf:type skos:Concept ;
@@ -939,9 +939,10 @@ msot:fluidincontainer
 .
 msot:genericaggregation
   rdf:type skos:Concept ;
+  rdfs:label "Generic aggregation"@en ;
   skos:definition "An aggregate specimen that is not biogenic or composed of anthropogenic material fragments.  Examples: loose soil or sediment (e.g. in a bag), rock chips, particulate filtrate or precipitate; rock powders."@en ;
   skos:inScheme esmat:essampletype ;
-  skos:prefLabel "genericAggregation"@en ;
+  skos:prefLabel "Generic aggregation"@en ;
   skos:topConceptOf esmat:essampletype ;
 .
 msot:microtomeslice
@@ -970,9 +971,10 @@ msot:mountedspecimen
 .
 msot:othersolidobject
   rdf:type skos:Concept ;
+  rdfs:label "Other solid object"@en ;
   skos:definition "Single piece of material not one of the other types."@en ;
   skos:inScheme esmat:essampletype ;
-  skos:prefLabel "Other solid Object"@en ;
+  skos:prefLabel "Other solid object"@en ;
   skos:topConceptOf esmat:essampletype ;
 .
 msot:particle
