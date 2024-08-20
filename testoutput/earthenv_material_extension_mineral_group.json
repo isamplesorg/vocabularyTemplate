@@ -1,0 +1,89 @@
+{
+  "https://w3id.org/isample/vocabulary/material/1.0/mineral": {
+    "label": {
+      "en": "mineral"
+    },
+    "children": [
+      {
+        "https://w3id.org/isample/earthenv/mingroup/1.0/boratemineral": {
+          "label": {
+            "en": "Mineral-Borate"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/mingroup/1.0/carbonatenitratemineral": {
+          "label": {
+            "en": "Mineral-Carbonate or Nitrate"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/mingroup/1.0/halidemineral": {
+          "label": {
+            "en": "Mineral-Halide"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/mingroup/1.0/nativeelementmineral": {
+          "label": {
+            "en": "Mineral-Native Element"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/mingroup/1.0/organicmineral": {
+          "label": {
+            "en": "Mineral-Organic Compound"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/mingroup/1.0/oxidemineral": {
+          "label": {
+            "en": "Mineral-Oxide"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/mingroup/1.0/phosphatearsenatevanadatemineral": {
+          "label": {
+            "en": "Mineral-Phosphate, Arsenate, or Vanadate"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/mingroup/1.0/silicategermanatemineral": {
+          "label": {
+            "en": "Mineral-Silicate or Germanate"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/mingroup/1.0/sulfateselenatetelluratemineral": {
+          "label": {
+            "en": "Mineral-Sulfate, Selenate, or Tellurate"
+          },
+          "children": []
+        }
+      },
+      {
+        "https://w3id.org/isample/earthenv/mingroup/1.0/sulfidesulfosaltmineral": {
+          "label": {
+            "en": "Mineral-Sulfide or Sulfosalt"
+          },
+          "children": []
+        }
+      }
+    ]
+  }
+}

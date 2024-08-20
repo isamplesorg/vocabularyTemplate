@@ -26,7 +26,7 @@ logging_config = {
     "handlers": {
         "console": {
             "class": "logging.StreamHandler",
-            "level": "DEBUG",
+            "level": "INFO",
             "formatter": "standard",
             "stream": "ext://sys.stderr",
         },
@@ -93,7 +93,7 @@ def main(ctx, store, verbosity) -> int:
     ctx.ensure_object(dict)
     store_uri = f"sqlite:///{store}"
     L.debug("Using store at: %s", store_uri)
-    ctx.obj["store"] = navocab.VocabularyStore(storage_uri=store_uri)
+    ctx.obj["store"] = navocab.VocabularyStore(storage_uri=store_uri, purge_existing=False)
     return 0
 
 @main.command("purgeStore")

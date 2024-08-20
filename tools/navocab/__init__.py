@@ -145,9 +145,10 @@ PREFIX rdfs: <{NS['rdfs']}>
 #        L = getLogger()
         L.info("Navocab.load.source: %s", source)
 
-        test = self._g.namespace_manager.namespaces
-        if test is not None:
-            L.debug("_g namespaces: %s", test)
+        test = self._g.namespace_manager.namespaces()
+        for prefix, ns_url in test:
+            print(f"{prefix}: {ns_url}")
+            self._g.bind(prefix, ns_url)
 
         if bindings is not None:
             for k, v in bindings.items():
