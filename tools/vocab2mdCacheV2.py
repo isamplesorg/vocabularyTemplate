@@ -73,9 +73,6 @@ LOG_LEVELS = {
     "CRITICAL": logging.CRITICAL,
 }
 
-def getLogger():
-    return logging.getLogger("voc2md")
-
 
 
 NS = {
@@ -95,7 +92,11 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 """
 
 INDENT = "  "
+verbosity = "INFO"
+#control print errors; these will appear in the output markdown file.
 
+def getLogger():
+    return logging.getLogger("vocab2mdCacheV2")
 
 def skosT(term):
     return rdflib.URIRef(f"{NS['skos']}{term}")
@@ -126,26 +127,65 @@ def listVocabularies(g):
     return res
 
 def getVocabRoot(g, v):
-    """Get top concept of the specific vocabulary
+    """Get top concepts of the specific vocabulary.
+
+    Accepts both concept->scheme (``skos:topConceptOf``) and
+    scheme->concept (``skos:hasTopConcept``) assertions, since SKOS
+    vocabularies in the wild use either (or both).
+
+    If neither assertion appears, falls back to every concept in the
+    scheme treated as a flat root. The fallback honors both direct
+    ``rdf:type skos:Concept`` and subclass typings (``rdf:type ?C`` where
+    ``?C rdfs:subClassOf skos:Concept``) — the latter is needed for
+    vocabularies like MMISW whose items are typed with a bespoke class
+    that declares ``rdfs:subClassOf skos:Concept``.
     """
-    q = PFX + """SELECT ?s   WHERE { ?s skos:topConceptOf ?vocabulary . }"""
+    q = PFX + """SELECT DISTINCT ?s WHERE {
+        { ?s skos:topConceptOf ?vocabulary . }
+        UNION
+        { ?vocabulary skos:hasTopConcept ?s . }
+    }"""
     qres = g.query(q, initBindings={'vocabulary': v})
-    res = []
-    for row in qres:
-        res.append(row[0])
-    return res
+    res = [row[0] for row in qres]
+    if res:
+        return res
+
+    q = PFX + """SELECT DISTINCT ?s WHERE {
+        ?s skos:inScheme ?vocabulary .
+        {
+            ?s rdf:type skos:Concept .
+        } UNION {
+            ?s rdf:type ?cls .
+            ?cls rdfs:subClassOf skos:Concept .
+        }
+    }"""
+    qres = g.query(q, initBindings={'vocabulary': v})
+    return [row[0] for row in qres]
 
 def getNarrower(g, v, r):
-    q = rdflib.plugins.sparql.prepareQuery(PFX + """SELECT ?s
+    """Return concepts that are skos:broader of r.
+
+    Prefers results scoped by ``skos:inScheme`` but falls back to an
+    unscoped lookup when concepts in the source file omit inScheme
+    assertions (common when the vocabulary relies on topConcept/broader
+    linkage alone).
+    """
+    scoped = rdflib.plugins.sparql.prepareQuery(PFX + """SELECT ?s
     WHERE {
         ?s skos:inScheme ?vocabulary .
         ?s skos:broader ?parent .
     }""")
-    qres = g.query(q, initBindings={'vocabulary': v, 'parent': r})
-    res = []
-    for row in qres:
-        res.append(row[0])
-    return res
+    qres = g.query(scoped, initBindings={'vocabulary': v, 'parent': r})
+    res = [row[0] for row in qres]
+    if res:
+        return res
+
+    unscoped = rdflib.plugins.sparql.prepareQuery(PFX + """SELECT ?s
+    WHERE {
+        ?s skos:broader ?parent .
+    }""")
+    qres = g.query(unscoped, initBindings={'parent': r})
+    return [row[0] for row in qres]
 
 def getObjects(g, s, p):
     L = getLogger()
@@ -218,16 +258,16 @@ def describeTerm(g, t, depth=0, level=1):
         res.append(f"{hl} {labels[0].strip()}")
         for label in labels[1:]:
             res.append(f"* `{label}`")
-        res.append("")
+#        res.append("")
 
     broader = getObjects(g, t, skosT('broader'))
     if len(broader) > 0:
-        res.append("")
+#        res.append("")
         res.append(f"- Child of:")
         for b in broader:
             bt = b.split('/')[-1]
             res.append(f" [`{bt}`](#{bt})")
-    res.append("")
+#    res.append("")
     # The textual description will be present in rdfs:comment or
     # skos:definition. 
     comments = []
@@ -243,10 +283,10 @@ def describeTerm(g, t, depth=0, level=1):
         res += lines
     seealsos = getObjects(g, t, rdfsT('seeAlso'))
     if len(seealsos) > 0:
-        res.append("")
+#       res.append("")
         res.append(f"- See Also:")
         for seealso in seealsos:
-            res.append(f"* [{seealso.n3(g.namespace_manager)}]({seealso})")
+            res.append(f"  * [{seealso.n3(g.namespace_manager)}]({seealso})")
     altlabels = []
     for altlabel in getObjects(g, t, skosT('altLabel')):
         altlabels.append(altlabel)
@@ -254,11 +294,11 @@ def describeTerm(g, t, depth=0, level=1):
         delimiter = ""
         if len(altlabels) > 1:
             delimiter = ", "
-        res.append("")
+#        res.append("")
         res.append(f"- **Alternate labels:**")
         for altlabel in altlabels:
             res.append(f"{altlabel}{delimiter}")
-        res.append("")
+ #       res.append("")
 
     sources = []
     for source in getObjects(g, t, dctT('source')):
@@ -267,13 +307,13 @@ def describeTerm(g, t, depth=0, level=1):
         delimiter = ""
         if len(sources) > 1:
             delimiter = ", "
-        res.append("")
+#        res.append("")
         res.append(f"- **Source:**")
         for source in sources:
             res.append(f"{source}{delimiter}")
-        res.append("")
+ #       res.append("")
 
-    res.append(f"- Concept URI token: {t.split('/')[-1]}")
+    res.append(f"- Concept URI: {t}")
     res.append("")
 
     return res
@@ -398,7 +438,9 @@ def main(source, vocabulary):
     # res = []
     # res.append(conceptschemelist(vgraph))
 
-    verbosity = "DEBUG".upper()
+    # logging verbosity is set with global varable , at top
+    # when run github action, log statements are in the github action log.
+    # verbosity = "DEBUG".upper()
     logging_config["loggers"][""]["level"] = verbosity
     logging.config.dictConfig(logging_config)
     L = getLogger()

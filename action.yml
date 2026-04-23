@@ -3,25 +3,28 @@
 #  for information on how this works
 
 name: 'Vocabulary Action'
-author: 'Dave Vieglais( https://orcid.org/0000-0002-6513-4996), 
+author: 'Dave Vieglais (https://orcid.org/0000-0002-6513-4996),
          Stephen M Richard (https://orcid.org/0000-0001-6041-5302)'
-description: 'creates a docker container to run python routines that 
-       1) load skos (rdf/turtle) vocabularies into an sqlAlchmey
-       2) generate markdown from the skos vocabularies using Quarto markdown'
+description: 'creates a docker container to run python routines that
+       1) load skos (rdf/turtle) vocabularies into an sqlAlchemy store
+       2) generate markdown (Quarto-flavor) and HTML from the skos vocabularies'
 inputs:
-  action:  
-    description: 'Which action to run -- defaults to docs, which generated markdown and html representations of the vocabulary'
+  action:
+    description: 'Which action to run -- defaults to docs, which generates markdown and html representations of the vocabulary'
     required: true
     default: 'docs'
-  path: 
+  path:
     description: 'Path to the output directory for script output'
     required: true
+  vocabdir:
+    description: 'Repository-relative directory containing the source ttl files for this workflow. Defaults to "vocabulary" to match the conventional single-vocab layout; set to a different directory name to point the action at a per-topic subfolder (e.g. "geochemistry", "ETmaterials"). One workflow file per target directory is the recommended pattern.'
+    required: false
+    default: 'vocabulary'
   inputttl:
-    description: 'list of skos rdf/turtle files **without** the .ttl extension'
+    description: 'Pipe-delimited list of skos rdf/turtle file names (without .ttl extension) located in <vocabdir>'
     required: true
   inputvocaburi:
-    description: 'list of ConceptScheme URIs for the skos vocabularies in this repo. 
-                   The URIs will be matched with the SKOS files based on order'
+    description: 'Pipe-delimited list of ConceptScheme URIs, one per inputttl entry in the same order. URIs must be CURIEs resolvable from @prefix declarations in their ttl file.'
     required: true
 
 runs:   # see https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions#runs-for-docker-container-actions
@@ -37,3 +40,4 @@ runs:   # see https://docs.github.com/en/actions/creating-actions/metadata-synta
     - ${{ inputs.path }}
     - ${{ inputs.inputttl }}
     - ${{ inputs.inputvocaburi }}
+    - ${{ inputs.vocabdir }}
