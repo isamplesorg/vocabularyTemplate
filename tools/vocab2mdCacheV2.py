@@ -113,6 +113,28 @@ def dctT(term):
     return rdflib.URIRef(f"{NS['dcterm']}{term}")
 
 
+def owlT(term):
+    return rdflib.URIRef(f"{NS['owl']}{term}")
+
+
+def describeStatus(g, t):
+    """Markdown lines for owl:deprecated, dcterms:isReplacedBy and skos:editorialNote.
+
+    A deprecated concept or scheme says so, and names its replacements as links,
+    so a reader following an old identifier to this page learns where to go.
+    Editorial notes are shown as written.
+    """
+    res = []
+    deprecated = any(str(d).lower() in ("true", "1") for d in getObjects(g, t, owlT("deprecated")))
+    if deprecated:
+        res.append("- **Deprecated.**")
+    for r in getObjects(g, t, dctT("isReplacedBy")):
+        res.append(f"- **Replaced by:** [`{r.n3(g.namespace_manager)}`]({r})")
+    for note in getObjects(g, t, skosT("editorialNote")):
+        res += textwrap.wrap(f"- **Editorial note:** {note}", width=70)
+    return res
+
+
 def listVocabularies(g):
     """List the vocabularies in the provided graph
     """
@@ -259,6 +281,7 @@ def describeTerm(g, t, depth=0, level=1):
         for label in labels[1:]:
             res.append(f"* `{label}`")
 #        res.append("")
+    res += describeStatus(g, t)
 
     broader = getObjects(g, t, skosT('broader'))
     if len(broader) > 0:
@@ -380,6 +403,10 @@ def describeVocabulary(G, V):
     res.append("Namespace: ")
     res.append(f"[`{V}`]({V})")
     res.append("")
+    status = describeStatus(G, V)
+    if status:
+        res += status
+        res.append("")
     res.append("**History**")
     res.append("")
     for history in getObjects(G, V, skosT("historyNote")):
